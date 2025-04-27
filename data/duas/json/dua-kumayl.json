@@ -1,0 +1,2790 @@
+{
+    "id": "dua-al-tawassul",
+    "title": "Dua al-Tawassul",
+    "description": "Add description",
+    "verses": [
+        {
+            "verseNumber": 1,
+            "arabic": "اللَّهُمَّ إِنِّي أَسْألُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ",
+            "transliteration": "Allāhumma innī asʾaluka bi-raḥmatika allatī wasiʿat kulla shayʾ",
+            "english-translation": "O Allah, I ask You by Your mercy which encompasses all things,",
+            "urdu-translation": "اے اللہ! میں تجھ سے تیری اس رحمت کے واسطے سے سوال کرتا ہوں جو ہر چیز کو گھیرے ہوئے ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 2,
+            "arabic": "وَبِقُوَّتِكَ الَّتِي قَهَرْتَ بِهَا كُلَّ شَيْءٍ",
+            "transliteration": "Wa bi-quwwatika allatī qaharta bihā kulla shayʾ",
+            "english-translation": "And by Your power through which You have overpowered all things,",
+            "urdu-translation": "اور تیری اس طاقت کے وسیلے سے جس کے ذریعے تُو نے ہر چیز پر غلبہ پایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 3,
+            "arabic": "وَخَضَعَ لَهَا كُلُّ شَيْءٍ",
+            "transliteration": "Wa khaḍaʿa lahā kullu shayʾ",
+            "english-translation": "And before which all things submit,",
+            "urdu-translation": "اور جس کے سامنے ہر چیز جھک گئی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 4,
+            "arabic": "وَذَلَّ لَهَا كُلُّ شَيْءٍ",
+            "transliteration": "Wa dhalla lahā kullu shayʾ",
+            "english-translation": "And to which all things are humbled,",
+            "urdu-translation": "اور جس کے سامنے ہر چیز عاجز ہو گئی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 5,
+            "arabic": "وَبِجَبَرُوتِكَ الَّتِي غَلَبْتَ بِهَا كُلَّ شَيْءٍ",
+            "transliteration": "Wa bi-jabarūtika allatī ghalabta bihā kulla shayʾ",
+            "english-translation": "And by Your might through which You have subdued all things,",
+            "urdu-translation": "اور تیرے جبروت کے وسیلے سے جس کے ذریعے تُو نے ہر چیز پر غلبہ پایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 6,
+            "arabic": "وَبِعِزَّتِكَ الَّتِي لا يَقُومُ لَهَا شَيْءٌ",
+            "transliteration": "Wa bi-ʿizzatika allatī lā yaqūmu lahā shayʾ",
+            "english-translation": "And by Your might which nothing can resist,",
+            "urdu-translation": "اور تیری عزت کے واسطے سے جس کے سامنے کوئی چیز ٹھہر نہیں سکتی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 7,
+            "arabic": "وَبِعَظَمَتِكَ الَّتِي مَلأَتْ كُلَّ شَيْءٍ",
+            "transliteration": "Wa bi-ʿaẓamatika allatī malaʾat kulla shayʾ",
+            "english-translation": "And by Your greatness which has filled all things,",
+            "urdu-translation": "اور تیری عظمت کے واسطے سے جو ہر چیز کو محیط ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 8,
+            "arabic": "وَبِسُلْطَانِكَ الَّذِي عَلاَ كُلَّ شَيْءٍ",
+            "transliteration": "Wa bi-sulṭānika alladhī ʿalā kulla shayʾ",
+            "english-translation": "And by Your sovereignty which is above all things,",
+            "urdu-translation": "اور تیرے اس اقتدار کے وسیلے سے جو ہر چیز پر غالب ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 9,
+            "arabic": "وَبِوَجْهِكَ الْبَاقِي بَعْدَ فَنَاءِ كُلِّ شَيْءٍ",
+            "transliteration": "Wa bi-wajhika l-bāqī baʿda fanāʾi kulli shayʾ",
+            "english-translation": "And by Your everlasting Face after all things perish,",
+            "urdu-translation": "اور تیرے چہرے کے واسطے سے جو ہر چیز کے فنا ہونے کے بعد باقی رہنے والا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 10,
+            "arabic": "وَبِأَسْمَائِكَ الَّتِي مَلأَتْ أَرْكَانَ كُلِّ شَيْءٍ",
+            "transliteration": "Wa bi-asmāʾika allatī malaʾat arkāna kulli shayʾ",
+            "english-translation": "And by Your names which have filled the foundations of all things,",
+            "urdu-translation": "اور تیرے اُن ناموں کے واسطے سے جو ہر چیز کے ارکان کو بھر چکے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 11,
+            "arabic": "وَبِعِلْمِكَ الَّذِي أَحَاطَ بِكُلِّ شَيْءٍ",
+            "transliteration": "Wa bi-ʿilmika alladhī aḥāṭa bi-kulli shayʾ",
+            "english-translation": "And by Your knowledge which encompasses all things,",
+            "urdu-translation": "اور تیرے اُس علم کے واسطے سے جو ہر چیز کا احاطہ کیے ہوئے ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 12,
+            "arabic": "وَبِنُورِ وَجْهِكَ الَّذِي أَضَاءَ لَهُ كُلُّ شَيْءٍ",
+            "transliteration": "Wa bi-nūri wajhika alladhī aḍāʾa lahu kullu shayʾ",
+            "english-translation": "And by the light of Your Face through which all things are illuminated,",
+            "urdu-translation": "اور تیرے چہرے کے نور کے وسیلے سے جس سے ہر چیز روشن ہو گئی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 13,
+            "arabic": "يَا نُورُ يَا قُدُّوسُ",
+            "transliteration": "Yā Nūr, yā Quddūs",
+            "english-translation": "O Light, O Holy One,",
+            "urdu-translation": "اے نور! اے پاکیزہ،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 14,
+            "arabic": "يَا أَوَّلَ الأَوَّلِينَ",
+            "transliteration": "Yā awwala l-awwalīn",
+            "english-translation": "O First of the first,",
+            "urdu-translation": "اے سب سے پہلے کا پہلا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 15,
+            "arabic": "وَيَا آخِرَ الآخِرِينَ",
+            "transliteration": "Wa yā ākhira l-ākhirīn",
+            "english-translation": "And O Last of the last,",
+            "urdu-translation": "اور اے سب کے بعد آنے والے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 16,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تَهْتِكُ الْعِصَمَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī tahtiku l-ʿiṣam",
+            "english-translation": "O Allah, forgive me the sins which tear apart protection,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو پردے چاک کر دیتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 17,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تُنْزِلُ النِّقَمَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī tunzilu n-niqam",
+            "english-translation": "O Allah, forgive me the sins which bring down afflictions,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو مصیبتیں نازل کرتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 18,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تُغَيِّرُ النِّعَمَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī tughayyiru n-niʿam",
+            "english-translation": "O Allah, forgive me the sins which alter blessings,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو نعمتوں کو بدل دیتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 19,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تَحْبِسُ الدُّعَاءَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī taḥbisu d-duʿāʾ",
+            "english-translation": "O Allah, forgive me the sins which withhold supplication,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو دعا کو روک دیتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 20,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تَقْطَعُ الرَّجَاءَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī taqṭaʿu r-rajāʾ",
+            "english-translation": "O Allah, forgive me the sins which sever hope,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو امید کو کاٹ دیتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 21,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي الذُّنُوبَ الَّتِي تُنْزِلُ الْبَلَاءَ",
+            "transliteration": "Allāhumma aghfir lī adh-dhunūba allatī tunzilu l-balāʾ",
+            "english-translation": "O Allah, forgive me the sins which bring down trials,",
+            "urdu-translation": "اے اللہ! ان گناہوں کو بخش دے جو بلائیں نازل کرتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 22,
+            "arabic": "اللَّهُمَّ اغْفِرْ لِي كُلَّ ذَنْبٍ أَذْنَبْتُهُ",
+            "transliteration": "Allāhumma aghfir lī kulla dhanbin adhnabtuḥ",
+            "english-translation": "O Allah, forgive me every sin I have committed,",
+            "urdu-translation": "اے اللہ! ہر وہ گناہ بخش دے جو میں نے کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 23,
+            "arabic": "وَكُلَّ خَطِيئَةٍ أَخْطَأْتُهَا",
+            "transliteration": "Wa kulla khaṭīʾatin akhṭaʾtuhā",
+            "english-translation": "And every mistake I have made.",
+            "urdu-translation": "اور ہر خطا جسے میں نے کیا۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 24,
+            "arabic": "اللَّهُمَّ إِنِّي أَتَقَرَّبُ إِلَيْكَ بِذِكْرِكَ",
+            "transliteration": "Allāhumma innī ataqarrabu ilayka bi-dhikrik",
+            "english-translation": "O Allah, I seek nearness to You through Your remembrance,",
+            "urdu-translation": "اے اللہ! میں تیرے ذکر کے ذریعے تیری قربت چاہتا ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 25,
+            "arabic": "وَأَسْتَشْفِعُ بِكَ إِلَي نَفْسِكَ",
+            "transliteration": "Wa astashfiʿu bika ilā nafsik",
+            "english-translation": "And I seek intercession with You through You,",
+            "urdu-translation": "اور تجھ سے تجھ ہی کے واسطے سے شفاعت چاہتا ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 26,
+            "arabic": "وَأَسْألُكَ بِجُودِكَ أَن تُدْنِيَنِي مِن قُرْبِكَ",
+            "transliteration": "Wa asʾaluka bi-jūdika an tudniyanī min qurbik",
+            "english-translation": "And I ask You, by Your generosity, to draw me near to Your closeness,",
+            "urdu-translation": "اور میں تجھ سے تیرے جود کے وسیلے سے سوال کرتا ہوں کہ مجھے اپنے قرب کے قریب کر دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 27,
+            "arabic": "وَأَن تُوزِعَنِي شُكْرَكَ",
+            "transliteration": "Wa an tuwazziʿanī shukrak",
+            "english-translation": "And that You inspire me to be thankful to You,",
+            "urdu-translation": "اور یہ کہ تو مجھے اپنا شکر ادا کرنے کی توفیق دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 28,
+            "arabic": "وَأَن تُلْهِمَنِي ذِكْرَكَ",
+            "transliteration": "Wa an tulhimanī dhikrak",
+            "english-translation": "And that You inspire me to remember You,",
+            "urdu-translation": "اور یہ کہ تو مجھے اپنا ذکر الہام کرے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 29,
+            "arabic": "اللَّهُمَّ إِنِّي أَسْألُكَ سُؤَالَ خَاضِعٍ مُّتَذَلِّلٍ خَاشِعٍ أَن تُسَامِحَنِي وَتَرْحَمَنِي",
+            "transliteration": "Allāhumma innī asʾaluka suʾāla khāḍiʿin mutadhallilin khāshiʿin an tusāmiḥanī wa tarḥamanī",
+            "english-translation": "O Allah, I ask You with the plea of one who is submissive, humbled, and reverent, that You pardon me and have mercy on me,",
+            "urdu-translation": "اے اللہ! میں تجھ سے عاجزی، انکساری اور خشوع کے ساتھ سوال کرتا ہوں کہ تو مجھے معاف فرما اور مجھ پر رحم کر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 30,
+            "arabic": "وَتَجْعلَنِي بِقَسَمِكَ رَاضِياً قَانِعاً، وَفِي جَمِيعِ الأَحْوَاِل مُتَوَاضِعاً",
+            "transliteration": "Wa tajʿalanī bi-qasamik rāḍiyan qāniʿan, wa fī jamīʿi l-aḥwāl mutawāḍiʿan",
+            "english-translation": "And make me content and satisfied with what You have decreed, and humble in all conditions,",
+            "urdu-translation": "اور مجھے اپنے فیصلے پر راضی و قانع بنا دے، اور ہر حال میں متواضع بنا دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 31,
+            "arabic": "اللَّهُمَّ وَأَسْألُكَ سُؤَالَ مَنِ اشْتَدَّتْ فَاقَتُهُ",
+            "transliteration": "Allāhumma wa asʾaluka suʾāla mani shtaddat fāqatuh",
+            "english-translation": "O Allah, I ask You with the request of one whose poverty has intensified,",
+            "urdu-translation": "اے اللہ! میں تجھ سے اُس شخص کی طرح سوال کرتا ہوں جس کی محتاجی شدید ہو چکی ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 32,
+            "arabic": "وَأَنزَلَ بِكَ عِنْدَ الشَّدَائِدِ حَاجَتَهُ",
+            "transliteration": "Wa anzala bika ʿinda sh-shadāʾidi ḥājatah",
+            "english-translation": "And who has placed his need before You in times of hardship,",
+            "urdu-translation": "اور جس نے اپنی حاجت کو سختیوں کے وقت تیرے حضور پیش کیا ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 33,
+            "arabic": "وَعَظُمَ فِيمَا عِنْدَكَ رَغْبَتُهُ",
+            "transliteration": "Wa ʿaẓuma fīmā ʿindaka raghbatuh",
+            "english-translation": "And whose yearning for what is with You has grown,",
+            "urdu-translation": "اور جس کی تیرے پاس موجود نعمتوں کی طرف رغبت بڑھ چکی ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 34,
+            "arabic": "اللَّهُمَّ عَظُمَ سُلْطَانُكَ وَعَلاَ مَكَانُكَ",
+            "transliteration": "Allāhumma ʿaẓuma sulṭānuk wa ʿalā makānuk",
+            "english-translation": "O Allah, Your authority is tremendous and Your position exalted,",
+            "urdu-translation": "اے اللہ! تیرا اقتدار عظیم ہے اور تیرا مقام بلند،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 35,
+            "arabic": "وَخَفِي مَكْرُكَ وَظَهَرَ أَمْرُكَ",
+            "transliteration": "Wa khafiya makruk wa ẓahara amruk",
+            "english-translation": "Your planning is subtle and Your command is manifest,",
+            "urdu-translation": "تیری تدبیر پوشیدہ ہے اور تیرا حکم ظاہر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 36,
+            "arabic": "وَغَلَبَ قَهْرُكَ وَجَرَتْ قُدْرَتُكَ",
+            "transliteration": "Wa ghalaba qahruk wa jarat qudratuk",
+            "english-translation": "Your overpowering prevails and Your power is executed,",
+            "urdu-translation": "تیری قہر و قدرت غالب ہے اور جاری ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 37,
+            "arabic": "وَلا يُمْكِنُ الْفِرَارُ مِنْ حُكُومَتِكَ",
+            "transliteration": "Wa lā yumkinu l-firāru min ḥukūmatik",
+            "english-translation": "And there is no escape from Your governance,",
+            "urdu-translation": "اور تیری حکومت سے فرار ممکن نہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 38,
+            "arabic": "اللَّهُمَّ لا أَجِدُ لِذُنُوبِي غَافِراً",
+            "transliteration": "Allāhumma lā ajidu li-dhunūbī ghāfirā",
+            "english-translation": "O Allah, I find no forgiver for my sins,",
+            "urdu-translation": "اے اللہ! مجھے میرے گناہوں کا کوئی بخشنے والا نہیں ملتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 39,
+            "arabic": "وَلا لِقَبَائِحِي سَاتِراً",
+            "transliteration": "Wa lā li-qabāʾiḥī sātirā",
+            "english-translation": "Nor a concealer for my shameful acts,",
+            "urdu-translation": "اور نہ میری برائیوں کو چھپانے والا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 40,
+            "arabic": "وَلا لِشَيْءٍ مِّنْ عَمَلِي الْقَبِيحِ بِالْحَسَنِ مُبَدِّلاً غَيْرَكَ",
+            "transliteration": "Wa lā li-shayʾin min ʿamalī l-qabīḥi bi-l-ḥasan mubaddilan ghayrak",
+            "english-translation": "Nor anyone other than You who changes my evil deeds into good,",
+            "urdu-translation": "اور میرے برے عملوں کو نیکیوں میں بدلنے والا تیرے سوا کوئی نہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 41,
+            "arabic": "لا إِلَهَ إِلاَّ أَنتَ",
+            "transliteration": "Lā ilāha illā ant",
+            "english-translation": "There is no god but You,",
+            "urdu-translation": "تیرے سوا کوئی معبود نہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 42,
+            "arabic": "سُبْحَانَكَ وَبِحَمْدِكَ",
+            "transliteration": "Subḥānaka wa bi-ḥamdik",
+            "english-translation": "Glory be to You and with Your praise,",
+            "urdu-translation": "تو پاک ہے اور تیرے ہی حمد کے ساتھ،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 43,
+            "arabic": "ظَلَمْتُ نَفْسِي",
+            "transliteration": "Ẓalamtū nafsī",
+            "english-translation": "I have wronged myself,",
+            "urdu-translation": "میں نے اپنی جان پر ظلم کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 44,
+            "arabic": "وَتَجَرَّأْتُ بِجَهْلِي",
+            "transliteration": "Wa tajarraʾtu bi-jahlī",
+            "english-translation": "And I dared [to sin] out of my ignorance,",
+            "urdu-translation": "اور میں نے اپنی جہالت کے باعث جرأت کی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 45,
+            "arabic": "وَسَكَنتُ إِلَى قَدِيمِ ذِكْرِكَ لِي وَمَنِّكَ عَلَيَّ",
+            "transliteration": "Wa sakantu ilā qadīmi dhikrika lī wa mannika ʿalayya",
+            "english-translation": "And I found comfort in Your past remembrance of me and Your kindness to me,",
+            "urdu-translation": "اور میں تیرے میرے لیے سابقہ ذکر اور احسان پر بھروسہ کرنے لگا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 46,
+            "arabic": "اللَّهُمَّ مَوْلايَ",
+            "transliteration": "Allāhumma mawlāya",
+            "english-translation": "O Allah, my Master!",
+            "urdu-translation": "اے اللہ! اے میرے مولا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 47,
+            "arabic": "كَم مِّن قَبِيحٍ سَتَرْتَهُ",
+            "transliteration": "Kam min qabīḥin sataratah",
+            "english-translation": "How many of my ugly deeds You have concealed,",
+            "urdu-translation": "کتنی ہی میری برائیوں کو تُو نے چھپایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 48,
+            "arabic": "وَكَم مِّن فَادِحٍ مِّنَ الْبَلَاءِ أَقَلْتَهُ",
+            "transliteration": "Wa kam min fādiḥin mina l-balāʾi aqaltah",
+            "english-translation": "And how many burdensome trials You have lightened,",
+            "urdu-translation": "اور کتنے بھاری مصائب کو تُو نے ہلکا کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 49,
+            "arabic": "وَكَم مِّنْ عِثَارٍ وَّقَيْتَهُ",
+            "transliteration": "Wa kam min ʿithārin waqaytah",
+            "english-translation": "And how many slips You have protected me from,",
+            "urdu-translation": "اور کتنی ہی لغزشوں سے تُو نے بچایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 50,
+            "arabic": "وَكَم مِّنْ مَكْرُوهٍ دَفَعْتَهُ",
+            "transliteration": "Wa kam min makrūhin dafaʿtah",
+            "english-translation": "And how many disliked things You have warded off,",
+            "urdu-translation": "اور کتنے ہی ناپسندیدہ امور کو تُو نے دفع کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 51,
+            "arabic": "وَكَم مِّنْ ثَنَاءٍ جَمِيلٍ لَّسْتُ أَهْلاً لَّهُ نَشَرْتَهُ",
+            "transliteration": "Wa kam min thanāʾin jamīlin lastu ahlan lahu nashartah",
+            "english-translation": "And how much beautiful praise, for which I was unworthy, You have spread about me,",
+            "urdu-translation": "اور کتنی ہی خوبصورت تعریفیں تُو نے میرے لیے پھیلائیں جن کا میں اہل نہ تھا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 52,
+            "arabic": "اللَّهُمَّ عَظُمَ بَلَائِي",
+            "transliteration": "Allāhumma ʿaẓuma balāʾī",
+            "english-translation": "O Allah, my affliction has become great,",
+            "urdu-translation": "اے اللہ! میرا بلا بہت بڑا ہو گیا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 53,
+            "arabic": "وَأَفْرَطَ بِي سُوءُ حَالِي",
+            "transliteration": "Wa afraṭa bī sūʾu ḥālī",
+            "english-translation": "And my condition has worsened excessively,",
+            "urdu-translation": "اور میری حالت بدتر ہو گئی ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 54,
+            "arabic": "وَقَصُرَتْ بِي أَعْمَالِي",
+            "transliteration": "Wa qaṣurat bī aʿmālī",
+            "english-translation": "And my deeds have fallen short,",
+            "urdu-translation": "اور میرے اعمال کمزور ہو چکے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 55,
+            "arabic": "وَقَعَدَتْ بِي أَغْلَالِي",
+            "transliteration": "Wa qaʿadat bī aghlālī",
+            "english-translation": "And my shackles have held me back,",
+            "urdu-translation": "اور میری زنجیروں نے مجھے روک دیا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 56,
+            "arabic": "وَحَبَسَنِي عَن نَّفْعِي بُعْدُ آمَالِي",
+            "transliteration": "Wa ḥabasani ʿan nafʿī buʿdu ʾāmālī",
+            "english-translation": "And the distance of my hopes has held back my benefit,",
+            "urdu-translation": "اور میری دور دراز آرزوؤں نے میرے نفع کو روکا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 57,
+            "arabic": "وَخَدَعَتْنِي الدُّنْيَا بِغُرُورِهَا",
+            "transliteration": "Wa khadaʿatnī d-dunyā bi-ghurūrihā",
+            "english-translation": "And the world has deceived me with its delusion,",
+            "urdu-translation": "اور دنیا نے اپنی دھوکہ بازی سے مجھے فریب دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 58,
+            "arabic": "وَنَفْسِي بِجِنَايَتِهَا",
+            "transliteration": "Wa nafsī bi-janāyatihā",
+            "english-translation": "And my soul with its offenses,",
+            "urdu-translation": "اور میری نفس نے اپنی خطاؤں سے مجھے دھوکہ دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 59,
+            "arabic": "وَمِطَالِي",
+            "transliteration": "Wa miṭālī",
+            "english-translation": "And my procrastination.",
+            "urdu-translation": "اور میری ٹال مٹول نے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 60,
+            "arabic": "يَا سَيِّدِي فَأَسْأَلُكَ بِعِزَّتِكَ أَن لا يَحْجُبَ عَنْكَ دُعَائِي سُوءُ عَمَلِي وَفِعَالِي",
+            "transliteration": "Yā Sayyidī fa-asʾaluka bi-ʿizzatika an lā yaḥjuba ʿanka duʿāʾī sūʾu ʿamalī wa fiʿālī",
+            "english-translation": "O my Master, I ask You by Your might not to let my bad actions and deeds veil my supplication from You,",
+            "urdu-translation": "اے میرے سردار! میں تجھ سے تیری عزت کے واسطے سوال کرتا ہوں کہ میرے برے عمل اور افعال میرے دعا کو تجھ تک پہنچنے سے نہ روکیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 61,
+            "arabic": "وَلا تَفْضَحَنِي بِخَفِيِّ مَا اطَّلَعْتَ عَلَيْهِ مِنْ سِرِّي",
+            "transliteration": "Wa lā tafḍaḥanī bi-khafiyyī mā iṭṭalaʿta ʿalayhi min sirrī",
+            "english-translation": "And do not disgrace me for that which You have come to know of my secrets,",
+            "urdu-translation": "اور میرے ان چھپے رازوں پر جن پر تیرا علم ہے مجھے رسوا نہ کر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 62,
+            "arabic": "وَلا تُعَاجِلْنِي بِالْعُقُوبَةِ عَلَى مَا عَمِلْتُهُ فِي خَلَوَاتِي",
+            "transliteration": "Wa lā tuʿājilnī bil-ʿuqūbati ʿalā mā ʿamiltuhu fī khalawātī",
+            "english-translation": "And do not hasten my punishment for what I have done in private,",
+            "urdu-translation": "اور جو کچھ میں نے تنہائی میں کیا ہے اس پر جلد سزا نہ دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 63,
+            "arabic": "مِنْ سُوءِ فِعْلِي وَإِسَاءَتِي،",
+            "transliteration": "Min sūʾi fiʿlī wa isāʾatī",
+            "english-translation": "Of my evil acts and offenses,",
+            "urdu-translation": "میرے برے کاموں اور زیادتیوں کی وجہ سے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 64,
+            "arabic": "وَدَوَامِ تَفْرِيطِي وَجَهَالَتِي",
+            "transliteration": "Wa dawāmi tafrīṭī wa jahālatī",
+            "english-translation": "And my continual negligence and ignorance,",
+            "urdu-translation": "اور میرے مسلسل کوتاہی اور جہالت کی وجہ سے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 65,
+            "arabic": "وَكَثْرَةِ شَهَوَاتِي وَغَفْلَتِي",
+            "transliteration": "Wa kathrati shahawātī wa ghaflatī",
+            "english-translation": "And the abundance of my desires and heedlessness,",
+            "urdu-translation": "اور میری شہوتوں کی کثرت اور غفلت کی وجہ سے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 66,
+            "arabic": "وَكُنِ اللَّهُمَّ بِعِزَّتِكَ لِي فِي كُلِّ الأَحْوَالِ رَؤُوفاً",
+            "transliteration": "Wa kuni Allāhumma bi-ʿizzatika lī fī kulli l-aḥwāli raʾūfan",
+            "english-translation": "So be, O Allah, by Your might, kind to me in all conditions,",
+            "urdu-translation": "پس اے اللہ! ہر حال میں اپنی عزت کے ذریعے مجھ پر مہربان رہ،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 67,
+            "arabic": "وَّعَلَيَّ فِي جَمِيعِ الأُمُورِ عَطُوفاً",
+            "transliteration": "Wa ʿalayya fī jamīʿi l-umūri ʿaṭūfā",
+            "english-translation": "And gentle with me in all my affairs,",
+            "urdu-translation": "اور میرے تمام معاملات میں میرے ساتھ شفقت والا ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 68,
+            "arabic": "إِلَهِي وَرَبِّي مَن لِّي غَيْرُكَ أَسْألُهُ كَشْفَ ضُرِّي وَالنَّظَرَ فِي أَمْرِي!",
+            "transliteration": "Ilāhī wa Rabbī man lī ghayruka asʾaluhu kashfa ḍurrī wa-n-naẓara fī amrī!",
+            "english-translation": "O my God and my Lord, who is there for me besides You to ask for the removal of my affliction and to look into my matter?",
+            "urdu-translation": "اے میرے معبود اور پروردگار! تیرے سوا کون ہے جس سے میں اپنی تکلیف کے دور ہونے اور اپنے معاملات کی خبرگیری کی امید رکھوں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 69,
+            "arabic": "إِلَهِي وَمَوْلاي أَجْرَيْتَ عَلَيَّ حُكْماً اتَّبَعْتُ فِيهِ هَوَى نَفْسِي،",
+            "transliteration": "Ilāhī wa Mawlāy ajrayta ʿalayya ḥukman ittabaʿtu fīhi hawā nafsī,",
+            "english-translation": "O my God and Master! You have imposed a command upon me which I followed by the desires of my soul,",
+            "urdu-translation": "اے میرے معبود اور مولا! تُو نے مجھ پر ایک حکم جاری کیا جس میں میں نے اپنی خواہش نفس کی پیروی کی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 70,
+            "arabic": "وَلَمْ أَحْتَرِسْ فِيهِ مِن تَزْيِينِ عَدُوِّي،",
+            "transliteration": "Wa lam aḥtaris fīhi min tazyīni ʿaduwī,",
+            "english-translation": "And I did not guard myself against the adornment of my enemy,",
+            "urdu-translation": "اور میں اپنے دشمن کی سازش سے بچ نہ سکا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 71,
+            "arabic": "فَغَرَّنِي بِمَا أَهْوَى وَأَسْعَدَهُ عَلَى ذَلِكَ الْقَضَاءُ",
+            "transliteration": "Fa-gharranī bimā ahwā wa asʿadahu ʿalā dhālika l-qaḍāʾ",
+            "english-translation": "So he deceived me with what I desired, and fate assisted him in that,",
+            "urdu-translation": "پس اس نے مجھے میرے پسندیدہ خواہش سے فریب دیا اور اس پر قضا نے اس کی مدد کی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 72,
+            "arabic": "فَتَجَاوَزْتُ بِمَا جَرَى عَلَيَّ مِنْ ذَلِكَ بَعْضَ حُدُودِكَ",
+            "transliteration": "Fa-tajāwaztu bimā jarā ʿalayya min dhālika baʿḍa ḥudūdik",
+            "english-translation": "So through that which befell me I crossed some of Your limits,",
+            "urdu-translation": "اس طرح میں ان امور کے سبب تیرے بعض حدود سے تجاوز کر بیٹھا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 73,
+            "arabic": "وَخَالَفْتُ بَعْضَ أَوَامِرِكَ",
+            "transliteration": "Wa khālaftu baʿḍa awāmirik",
+            "english-translation": "And I opposed some of Your commands,",
+            "urdu-translation": "اور تیرے کچھ احکام کی مخالفت کی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 74,
+            "arabic": "فَلَكَ الْحُجَّةُ عَلَيَّ فِي جَمِيعِ ذَلِكَ",
+            "transliteration": "Fa-laka l-ḥujjatu ʿalayya fī jamīʿi dhālik",
+            "english-translation": "So You have the argument against me in all of that,",
+            "urdu-translation": "تو تیرے لیے اس سب میں مجھ پر دلیل قائم ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 75,
+            "arabic": "وَلا حُجَّةَ لِي فِيمَا جَرَى عَلَيَّ فِيهِ قَضَاؤُكَ،",
+            "transliteration": "Wa lā ḥujjata lī fīmā jarā ʿalayya fīhi qaḍāʾuk",
+            "english-translation": "And I have no excuse concerning what Your decree has imposed upon me,",
+            "urdu-translation": "اور مجھے اس میں کوئی حجت نہیں جو تیرے حکم کے مطابق مجھ پر واقع ہوا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 76,
+            "arabic": "وَأَلْزَمَنِي حُكْمُكَ وَبَلَاؤُكَ",
+            "transliteration": "Wa alzamani ḥukmuka wa balāʾuk",
+            "english-translation": "And Your judgment and trial have bound me,",
+            "urdu-translation": "اور تیرا حکم اور آزمائش مجھے گھیر چکے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 77,
+            "arabic": "وَقَدْ أَتَيْتُكَ يَا إِلَهِي بَعْدَ تَقْصِيرِي وَإِسْرَافِي عَلَى نَفْسِي",
+            "transliteration": "Wa qad ataytuka yā Ilāhī baʿda taqṣīrī wa isrāfī ʿalā nafsī",
+            "english-translation": "And now, O my God, I have come to You after my shortcomings and excesses against myself,",
+            "urdu-translation": "اور اب اے میرے معبود! میں تیرے پاس آیا ہوں اپنی کوتاہیوں اور نفس پر ظلم کے بعد،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 78,
+            "arabic": "مُعْتَذِراً نَّادِماً",
+            "transliteration": "Muʿtadhiran nādiman",
+            "english-translation": "Apologetic and remorseful,",
+            "urdu-translation": "معذرت خواہ اور نادم،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 79,
+            "arabic": "مُّنْكَسِراً مُّسْتَقِيلاً",
+            "transliteration": "Munkasiran mustaqīlan",
+            "english-translation": "Broken and seeking pardon,",
+            "urdu-translation": "پشیمان اور معافی کا طلبگار،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 80,
+            "arabic": "مُّسْتَغْفِراً مُّنِيباً",
+            "transliteration": "Mustaghfiran munīban",
+            "english-translation": "Seeking forgiveness and turning in repentance,",
+            "urdu-translation": "استغفار کرنے والا اور رجوع کرنے والا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 81,
+            "arabic": "مُّقِرّاً مُّذْعِناً مُّعْتَرِفاً",
+            "transliteration": "Muqirran mudhʿinan muʿtarifan",
+            "english-translation": "Acknowledging, submitting, and confessing,",
+            "urdu-translation": "اقرار کرنے والا، مطیع اور اعتراف کرنے والا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 82,
+            "arabic": "لا أَجِدُ مَفَرّاً مِّمَّا كَانَ مِنِّي",
+            "transliteration": "Lā ajidu mafaran mimmā kāna minnī",
+            "english-translation": "I find no escape from what I have done,",
+            "urdu-translation": "میں اپنے کیے سے بچنے کی کوئی راہ نہیں پاتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 83,
+            "arabic": "وَلا مَفْزَعاً أَتَوَجَّهُ إِلَيْهِ فِي أَمْرِي",
+            "transliteration": "Wa lā mafzaʿan atawajjahu ilayhi fī amrī",
+            "english-translation": "Nor a refuge to which I may turn in my affairs,",
+            "urdu-translation": "اور نہ کوئی جائے پناہ جس کی طرف میں اپنے معاملے میں رجوع کروں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 84,
+            "arabic": "غَيْرَ قَبُولِكَ عُذْرِي، وَإِدْخَالِكَ إِيَّايَ فِي سَعَةٍ مِّن رَّحْمَتِكَ",
+            "transliteration": "Ghayra qabūlika ʿudhrī wa idkhālika iyyāya fī saʿatin min raḥmatik",
+            "english-translation": "Except Your acceptance of my excuse, and Your inclusion of me in the vastness of Your mercy,",
+            "urdu-translation": "سوائے اس کے کہ تو میرا عذر قبول کرے اور مجھے اپنی رحمت کی وسعت میں داخل فرمائے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 85,
+            "arabic": "اللَّهُمَّ فَاقْبَلْ عُذْرِي",
+            "transliteration": "Allāhumma faqbal ʿudhrī",
+            "english-translation": "O Allah, so accept my excuse,",
+            "urdu-translation": "اے اللہ! میرا عذر قبول فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 86,
+            "arabic": "وَارْحَمْ شِدَّةَ ضُرِّي",
+            "transliteration": "Warḥam shiddata ḍurrī",
+            "english-translation": "And have mercy on the intensity of my distress,",
+            "urdu-translation": "اور میری سخت تکلیف پر رحم فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 87,
+            "arabic": "وَفُكَّنِي مِنْ شَدِّ وَثَاقِي",
+            "transliteration": "Wa fukkanī min shaddi wathāqī",
+            "english-translation": "And release me from the tightness of my chains,",
+            "urdu-translation": "اور مجھے میری زنجیروں کی سختی سے آزاد کر دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 88,
+            "arabic": "يَا رَبِّ ارْحَمْ ضَعْفَ بَدَنِي وَرِقَّةَ جِلْدِي وَدِقَّةَ عَظْمِي",
+            "transliteration": "Yā Rabb irḥam ḍaʿfa badanī wa riqqata jildī wa diqqata ʿaẓmī",
+            "english-translation": "O Lord, have mercy on the weakness of my body, the thinness of my skin, and the fragility of my bones,",
+            "urdu-translation": "اے پروردگار! میرے جسم کی کمزوری، میری جلد کی نرمی اور ہڈیوں کی باریکی پر رحم فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 89,
+            "arabic": "يَا مَنْ بَدَأَ خَلْقِي وَذِكْرِي وَتَرْبِيَتِي وَبِرِّي وَتَغْذِيَتِي",
+            "transliteration": "Yā man badaʾa khalqī wa dhikri wa tarbiyatī wa birrī wa taghdhiyatī",
+            "english-translation": "O He who initiated my creation, remembrance, nurturing, goodness, and sustenance,",
+            "urdu-translation": "اے وہ جس نے میری تخلیق، یاد، پرورش، نیکی اور غذا کی ابتدا فرمائی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 90,
+            "arabic": "هَبْنِي لِابْتِدَاءِ كَرَمِكَ وَسَالِفِ بِرِّكَ بِي",
+            "transliteration": "Habnī libtidāʾi karamika wa sālif birrika bī",
+            "english-translation": "Grant me, for the sake of Your initial generosity and former goodness to me,",
+            "urdu-translation": "اپنے ابتدائی کرم اور سابق احسان کے صدقے مجھے عطا فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 91,
+            "arabic": "يَا إِلَهِي وَسَيِّدِي وَرَبِّي",
+            "transliteration": "Yā Ilāhī wa Sayyidī wa Rabbī",
+            "english-translation": "O my God, my Master, and my Lord,",
+            "urdu-translation": "اے میرے معبود، میرے سردار اور میرے پروردگار،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 92,
+            "arabic": "أَتُرَاكَ مُعَذِّبِي بِنَارِكَ بَعْدَ تَوْحِيدِكَ",
+            "transliteration": "Atarāka muʿadhdhibī bi-nārika baʿda tawḥīdik",
+            "english-translation": "Do You suppose You would punish me with Your Fire after I have affirmed Your Oneness?",
+            "urdu-translation": "کیا تو مجھے اپنے توحید کے اقرار کے بعد اپنی آگ سے عذاب دے گا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 93,
+            "arabic": "وَبَعْدَ مَا انْطَوَى عَلَيْهِ قَلْبِي مِن مَّعْرِفَتِكَ",
+            "transliteration": "Wa baʿda mā inṭawā ʿalayhi qalbī min maʿrifatik",
+            "english-translation": "And after my heart has been filled with Your knowledge,",
+            "urdu-translation": "اور جب کہ میرا دل تیری معرفت سے لبریز ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 94,
+            "arabic": "وَلَهِجَ بِهِ لِسَانِي مِنْ ذِكْرِكَ",
+            "transliteration": "Wa lahija bihī lisānī min dhikrik",
+            "english-translation": "And my tongue is constantly engaged in Your remembrance,",
+            "urdu-translation": "اور میری زبان تیرے ذکر میں مصروف ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 95,
+            "arabic": "وَاعْتَقَدَهُ ضَمِيرِي مِنْ حُبِّكَ",
+            "transliteration": "Wa iʿtaqadahu ḍamīrī min ḥubbik",
+            "english-translation": "And my conscience is firm upon Your love,",
+            "urdu-translation": "اور میرا ضمیر تیرے عشق پر یقین رکھتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 96,
+            "arabic": "وَبَعْدَ صِدْقِ اعْتِرَافِي وَدُعَائِي خَاضِعاً لِّرُبُوبِيَّتِكَ",
+            "transliteration": "Wa baʿda ṣidqi iʿtirāfī wa duʿāʾī khāḍiʿan li-rubūbiyyatik",
+            "english-translation": "And after my sincere confession and my prayer in submission to Your Lordship,",
+            "urdu-translation": "اور میرے سچے اقرار اور تیری ربوبیت کے آگے عاجزی سے کی گئی دعا کے بعد،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 97,
+            "arabic": "هَيْهَاتَ أَنتَ أَكْرَمُ مِنْ أَن تُضَيِّعَ مَن رَّبَّيْتَهُ",
+            "transliteration": "Hayhāta anta akramu min an tuḍayyiʿa man rabbaytah",
+            "english-translation": "Far be it! You are too generous to forsake one You have nurtured,",
+            "urdu-translation": "یہ کیسے ہو سکتا ہے! تو اتنا کریم ہے کہ جسے پالا ہو اُسے ضائع کرے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 98,
+            "arabic": "أَوْ تُبْعِدَ مَنْ أَدْنَيْتَهُ",
+            "transliteration": "Aw tubʿida man adnaytah",
+            "english-translation": "Or to distance one You have brought near,",
+            "urdu-translation": "یا جسے اپنے قریب کیا ہو اُسے دور کر دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 99,
+            "arabic": "أَوْ تُشَرِّدَ مَنْ آوَيْتَهُ",
+            "transliteration": "Aw tusharrida man āwaytah",
+            "english-translation": "Or to abandon one You have sheltered,",
+            "urdu-translation": "یا جسے تو نے پناہ دی ہو اُسے بے آسرا کر دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 100,
+            "arabic": "أَوْ تُسَلِّمَ إِلَى الْبَلَاءِ مَنْ كَفَيْتَهُ وَرَحِمْتَهُ",
+            "transliteration": "Aw tusallima ilā l-balāʾi man kafaytahu wa raḥimtah",
+            "english-translation": "Or to hand over to trials one You have protected and shown mercy to.",
+            "urdu-translation": "یا جسے تو نے بچایا اور رحم فرمایا ہو اُسے آزمائش کے حوالے کر دے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 101,
+            "arabic": "وَلَيْتَ شِعْرِي يَا سَيِّدِي وَإِلَهِي وَمَوْلايَ",
+            "transliteration": "Wa layta shiʿrī yā Sayyidī wa Ilāhī wa Mawlāy",
+            "english-translation": "I wish I knew, O my Master, my God, and my Lord,",
+            "urdu-translation": "کاش مجھے معلوم ہوتا، اے میرے آقا، میرے معبود، اور میرے مولا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 102,
+            "arabic": "أَتُسَلِّطُ النَّارَ عَلَى وُجُوهٍ خَرَّتْ لِعَظَمَتِكَ سَاجِدَةً",
+            "transliteration": "Atusalliṭu n-nāra ʿalā wujūhin kharrat li-ʿaẓamatika sājidah",
+            "english-translation": "Would You let the Fire rule over faces that fell in prostration to Your greatness?",
+            "urdu-translation": "کیا تُو آگ کو ان چہروں پر مسلط کرے گا جو تیری عظمت کے سامنے سجدہ ریز ہوئے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 103,
+            "arabic": "وَعَلَى أَلْسُنٍ نَّطَقَتْ بِتَوْحِيدِكَ صَادِقَةً وَبِشُكْرِكَ مَادِحَةً",
+            "transliteration": "Wa ʿalā alsunin naṭaqat bi-tawḥīdika ṣādiqah wa bi-shukrika mādiḥah",
+            "english-translation": "And tongues that spoke sincerely of Your Oneness and praised You with gratitude?",
+            "urdu-translation": "اور ان زبانوں پر جو تیرے توحید کا سچائی سے اقرار اور تیرے شکر سے تیری تعریف کرتی رہیں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 104,
+            "arabic": "وَعَلَى قُلُوبٍ اعْتَرَفَتْ بِإِلَهِيَّتِكَ مُحَقِّقَةً",
+            "transliteration": "Wa ʿalā qulūbin iʿtarafat bi-ilāhiyyatika muḥaqqiqah",
+            "english-translation": "And hearts that truly acknowledged Your divinity?",
+            "urdu-translation": "اور ان دلوں پر جو تیرے الٰہ ہونے کا پختہ یقین رکھتے تھے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 105,
+            "arabic": "وَعَلَى ضَمَائِرَ حَوَتْ مِنَ الْعِلْمِ بِكَ حَتَّى صَارَتْ خَاشِعَةً",
+            "transliteration": "Wa ʿalā ḍamāʾira ḥawat mina l-ʿilmi bika ḥattā ṣārat khāshiʿah",
+            "english-translation": "And consciences that contained knowledge of You until they became humble?",
+            "urdu-translation": "اور اُن ضمیروں پر جنہوں نے تجھے پہچان کر خشوع اختیار کیا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 106,
+            "arabic": "وَعَلَى جَوَارِحَ سَعَتْ إِلَى أَوْطَانِ تَعَبُّدِكَ طَائِعَةً وَأَشَارَتْ بِاسْتِغْفَارِكَ مُذْعِنَةً",
+            "transliteration": "Wa ʿalā jawāriḥa saʿat ilā awṭāni taʿabbudika ṭāʾiʿah wa asharat bi-istighfārika mudhʿinah",
+            "english-translation": "And limbs that moved in obedience toward the places of Your worship and humbly pointed to You in seeking forgiveness?",
+            "urdu-translation": "اور اُن اعضا پر جو تیرے عبادت خانوں کی طرف اطاعت کے ساتھ بڑھے اور استغفار کرتے ہوئے عاجزی سے تیری طرف اشارہ کیا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 107,
+            "arabic": "مَا هَكَذَا الظَّنُّ بِكَ وَلا أُخْبِرْنَا بِفَضْلِكَ عَنكَ",
+            "transliteration": "Mā hakadhā aẓ-ẓannu bika wa lā ukhbirnā bi-faḍlika ʿanka",
+            "english-translation": "That is not the opinion we hold of You, nor what has been reported of Your bounty, O Generous One.",
+            "urdu-translation": "تیرے بارے میں ہمارا گمان ایسا نہیں ہے اور نہ تیرے فضل کے متعلق ہمیں ایسا بتایا گیا ہے، اے کریم!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 108,
+            "arabic": "يَا كَرِيمُ، يَا رَبِّ",
+            "transliteration": "Yā Karīm, yā Rabb",
+            "english-translation": "O Generous One, O Lord!",
+            "urdu-translation": "اے کریم! اے پروردگار!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 109,
+            "arabic": "وَأَنتَ تَعْلَمُ ضَعْفِي عَن قَلِيلٍ مِّن بَلَاءِ الدُّنْيَا وَعُقُوبَاتِهَا",
+            "transliteration": "Wa anta taʿlamu ḍaʿfī ʿan qalīlin min balāʾi d-dunyā wa ʿuqūbātihā",
+            "english-translation": "And You know my weakness to bear even a little of the trials and punishments of this world,",
+            "urdu-translation": "اور تُو میری کمزوری کو خوب جانتا ہے کہ میں دنیا کے تھوڑے سے عذاب اور مصیبت بھی نہیں سہ سکتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 110,
+            "arabic": "وَمَا يَجْرِي فِيهَا مِنَ الْمَكَارِهِ عَلَى أَهْلِهَا",
+            "transliteration": "Wa mā yajrī fīhā mina l-makārihi ʿalā ahlihā",
+            "english-translation": "And what befalls its people of adversities,",
+            "urdu-translation": "اور جو اس دنیا کے رہنے والوں پر ناپسندیدہ چیزیں وارد ہوتی ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 111,
+            "arabic": "عَلَى أَنَّ ذَلِكَ بَلَاءٌ وَمَكْرُوهٌ، قَلِيلٌ مَّكْثُهُ، يَسِيرٌ بَقَاؤُهُ، قَصِيرٌ مُّدَّتُهُ",
+            "transliteration": "ʿAlā anna dhālika balāʾun wa makrūhun, qalīlun makthuh, yasīrun baqāʾuh, qaṣīrun muddātuh",
+            "english-translation": "Though it is a trial and adversity, it is short in duration, easy in staying, brief in its term.",
+            "urdu-translation": "اگرچہ وہ آزمائش اور تکلیف ہے، لیکن اُس کا قیام تھوڑا، مدت مختصر اور بقاء معمولی ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 112,
+            "arabic": "فَكَيْفَ احْتِمَالِي لِبَلَاءِ الآخِرَةِ وَجَلِيلِ وُقُوعِ الْمَكَارِهِ فِيهَا!",
+            "transliteration": "Fa-kayfa iḥtimālī li-balāʾi l-ākhirah wa jalīli wuqūʿi l-makārihi fīhā!",
+            "english-translation": "Then how will I endure the trials of the Hereafter and the immense occurrence of its misfortunes?",
+            "urdu-translation": "تو پھر میں آخرت کی آزمائش اور وہاں کی بڑی بڑی مصیبتوں کو کیسے برداشت کر سکوں گا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 113,
+            "arabic": "وَهُوَ بَلَاءٌ تَطُولُ مُدَّتُهُ، وَيَدُومُ مَقَامُهُ، وَلا يُخَفَّفُ عَنْ أَهْلِهِ",
+            "transliteration": "Wa huwa balāʾun taṭūlu muddātuh, wa yadūmu maqāmuh, wa lā yukhaffafu ʿan ahlih",
+            "english-translation": "And that is a trial whose duration is long, whose residence is lasting, and from which its inhabitants are not relieved,",
+            "urdu-translation": "جبکہ وہ آزمائش ہے جس کی مدت طویل، قیام دائمی، اور جس کے رہنے والوں پر کوئی تخفیف نہیں ہوتی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 114,
+            "arabic": "لأَنَّهُ لا يَكُونُ إِلاَّ عَنْ غَضَبِكَ وَانتِقَامِكَ وَسَخَطِكَ",
+            "transliteration": "Li-annahu lā yakūnu illā ʿan ghaḍabika wa intiqāmika wa sakhaṭik",
+            "english-translation": "Because it only occurs as a result of Your anger, vengeance, and wrath,",
+            "urdu-translation": "کیونکہ وہ تیرے غضب، انتقام اور ناراضی کی بنا پر ہوتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 115,
+            "arabic": "وَهَذَا مَا لا تَقُومُ لَهُ السَّمَاوَاتُ وَالأَرْضُ",
+            "transliteration": "Wa hādhā mā lā taqūmu lahus-samāwātu wal-arḍ",
+            "english-translation": "And this is what even the heavens and the earth cannot withstand.",
+            "urdu-translation": "اور یہ وہ ہے جسے آسمان و زمین بھی برداشت نہیں کر سکتے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 116,
+            "arabic": "يَا سَيِّدِي فَكَيْفَ بِي",
+            "transliteration": "Yā Sayyidī fa-kayfa bī",
+            "english-translation": "O my Master, then how will it be with me?",
+            "urdu-translation": "اے میرے آقا! تو پھر میرے ساتھ کیا ہوگا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 117,
+            "arabic": "وَأَنَا عَبْدُكَ الضَّعِيفُ الذَّلِيلُ الْحَقِيرُ الْمِسْكِينُ الْمُسْتَكِينُ",
+            "transliteration": "Wa anā ʿabduka ḍ-ḍaʿīfu dh-dhalīlu l-ḥaqīru l-miskīnu l-mustakīn",
+            "english-translation": "And I am Your weak, lowly, insignificant, poor, and humbled servant,",
+            "urdu-translation": "اور میں تیرا کمزور، ذلیل، حقیر، محتاج، عاجز بندہ ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 118,
+            "arabic": "يَا إِلَهِي وَرَبِّي وَسَيِّدِي وَمَوْلايَ",
+            "transliteration": "Yā Ilāhī wa Rabbī wa Sayyidī wa Mawlāy",
+            "english-translation": "O my God, my Lord, my Master, and my Protector,",
+            "urdu-translation": "اے میرے معبود، پروردگار، سردار، اور مالک،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 119,
+            "arabic": "لِأَيِّ الأُمُورِ إِلَيْكَ أَشْكُو",
+            "transliteration": "Li-ayyil-umūri ilayka ashkū",
+            "english-translation": "To which of my matters shall I complain to You?",
+            "urdu-translation": "تجھ سے اپنے کس حال کی شکایت کروں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 120,
+            "arabic": "وَلِمَا مِنْهَا أَضِجُّ وَأَبْكِي",
+            "transliteration": "Wa limā minhā aḍijju wa abkī",
+            "english-translation": "And for which of them shall I cry and weep?",
+            "urdu-translation": "اور ان میں سے کس کے لیے میں فریاد اور گریہ کروں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 121,
+            "arabic": "لِأَلِيمِ الْعَذَابِ وَشِدَّتِهِ!",
+            "transliteration": "Li-alīmi l-ʿadhābi wa shiddatihi!",
+            "english-translation": "For the pain and severity of punishment?",
+            "urdu-translation": "دردناک عذاب کی شدت کے لیے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 122,
+            "arabic": "أَمْ لِطُولِ الْبَلَاءِ وَمُدَّتِهِ!",
+            "transliteration": "Am li-ṭūli l-balāʾi wa muddātih!",
+            "english-translation": "Or for the prolonged trials and their duration?",
+            "urdu-translation": "یا طویل آزمائش اور اُس کی مدت کے لیے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 123,
+            "arabic": "فَلَئِن صَيَّرْتَنِي لِلْعُقُوبَاتِ مَعَ أَعْدَائِكَ",
+            "transliteration": "Falaʾin ṣayyartanī li-l-ʿuqūbāti maʿa aʿdāʾik",
+            "english-translation": "So if You were to place me among Your enemies for punishment,",
+            "urdu-translation": "اگر تو مجھے اپنے دشمنوں کے ساتھ عذاب میں ڈالے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 124,
+            "arabic": "وَجَمَعْتَ بَيْنِي وَبَيْنَ أَهْلِ بَلائِكَ",
+            "transliteration": "Wa jamaʿta baynī wa bayna ahli balāʾik",
+            "english-translation": "And You gathered me with the people of Your affliction,",
+            "urdu-translation": "اور تو نے مجھے اپنے عذاب کے اہل کے ساتھ جمع کر دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 125,
+            "arabic": "وَفَرَّقْتَ بَيْنِي وَبَيْنَ أَحِبَّائِكَ وَأَوْلِيَائِكَ",
+            "transliteration": "Wa farraqta baynī wa bayna aḥibbāʾika wa awliyāʾik",
+            "english-translation": "And separated me from Your beloved and devoted ones,",
+            "urdu-translation": "اور تو نے مجھے اپنے محبوبوں اور اولیاء سے جدا کر دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 126,
+            "arabic": "فَهَبْنِي يَا إِلَهِي وَسَيِّدِي وَمَوْلايَ وَرَبِّي صَبَرْتُ عَلَى عَذَابِكَ",
+            "transliteration": "Fahabnī yā Ilāhī wa Sayyidī wa Mawlāy wa Rabbī ṣabartu ʿalā ʿadhābik",
+            "english-translation": "So grant me, O my God, Master, Lord, and Protector, that I endure Your punishment,",
+            "urdu-translation": "تو فرض کر اے میرے الٰہ، سردار، آقا اور رب! کہ میں تیرے عذاب پر صبر کر لوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 127,
+            "arabic": "فَكَيْفَ أَصْبِرُ عَلَى فِرَاقِكَ",
+            "transliteration": "Fakayfa aṣbiru ʿalā firāqik",
+            "english-translation": "But how can I endure separation from You?",
+            "urdu-translation": "تو میں تیرے فراق پر کیسے صبر کروں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 128,
+            "arabic": "وَهَبْنِي صَبَرْتُ عَلَى حَرِّ نَارِكَ",
+            "transliteration": "Wahabnī ṣabartu ʿalā ḥarri nārik",
+            "english-translation": "And suppose I endure the heat of Your fire,",
+            "urdu-translation": "اور مان بھی لوں کہ میں تیری آگ کی گرمی پر صبر کر لوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 129,
+            "arabic": "فَكَيْفَ أَصْبِرُ عَنِ النَّظَرِ إِلَى كَرَامَتِكَ",
+            "transliteration": "Fakayfa aṣbiru ʿani n-naẓari ilā karāmatik",
+            "english-translation": "Then how could I endure not looking upon Your generosity?",
+            "urdu-translation": "تو تیری کرامت کے دیدار سے محرومی پر میں کیسے صبر کروں؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 130,
+            "arabic": "أَمْ كَيْفَ أَسْكُنُ فِي النَّارِ وَرَجَائِي عَفْوُكَ",
+            "transliteration": "Am kayfa askunu fī n-nār wa rajāʾī ʿafwuk",
+            "english-translation": "Or how could I remain in the Fire while my hope is in Your pardon?",
+            "urdu-translation": "یا میں آگ میں کیسے قرار پاؤں جب کہ میری امید تیرے عفو سے وابستہ ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 131,
+            "arabic": "فَبِعِزَّتِكَ يَا سَيِّدِي وَمَوْلايَ أُقْسِمُ صَادِقاً، لَئِنْ تَرَكْتَنِي نَاطِقاً",
+            "transliteration": "Fabi-ʿizzatika yā Sayyidī wa Mawlāy uqsimu ṣādiqan, laʾin taraktanī nāṭiqan",
+            "english-translation": "So by Your might, O my Master and Protector, I swear sincerely: if You leave me speaking,",
+            "urdu-translation": "پس تیری عزت کی قسم، اے میرے آقا اور مولا! اگر تو مجھے بولنے کا موقع دے، تو میں سچ کہتا ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 132,
+            "arabic": "لَأَضِجَّنَّ إِلَيْكَ بَيْنَ أَهْلِهَا ضَجِيجَ الآمِلِينَ",
+            "transliteration": "La-aḍijjanna ilayka bayna ahlihā ḍajīja l-āmilīn",
+            "english-translation": "I will surely cry out to You among its inhabitants the cry of those who hope,",
+            "urdu-translation": "تو میں اہل جہنم کے درمیان امید رکھنے والوں کی طرح تجھ سے فریاد کروں گا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 133,
+            "arabic": "وَلَأَصْرُخَنَّ إِلَيكَ صُرَاخَ المُسْتَصْرِخِينَ",
+            "transliteration": "Wa la-aṣrukhanna ilayka ṣurākha l-mustasrikhīn",
+            "english-translation": "And I will surely shout to You with the shout of those seeking help,",
+            "urdu-translation": "اور میں تجھ سے مدد مانگنے والوں کی پکار کی طرح تجھے پکاروں گا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 134,
+            "arabic": "وَلَأَبْكِيَنَّ عَلَيْكَ بُكَاءَ الفَاقِدِينَ",
+            "transliteration": "Wa la-abkiyanna ʿalayka bukāʾa l-fāqidīn",
+            "english-translation": "And I will surely weep for You like those who have lost all hope,",
+            "urdu-translation": "اور میں تیرے لیے محروموں کی طرح روؤں گا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 135,
+            "arabic": "وَلَأُنَادِيَنَّكَ أَيْنَ كُنتَ يَا وَلِيَّ الْمُؤْمِنِينَ",
+            "transliteration": "Wa la-unādiyannaka ayna kunta yā waliyyal-muʾminīn",
+            "english-translation": "And I will surely call upon You: Where are You, O Guardian of the believers?",
+            "urdu-translation": "اور میں تجھے ضرور پکاروں گا: اے مؤمنوں کے ولی! تُو کہاں ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 136,
+            "arabic": "يَا غَايَةَ آمَاِلِ العَارِفِينَ",
+            "transliteration": "Yā ghāyata āmāli l-ʿārifīn",
+            "english-translation": "O ultimate hope of the gnostics,",
+            "urdu-translation": "اے عارفوں کی امیدوں کی انتہا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 137,
+            "arabic": "يَا غِيَاثَ المُسْتَغِيثِينَ",
+            "transliteration": "Yā ghiyātha l-mustaghīthīn",
+            "english-translation": "O Helper of the distressed,",
+            "urdu-translation": "اے فریاد کرنے والوں کے فریاد رس،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 138,
+            "arabic": "يَا حَبِيبَ قُلُوبِ الصَّادِقِينَ",
+            "transliteration": "Yā ḥabība qulūbi ṣ-ṣādiqīn",
+            "english-translation": "O Beloved of the hearts of the sincere,",
+            "urdu-translation": "اے سچے دلوں کے محبوب،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 139,
+            "arabic": "وَيَا إِلَهَ العَالَمِينَ",
+            "transliteration": "Wa yā Ilāha l-ʿālamīn",
+            "english-translation": "And O God of all the worlds,",
+            "urdu-translation": "اور اے تمام جہانوں کے معبود،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 140,
+            "arabic": "أَفَتُرَاكَ، سُبْحَانَكَ يَا إِلَهِي وَبِحَمْدِكَ، تَسْمَعُ فِيهَا صَوْتَ عَبْدٍ مُّسْلِمٍ",
+            "transliteration": "Afatarāka subḥānaka yā Ilāhī wa bi-ḥamdik, tasmaʿu fīhā ṣawta ʿabdin muslim",
+            "english-translation": "Would You, glory be to You O my God and by Your praise, hear in the Fire the voice of a servant who submits to You?",
+            "urdu-translation": "کیا تو، پاک ہے تُو، اے میرے معبود! اپنی حمد کے ساتھ، دوزخ میں اپنے ایک فرمانبردار بندے کی آواز سنے گا؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 141,
+            "arabic": "سُجِنَ فِيهَا بِمُخَالَفَتِهِ",
+            "transliteration": "Sujina fīhā bi-mukhālafatih",
+            "english-translation": "He is imprisoned therein for his disobedience,",
+            "urdu-translation": "وہ اپنی نافرمانی کی وجہ سے اس میں قید ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 142,
+            "arabic": "وَذَاقَ طَعْمَ عَذَابِهَا بِمَعْصِيَتِهِ",
+            "transliteration": "Wa dhāqa ṭaʿma ʿadhābihā bi-maʿṣiyatih",
+            "english-translation": "And has tasted the flavor of its punishment due to his sin,",
+            "urdu-translation": "اور اپنی معصیت کی بنا پر اس کے عذاب کا مزہ چکھ رہا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 143,
+            "arabic": "وَحُبِسَ بَيْنَ أَطْبَاقِهَا بِجُرْمِهِ وَجَرِيرَتِهِ",
+            "transliteration": "Wa ḥubisa bayna aṭbāqihā bi-jurmih wa jarīratih",
+            "english-translation": "And is confined among its layers for his crime and offense,",
+            "urdu-translation": "اور اپنے جرم اور گناہ کی بنا پر اس کے طبقوں میں قید ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 144,
+            "arabic": "وَهُوَ يَضِجُّ إِلَيْكَ ضَجِيجَ مُؤَمِّلٍ لِّرَحْمَتِكَ",
+            "transliteration": "Wa huwa yaḍijju ilayka ḍajīja muʾammilin li-raḥmatik",
+            "english-translation": "Yet he cries out to You with the cry of one who hopes for Your mercy,",
+            "urdu-translation": "اور وہ تجھ سے ایسی فریاد کر رہا ہے جیسا کہ تیرے رحم کا امید وار کرتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 145,
+            "arabic": "وَيُنَادِيكَ بِلِسَانِ أَهْلِ تَوْحِيدِكَ",
+            "transliteration": "Wa yunādīka bi-lisāni ahli tawḥīdik",
+            "english-translation": "And calls upon You with the tongue of Your unifiers,",
+            "urdu-translation": "اور تیرے موحدین کی زبان سے تجھے پکار رہا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 146,
+            "arabic": "وَيَتَوَسَّلُ إِلَيْكَ بِرُبُوبِيَّتِكَ",
+            "transliteration": "Wa yatawassalu ilayka bi-rubūbiyyatik",
+            "english-translation": "And seeks nearness to You through Your Lordship,",
+            "urdu-translation": "اور تیری ربوبیت کے ذریعے تیری بارگاہ میں وسیلہ پکڑتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 147,
+            "arabic": "يَا مَوْلايَ فَكَيْفَ يَبقَى فِي الْعَذَابِ وَهُوَ يَرْجُو مَا سَلَفَ مِنْ حِلْمِكَ",
+            "transliteration": "Yā Mawlāy fa-kayfa yabqā fī l-ʿadhābi wa huwa yarjū mā salafa min ḥilmik",
+            "english-translation": "O my Master, how can he remain in punishment while hoping for what has passed of Your forbearance?",
+            "urdu-translation": "اے میرے مولا! وہ تیرے سابقہ حلم کی امید رکھتا ہو، پھر بھی عذاب میں کیسے ٹھہر سکتا ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 148,
+            "arabic": "أَمْ كَيْفَ تُؤْلِمُهُ النَّارُ وَهُوَ يَأْمُلُ فَضْلَكَ وَرَحْمَتَكَ",
+            "transliteration": "Am kayfa tuʾlimuhū n-nāru wa huwa yaʾmulu faḍlaka wa raḥmatak",
+            "english-translation": "Or how can the Fire hurt him while he hopes for Your grace and mercy?",
+            "urdu-translation": "یا آگ اسے کیسے تکلیف دے سکتی ہے جب کہ وہ تیرے فضل و رحمت کی امید رکھتا ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 149,
+            "arabic": "أَمْ كَيْفَ يُحْرِقُهُ لَهِيبُهَا وَأَنْتَ تَسْمَعُ صَوْتَهُ وَتَرَى مَكَانَهُ",
+            "transliteration": "Am kayfa yuḥriquhu lahibuhā wa anta tasmaʿu ṣawtah wa tarā makānah",
+            "english-translation": "Or how can its flames consume him while You hear his voice and see his place?",
+            "urdu-translation": "یا اس کی لپٹ اُسے کیسے جلا سکتی ہے جب تُو اس کی آواز سنتا اور اس کی جگہ دیکھتا ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 150,
+            "arabic": "أَمْ كَيْفَ يَشْتَمِلُ عَلَيْهِ زَفِيرُهَا وَأَنْتَ تَعْلَمُ ضَعْفَهُ",
+            "transliteration": "Am kayfa yashtamilu ʿalayhi zafīruhā wa anta taʿlamu ḍaʿfah",
+            "english-translation": "Or how can its roar encompass him while You know his weakness?",
+            "urdu-translation": "یا اس کی چیخ و پکار اسے کیسے گھیر سکتی ہے جب تُو اس کی کمزوری کو جانتا ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 151,
+            "arabic": "أَمْ كَيْفَ يَتَقَلْقَلُ بَيْنَ أَطْبَاقِهَا وَأَنْتَ تَعْلَمُ صِدْقَهُ",
+            "transliteration": "Am kayfa yataqalqalu bayna aṭbāqihā wa anta taʿlamu ṣidqah",
+            "english-translation": "Or how can he be tossed between its levels while You know his sincerity?",
+            "urdu-translation": "یا وہ اس کے طبقوں کے درمیان تڑپتا ہو اور تُو اس کی سچائی سے واقف ہو، یہ کیسے ممکن ہے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 152,
+            "arabic": "أَمْ كَيْفَ تَزْجُرُهُ زَبَانِيَتُهَا وَهُوَ يُنَادِيكَ يَا رَبَّهُ",
+            "transliteration": "Am kayfa tazjuruhu zabāniyatuhā wa huwa yunādīka yā Rabbah",
+            "english-translation": "Or how can its guards rebuke him while he calls upon You, 'O my Lord!'?",
+            "urdu-translation": "یا اس کے فرشتے اسے جھڑکیں اور وہ تجھے پکار رہا ہو: اے میرے رب!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 153,
+            "arabic": "أَمْ كَيْفَ يَرْجُو فَضْلَكَ فِي عِتْقِهِ مِنْهَا فَتَتْرُكُهُ فِيهَا",
+            "transliteration": "Am kayfa yarjū faḍlaka fī ʿitqihī minhā fatatrukuhū fīhā",
+            "english-translation": "Or how can he hope for Your bounty in freeing him from it while You abandon him in it?",
+            "urdu-translation": "یا وہ تیرا فضل چاہتا ہو کہ تُو اسے جہنم سے آزاد کرے اور تُو اسے اسی میں چھوڑ دے؟",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 154,
+            "arabic": "هَيْهَاتَ، مَا ذَلِكَ الظَّنُّ بِكَ",
+            "transliteration": "Hayhāta, mā dhālika ẓ-ẓannu bika",
+            "english-translation": "Far be it! That is not what is expected of You,",
+            "urdu-translation": "ہرگز نہیں! تجھ سے ایسا گمان کرنا ممکن ہی نہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 155,
+            "arabic": "وَلا الْمَعْرُوفُ مِنْ فَضْلِكَ",
+            "transliteration": "Wa lā l-maʿrūfu min faḍlik",
+            "english-translation": "Nor what is known of Your grace,",
+            "urdu-translation": "اور نہ ہی تیرے معروف فضل کے مطابق ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 156,
+            "arabic": "وَلا مُشْبِهٌ لِمَا عَامَلْتَ بِهِ الْمُوَحِّدِينَ مِنْ بِرِّكَ وَإِحْسَانِكَ",
+            "transliteration": "Wa lā mushbihun limā ʿāmalta bihī l-muwaḥḥidīn min birrika wa iḥsānik",
+            "english-translation": "Nor does it resemble what You have shown to the monotheists of Your bounty and goodness,",
+            "urdu-translation": "اور نہ ہی وہ تیرے موحد بندوں سے کیے گئے تیرے احسان و نیکی کے طرز کے مطابق ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 157,
+            "arabic": "فَبِالْيَقِينِ أَقْطَعُ لَوْلَا مَا حَكَمْتَ بِهِ مِنْ تَعْذِيبِ جَاحِدِيكَ",
+            "transliteration": "Fa-bi-l-yaqīni aqṭaʿu lawlā mā ḥakamta bihī min taʿdhībi jāḥidīk",
+            "english-translation": "So with certainty, I affirm that were it not for what You have decreed concerning the punishment of those who deny You,",
+            "urdu-translation": "یقین کے ساتھ میں کہتا ہوں، اگر تو نے منکروں کے عذاب کا حکم نہ دیا ہوتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 158,
+            "arabic": "وَقَضَيْتَ بِهِ مِنْ إِخْلَادِ مُعَانِدِيكَ",
+            "transliteration": "Wa qaḍayta bihī min ikhlādi muʿāndīk",
+            "english-translation": "And what You have ordained for the eternal abode of Your opponents,",
+            "urdu-translation": "اور تُو نے معاندین کے ہمیشہ جہنم میں رہنے کا فیصلہ نہ کیا ہوتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 159,
+            "arabic": "لَجَعَلْتَ النَّارَ كُلَّهَا بَرْداً وَسَلَاماً",
+            "transliteration": "La-jaʿalta n-nāra kullahā bardan wa salāman",
+            "english-translation": "You would have made the Fire all coolness and peace,",
+            "urdu-translation": "تو تُو نے آگ کو سراپا ٹھنڈک اور سلامتی بنا دیا ہوتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 160,
+            "arabic": "وَمَا كَانَ لِأَحَدٍ فِيهَا مَقَرّاً وَلَا مُقَاماً",
+            "transliteration": "Wa mā kāna li-aḥadin fīhā maqarran wa lā muqāman",
+            "english-translation": "And no one would have had a place or abode in it,",
+            "urdu-translation": "اور کسی کے لیے اس میں نہ کوئی ٹھکانہ ہوتا اور نہ کوئی قیام،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 161,
+            "arabic": "لَكِنَّكَ تَقَدَّسَتْ أَسْمَاؤُكَ أَقْسَمْتَ أَنْ تَمْلَأَهَا مِنَ الْكَافِرِينَ",
+            "transliteration": "Lākinnaka taqaddasat asmāʾuk, aqsamta an tamlaʾahā mina l-kāfirīn",
+            "english-translation": "But You—sacred are Your names—have sworn to fill it with the disbelievers,",
+            "urdu-translation": "لیکن تُو، تیرے نام پاک ہیں، تُو نے قسم کھائی ہے کہ تُو اسے کافروں سے بھر دے گا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 162,
+            "arabic": "مِنَ الْجِنَّةِ وَالنَّاسِ أَجْمَعِينَ",
+            "transliteration": "Mina l-jinnati wa n-nāsi ajmaʿīn",
+            "english-translation": "From among all the jinn and humankind.",
+            "urdu-translation": "تمام جنات اور انسانوں میں سے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 163,
+            "arabic": "وَأَن تُخَلِّدَ فِيهَا الْمُعَانِدِينَ",
+            "transliteration": "Wa an tukhallida fīhā l-muʿānidīn",
+            "english-translation": "And that You let the stubborn remain in it forever,",
+            "urdu-translation": "اور تُو اس میں عناد رکھنے والوں کو ہمیشہ کے لیے رہنے دے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 164,
+            "arabic": "وَأَنتَ جَلَّ ثَنَاؤُكَ قُلْتَ مُبْتَدَئًا، وَتَطَوَّلْتَ بِالإِنْعَامِ مُتَكَرِّمًا:",
+            "transliteration": "Wa anta jalla thanāʾuk qulta mubtadiʾan, wa tatawaʿta bi-l-inʿāmi mutakarriman:",
+            "english-translation": "And You—exalted is Your praise—have said in the beginning, and graciously bestowed Your bounty:",
+            "urdu-translation": "اور تو—تیرا ذکر بلند ہے—نے ابتدا میں فرمایا اور مہربانی کے ساتھ انعام کیا:",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 165,
+            "arabic": "أَفَمَن كَانَ مُؤْمِنًا كَمَن كَانَ فَاسِقًا ۚ لَّا يَسْتَوُونَ",
+            "transliteration": "Afaman kāna muʾminan kaman kāna fāsiqan, lā yastawūn",
+            "english-translation": "Is one who is a believer like one who is defiantly disobedient? They are not equal.",
+            "urdu-translation": "کیا وہ جو مؤمن ہے اس کے برابر ہے جو فاسق ہے؟ وہ برابر نہیں ہو سکتے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 166,
+            "arabic": "إِلَهِي وَسَيِّدِي فَأَسْأَلُكَ بِالْقُدْرَةِ الَّتِي قَدَّرْتَهَا",
+            "transliteration": "Ilāhī wa Sayyidī fa-asʾaluka bi-l-qudrati allatī qaddartahā",
+            "english-translation": "O my God and Master, I ask You by the power which You determined,",
+            "urdu-translation": "اے میرے معبود اور سردار! میں تجھ سے اس قدرت کے وسیلے سے سوال کرتا ہوں جسے تُو نے مقدر کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 167,
+            "arabic": "وَبِالْقَضِيَّةِ الَّتِي حَتَمْتَهَا وَحَكَمْتَهَا وَغَلَبْتَ مَنْ عَلَيْهِ أَجْرَيْتَهَا",
+            "transliteration": "Wa bi-l-qaḍiyyati allatī ḥatamtahā wa ḥakamtahā wa ghalabta man ʿalayhi ajraytahā",
+            "english-translation": "And by the decree You have made decisive, and the judgment You have enforced over whom You have ruled,",
+            "urdu-translation": "اور اس فیصلے کے واسطے سے جو تُو نے نافذ کیا اور جس پر تُو نے جاری فرمایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 168,
+            "arabic": "أَن تَهَبَ لِي، فِي هذِهِ اللَّيْلَةِ، وَفِي هَذِهِ السَّاعَةِ",
+            "transliteration": "An tahaba lī, fī hādhihi l-laylati, wa fī hādhihi s-sāʿah",
+            "english-translation": "That You grant me, in this night and in this very hour,",
+            "urdu-translation": "کہ تُو مجھے اس رات اور اسی گھڑی میں عطا فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 169,
+            "arabic": "كُلَّ جُرْمٍ أَجْرَمْتُهُ",
+            "transliteration": "Kulla jurmin ajramtuh",
+            "english-translation": "Every offense I have committed,",
+            "urdu-translation": "ہر جرم جو میں نے کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 170,
+            "arabic": "وَكُلَّ ذَنْبٍ أَذْنَبْتُهُ",
+            "transliteration": "Wa kulla dhanbin adhnabtuh",
+            "english-translation": "Every sin I have committed,",
+            "urdu-translation": "ہر گناہ جو میں نے کیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 171,
+            "arabic": "وَكُلَّ قَبِيحٍ أَسْرَرْتُهُ",
+            "transliteration": "Wa kulla qabīḥin asrartuh",
+            "english-translation": "Every shameful deed I have hidden,",
+            "urdu-translation": "ہر برائی جو میں نے چھپائی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 172,
+            "arabic": "وَكُلَّ جَهْلٍ عَمِلْتُهُ",
+            "transliteration": "Wa kulla jahlin ʿamiltuh",
+            "english-translation": "And every act of ignorance I have done,",
+            "urdu-translation": "اور ہر جہالت جو میں نے کی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 173,
+            "arabic": "كَتَمْتُهُ أَوْ أَعْلَنتُهُ",
+            "transliteration": "Katamtuhū aw aʿlntuh",
+            "english-translation": "Whether I kept it hidden or made it public,",
+            "urdu-translation": "چاہے اسے میں نے چھپایا ہو یا ظاہر کیا ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 174,
+            "arabic": "أَخْفَيْتُهُ أَوْ أَظْهَرْتُهُ",
+            "transliteration": "Akhfaytuhū aw aẓhartuh",
+            "english-translation": "Whether I concealed it or revealed it,",
+            "urdu-translation": "چاہے اسے میں نے چھپایا ہو یا آشکار کیا ہو،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 175,
+            "arabic": "وَكُلَّ سَيِّئَةٍ أَمَرْتَ بِإِثْبَاتِهَا الْكِرَامَ الْكَاتِبِينَ",
+            "transliteration": "Wa kulla sayyiʾatin amarta bi-ithbātihā l-kirāma l-kātibīn",
+            "english-translation": "And every evil deed which You ordered the noble recorders to write down,",
+            "urdu-translation": "اور ہر بدعمل جسے تُو نے معزز لکھنے والوں کو لکھنے کا حکم دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 176,
+            "arabic": "الَّذِينَ وَكَّلْتَهُم بِحِفْظِ مَا يَكُونُ مِنِّي",
+            "transliteration": "Alladhīna wakkaltahum bi-ḥifẓi mā yakūnu minnī",
+            "english-translation": "Those whom You appointed to observe what comes from me,",
+            "urdu-translation": "جنہیں تُو نے میرے اعمال کے نگہبان مقرر فرمایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 177,
+            "arabic": "وَجَعَلْتَهُمْ شُهُودًا عَلَيَّ مَعَ جَوَارِحِي",
+            "transliteration": "Wa jaʿaltahum shuhūdān ʿalayya maʿa jawāriḥī",
+            "english-translation": "And You made them witnesses against me, along with my limbs,",
+            "urdu-translation": "اور تُو نے ان کو میرے اعضا کے ساتھ میرے خلاف گواہ بنا دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 178,
+            "arabic": "وَكُنتَ أَنتَ الرَّقِيبَ عَلَيَّ مِن وَّرَائِهِمْ",
+            "transliteration": "Wa kunta anta r-raqība ʿalayya min warāʾihim",
+            "english-translation": "And You were watching over me from behind them,",
+            "urdu-translation": "اور تُو ان سب کے پیچھے میرے اعمال پر نگران تھا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 179,
+            "arabic": "وَالشَّاهِدَ لِمَا خَفِي عَنْهُمْ",
+            "transliteration": "Wa sh-shāhida limā khafiya ʿanhum",
+            "english-translation": "And You were witness to what was hidden from them,",
+            "urdu-translation": "اور تُو ان سے پوشیدہ چیزوں پر بھی گواہ تھا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 180,
+            "arabic": "وَبِرَحْمَتِكَ أَخْفَيْتَهُ",
+            "transliteration": "Wa bi-raḥmatika akhfaitah",
+            "english-translation": "And through Your mercy, You concealed it,",
+            "urdu-translation": "اور تُو نے اپنی رحمت سے اُسے چھپایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 181,
+            "arabic": "وَبِفَضْلِكَ سَتَرْتَهُ",
+            "transliteration": "Wa bi-faḍlika satartah",
+            "english-translation": "And by Your bounty, You covered it.",
+            "urdu-translation": "اور اپنے فضل سے اُس پر پردہ ڈالا۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 182,
+            "arabic": "وَأَن تُوَفِّرَ حَظِّي مِن كُلِّ خَيْرٍ تُنْزِلُهُ",
+            "transliteration": "Wa an tuwaffira ḥaẓẓī min kulli khayrin tunziluh",
+            "english-translation": "And that You increase my share in every good You send down,",
+            "urdu-translation": "اور جو بھی خیر تُو نازل کرے، اُس میں میرا حصہ وافر فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 183,
+            "arabic": "أَوْ إِحْسَانٍ تُفْضِلُهُ",
+            "transliteration": "Aw iḥsānin tufḍiluh",
+            "english-translation": "Or any kindness You bestow,",
+            "urdu-translation": "یا کوئی احسان جو تُو فرمائے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 184,
+            "arabic": "أَوْ بِرٍّ تَنْشُرُهُ",
+            "transliteration": "Aw birrin tanshuruh",
+            "english-translation": "Or any righteousness You spread,",
+            "urdu-translation": "یا کوئی نیکی جو تُو پھیلائے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 185,
+            "arabic": "أَوْ رِزْقٍ تَبْسُطُهُ",
+            "transliteration": "Aw rizqin tabsuṭuh",
+            "english-translation": "Or any sustenance You expand,",
+            "urdu-translation": "یا کوئی رزق جو تُو وسیع کرے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 186,
+            "arabic": "أَوْ ذَنْبٍ تَغْفِرُهُ",
+            "transliteration": "Aw dhanbin taghfiruh",
+            "english-translation": "Or any sin You forgive,",
+            "urdu-translation": "یا کوئی گناہ جو تُو معاف کرے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 187,
+            "arabic": "أَوْ خَطَأٍ تَسْتُرُهُ",
+            "transliteration": "Aw khaṭaʾin tasturuh",
+            "english-translation": "Or any mistake You conceal.",
+            "urdu-translation": "یا کوئی خطا جس پر تُو پردہ ڈال دے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 188,
+            "arabic": "يَا رَبِّ يَا رَبِّ يَا رَبِّ",
+            "transliteration": "Yā Rabbī, Yā Rabbī, Yā Rabbī",
+            "english-translation": "O my Lord, O my Lord, O my Lord!",
+            "urdu-translation": "اے میرے رب! اے میرے رب! اے میرے رب!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 189,
+            "arabic": "يَا إِلَهِي وَسَيِّدِي وَمَوْلايَ وَمَالِكَ رِقِّي",
+            "transliteration": "Yā Ilāhī wa Sayyidī wa Mawlāy wa Mālika riqqī",
+            "english-translation": "O my God, my Master, my Protector, and Owner of my freedom,",
+            "urdu-translation": "اے میرے معبود، سردار، آقا اور میرے اختیار کے مالک،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 190,
+            "arabic": "يَا مَنْ بِيَدِهِ نَاصِيَتِي",
+            "transliteration": "Yā man biyadihi nāṣiyatī",
+            "english-translation": "O He in whose hand is my forelock,",
+            "urdu-translation": "اے وہ جس کے ہاتھ میں میری پیشانی ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 191,
+            "arabic": "يَا عَلِيمًا بِضُرِّي وَمَسْكَنَتِي",
+            "transliteration": "Yā ʿalīman bi-ḍurrī wa maskanatī",
+            "english-translation": "O Knower of my distress and poverty,",
+            "urdu-translation": "اے میری تکلیف اور محتاجی کو جاننے والے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 192,
+            "arabic": "يَا خَبِيرًا بِفَقْرِي وَفَاقَتِي",
+            "transliteration": "Yā khabīran bi-faqrī wa fāqatī",
+            "english-translation": "O Aware of my need and poverty,",
+            "urdu-translation": "اے میرے فقر اور حاجت سے باخبر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 193,
+            "arabic": "يَا رَبِّ يَا رَبِّ يَا رَبِّ",
+            "transliteration": "Yā Rabbī, Yā Rabbī, Yā Rabbī",
+            "english-translation": "O my Lord, O my Lord, O my Lord!",
+            "urdu-translation": "اے میرے رب! اے میرے رب! اے میرے رب!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 194,
+            "arabic": "أَسْأَلُكَ بِحَقِّكَ وَقُدْسِكَ",
+            "transliteration": "Asʾaluka bi-ḥaqqika wa qudsik",
+            "english-translation": "I ask You by Your right and Your holiness,",
+            "urdu-translation": "میں تجھ سے تیرے حق اور تیری پاکیزگی کے واسطے سے سوال کرتا ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 195,
+            "arabic": "وَأَعْظَمِ صِفَاتِكَ وَأَسْمَائِكَ",
+            "transliteration": "Wa aʿẓami ṣifātika wa asmāʾik",
+            "english-translation": "And by the greatest of Your attributes and names,",
+            "urdu-translation": "اور تیرے عظیم صفات و اسمائے مبارکہ کے وسیلے سے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 196,
+            "arabic": "أن تَجْعَلَ أَوْقَاتِي فِي اللَّيْلِ وَالنَّهَارِ بِذِكْرِكَ مَعْمُورَةً",
+            "transliteration": "An tajʿala awqātī fī l-layli wa n-nahār bi-dhikrika maʿmūrah",
+            "english-translation": "That You make my times in the night and day filled with Your remembrance,",
+            "urdu-translation": "کہ تُو میرے دن اور رات کے تمام اوقات کو اپنے ذکر سے معمور فرما دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 197,
+            "arabic": "وَبِخِدْمَتِكَ مَوْصُولَةً",
+            "transliteration": "Wa bi-khidmatika mawṣūlah",
+            "english-translation": "And joined with Your service,",
+            "urdu-translation": "اور تیری خدمت سے وابستہ،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 198,
+            "arabic": "وَأَعْمَالِي عِندَكَ مَقْبُولَةً",
+            "transliteration": "Wa aʿmālī ʿindaka maqbūlah",
+            "english-translation": "And my deeds accepted by You,",
+            "urdu-translation": "اور میرے اعمال کو اپنی بارگاہ میں مقبول فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 199,
+            "arabic": "حَتَّى تَكُونَ أَعْمَالِي وَأَوْرَادِي كُلُّهَا وِرْدًا وَاحِدًا",
+            "transliteration": "Ḥattā takūna aʿmālī wa awrādī kulluhā wirdan wāḥidan",
+            "english-translation": "So that my deeds and litanies become one continuous stream,",
+            "urdu-translation": "تاکہ میرے تمام اعمال اور وظائف ایک ہی ورد کی طرح بن جائیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 200,
+            "arabic": "وَحَالِي فِي خِدْمَتِكَ سَرْمَدًا",
+            "transliteration": "Wa ḥālī fī khidmatika sarmadan",
+            "english-translation": "And my state in Your service everlasting.",
+            "urdu-translation": "اور میرا حال ہمیشہ تیری خدمت میں باقی رہے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 201,
+            "arabic": "يَا سَيِّدِي، يَا مَنْ عَلَيْهِ مُعَوَّلِي",
+            "transliteration": "Yā Sayyidī, yā man ʿalayhi muʿawwalī",
+            "english-translation": "O my Master, O He upon whom my reliance is,",
+            "urdu-translation": "اے میرے سردار! اے وہ جس پر میرا بھروسا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 202,
+            "arabic": "يَا مَن إِلَيْهِ شَكَوْتُ أَحْوَالِي",
+            "transliteration": "Yā man ilayhi shakawtu aḥwālī",
+            "english-translation": "O He to whom I complain of my conditions,",
+            "urdu-translation": "اے وہ جس کے سامنے میں اپنی حالتوں کی شکایت کرتا ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 203,
+            "arabic": "يَا رَبِّ يَا رَبِّ يَا رَبِّ",
+            "transliteration": "Yā Rabbī, Yā Rabbī, Yā Rabbī",
+            "english-translation": "O my Lord, O my Lord, O my Lord!",
+            "urdu-translation": "اے میرے رب! اے میرے رب! اے میرے رب!",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 204,
+            "arabic": "قَوِّ عَلَى خِدْمَتِكَ جَوَارِحِي",
+            "transliteration": "Qawwi ʿalā khidmatika jawāriḥī",
+            "english-translation": "Strengthen my limbs for Your service,",
+            "urdu-translation": "اپنی خدمت کے لیے میرے اعضا کو مضبوط بنا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 205,
+            "arabic": "وَاشْدُدْ عَلَى الْعَزِيمَةِ جَوَانِحِي",
+            "transliteration": "Wa-shdud ʿalā l-ʿazīmati jawāniḥī",
+            "english-translation": "And firm up the determination in my inner faculties.",
+            "urdu-translation": "اور میرے باطن میں عزم و ارادہ کو مضبوط فرما۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 206,
+            "arabic": "وَهَبْ لِي الْجِدَّ فِي خَشْيَتِكَ",
+            "transliteration": "Wahab lī al-jidda fī khashyatik",
+            "english-translation": "And grant me earnestness in fearing You,",
+            "urdu-translation": "اور مجھے اپنی خشیت میں سنجیدگی عطا فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 207,
+            "arabic": "وَالدَّوَامَ فِي الإتِّصَالِ بِخِدْمَتِكَ",
+            "transliteration": "Wa d-dawāma fī l-ittiṣāli bi-khidmatik",
+            "english-translation": "And continuity in being connected to Your service,",
+            "urdu-translation": "اور تیری خدمت سے جڑے رہنے کا دوام عطا فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 208,
+            "arabic": "حَتَّى أَسْرَحَ إِلَيْكَ فِي مَيَادِينِ السَّابِقِينَ",
+            "transliteration": "Ḥattā asraḥa ilayka fī mayādīni s-sābiqīn",
+            "english-translation": "So that I may race toward You in the fields of the forerunners,",
+            "urdu-translation": "تاکہ میں تیرے راستے میں سبقت لے جانے والوں کے میدان میں دوڑ سکوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 209,
+            "arabic": "وَأُسْرِعَ إِلَيْكَ فِي الْمُبَادِرِينَ",
+            "transliteration": "Wa usriʿa ilayka fī l-mubādirīn",
+            "english-translation": "And hasten to You with those who are eager,",
+            "urdu-translation": "اور ان لوگوں میں شامل ہو کر تیری طرف دوڑوں جو تجھ سے سبقت چاہتے ہیں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 210,
+            "arabic": "وَأَشْتَاقَ إِلَى قُرْبِكَ فِي الْمُشْتَاقِينَ",
+            "transliteration": "Wa ashtāqa ilā qurbika fī l-mushtāqīn",
+            "english-translation": "And long for Your nearness with the longing of the yearning ones,",
+            "urdu-translation": "اور تیری قربت کے مشتاقوں کے ساتھ تیرے قریب ہونے کی تمنا رکھوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 211,
+            "arabic": "وَأَدْنُوَ مِنْكَ دُنُوَّ الْمُخْلِصِينَ",
+            "transliteration": "Wa adnuwa minka dunūwa l-mukhlisīn",
+            "english-translation": "And draw near to You as the sincerely devoted draw near,",
+            "urdu-translation": "اور مخلصین کے مانند تجھ سے قریب ہو جاؤں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 212,
+            "arabic": "وَأَخَافَكَ مَخَافَةَ الْمُوقِنِينَ",
+            "transliteration": "Wa akhāfaka makhāfata l-mūqinīn",
+            "english-translation": "And fear You with the fear of those who are certain,",
+            "urdu-translation": "اور تیرا خوف ان یقین والوں کی طرح رکھوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 213,
+            "arabic": "وَأَجْتَمِعَ فِي جِوَارِكَ مَعَ الْمُؤْمِنِينَ",
+            "transliteration": "Wa ajtamiʿa fī jiwārika maʿa l-muʾminīn",
+            "english-translation": "And be gathered in Your neighborhood with the believers.",
+            "urdu-translation": "اور مؤمنین کے ساتھ تیرے جوار میں جمع ہو جاؤں۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 214,
+            "arabic": "اللَّهُمَّ وَمَنْ أَرَادَنِي بِسُوءٍ فَأَرِدْهُ",
+            "transliteration": "Allāhumma wa man arādanī bi-sūʾin fa-arid'h",
+            "english-translation": "O Allah, whoever intends evil against me, repel it from him,",
+            "urdu-translation": "اے اللہ! جو شخص میرے لیے برائی چاہے، تو اُسے برائی میں مبتلا کر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 215,
+            "arabic": "وَمَنْ كَادَنِي فَكِدْهُ",
+            "transliteration": "Wa man kādanī fakid'h",
+            "english-translation": "And whoever plots against me, thwart his plot.",
+            "urdu-translation": "اور جو میرے خلاف سازش کرے، تُو اس کے خلاف تدبیر فرما۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 216,
+            "arabic": "وَاجْعَلْنِي مِنْ أَحْسَنِ عِبَادِكَ نَصِيباً عِندَكَ",
+            "transliteration": "Wa ajʿalnī min aḥsani ʿibādika naṣīban ʿindak",
+            "english-translation": "And make me among the best of Your servants in portion near You,",
+            "urdu-translation": "اور مجھے اپنے بندوں میں بہترین نصیب والا قرار دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 217,
+            "arabic": "وَأَقْرَبِهِمْ مَنْزِلَةً مِنْكَ",
+            "transliteration": "Wa aqrabahum manzilatan minka",
+            "english-translation": "And among the nearest of them in position to You,",
+            "urdu-translation": "اور انہیں میں سے جو تیرے سب سے زیادہ قریب ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 218,
+            "arabic": "وَأَخَصِّهِمْ زُلْفَةً لَدَيْكَ",
+            "transliteration": "Wa akhaṣṣihim zulfatan ladayk",
+            "english-translation": "And among the most special in proximity to You,",
+            "urdu-translation": "اور ان میں سے جو تیرے قریب ترین ہوں،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 219,
+            "arabic": "فَإِنَّهُ لَا يُنَالُ ذَلِكَ إِلَّا بِفَضْلِكَ",
+            "transliteration": "Fa-innahū lā yunālu dhālika illā bi-faḍlik",
+            "english-translation": "For none can attain that except through Your bounty,",
+            "urdu-translation": "کیونکہ یہ مقام تیرے فضل کے بغیر حاصل نہیں ہو سکتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 220,
+            "arabic": "وَجُدْ لِي بِجُودِكَ",
+            "transliteration": "Wa jud lī bi-jūdik",
+            "english-translation": "So bestow upon me by Your generosity,",
+            "urdu-translation": "پس اپنی سخاوت سے مجھ پر کرم فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 221,
+            "arabic": "وَاعْطِفْ عَلَيَّ بِمَجْدِكَ",
+            "transliteration": "Wa aʿṭif ʿalayya bi-majdik",
+            "english-translation": "And turn toward me with Your glory,",
+            "urdu-translation": "اور اپنی بزرگی کے ساتھ مجھ پر مہربانی فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 222,
+            "arabic": "وَاحْفَظْنِي بِرَحْمَتِكَ",
+            "transliteration": "Wa iḥfaẓnī bi-raḥmatik",
+            "english-translation": "And protect me with Your mercy,",
+            "urdu-translation": "اور اپنی رحمت سے میری حفاظت فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 223,
+            "arabic": "وَاجْعَلْ لِسَانِي بِذِكْرِكَ لَهِجًا",
+            "transliteration": "Wa ajʿal lisānī bi-dhikrika lahijan",
+            "english-translation": "And make my tongue fluent in Your remembrance,",
+            "urdu-translation": "اور میری زبان کو تیرے ذکر سے تر رکھ،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 224,
+            "arabic": "وَقَلْبِي بِحُبِّكَ مُتَيَّمًا",
+            "transliteration": "Wa qalbī bi-ḥubbika mutayyaman",
+            "english-translation": "And my heart devoted to Your love,",
+            "urdu-translation": "اور میرے دل کو تیرے عشق میں مگن کر دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 225,
+            "arabic": "وَمُنَّ عَلَيَّ بِحُسْنِ إِجَابَتِكَ",
+            "transliteration": "Wa munna ʿalayya bi-ḥusni ijābatik",
+            "english-translation": "And favor me with the best of Your response,",
+            "urdu-translation": "اور مجھے اپنی بہترین قبولیت سے نواز،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 226,
+            "arabic": "وَأَقِلْنِي عَثْرَتِي",
+            "transliteration": "Wa aqilnī ʿathratī",
+            "english-translation": "And pardon my stumble,",
+            "urdu-translation": "اور میری لغزش کو معاف فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 227,
+            "arabic": "وَاغْفِرْ زَلَّتِي",
+            "transliteration": "Wa-ghfir zallatī",
+            "english-translation": "And forgive my slip,",
+            "urdu-translation": "اور میری خطا بخش دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 228,
+            "arabic": "فَإِنَّكَ قَضَيْتَ عَلَى عِبَادِكَ بِعِبَادَتِكَ",
+            "transliteration": "Fa-innaka qaḍayta ʿalā ʿibādika bi-ʿibādatik",
+            "english-translation": "For indeed You have decreed worship upon Your servants,",
+            "urdu-translation": "بے شک تُو نے اپنے بندوں پر اپنی عبادت لازم کر دی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 229,
+            "arabic": "وَأَمَرْتَهُم بِدُعَائِكَ",
+            "transliteration": "Wa amartahum bi-duʿāʾik",
+            "english-translation": "And commanded them to supplicate to You,",
+            "urdu-translation": "اور انہیں دعا کرنے کا حکم دیا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 230,
+            "arabic": "وَضَمِنتَ لَهُمُ الإِجَابَةَ",
+            "transliteration": "Wa ḍaminta lahumu l-ijābah",
+            "english-translation": "And guaranteed them Your response.",
+            "urdu-translation": "اور ان کے لیے قبولیت کی ضمانت دی،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 231,
+            "arabic": "فَإِلَيْكَ يَا رَبِّ نَصَبْتُ وَجْهِي",
+            "transliteration": "Fa-ilayka yā Rabbī naṣabtu wajhī",
+            "english-translation": "So to You, O Lord, I have directed my face,",
+            "urdu-translation": "پس اے میرے رب! میں نے اپنا چہرہ تیری طرف متوجہ کیا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 232,
+            "arabic": "وَإِلَيْكَ يَا رَبِّ مَدَدتُّ يَدِي",
+            "transliteration": "Wa ilayka yā Rabbī madadtu yadī",
+            "english-translation": "And toward You, O Lord, I have extended my hand,",
+            "urdu-translation": "اور اے رب! میں نے تیری طرف اپنا ہاتھ پھیلایا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 233,
+            "arabic": "فَبِعِزَّتِكَ اسْتَجِبْ لِي دُعَائِي",
+            "transliteration": "Fa-bi-ʿizzatika astajib lī duʿāʾī",
+            "english-translation": "So by Your honor, answer my prayer,",
+            "urdu-translation": "پس تیری عزت کے واسطے، میری دعا قبول فرما،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 234,
+            "arabic": "وَبَلِّغْنِي مُنَايَ",
+            "transliteration": "Wa ballighnī munāyā",
+            "english-translation": "And let me attain my hope,",
+            "urdu-translation": "اور مجھے میری آرزو تک پہنچا دے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 235,
+            "arabic": "وَلا تَقْطَعْ مِن فَضْلِكَ رَجَائِي",
+            "transliteration": "Wa lā taqṭaʿ min faḍlika rajāʾī",
+            "english-translation": "And do not sever my hope from Your grace,",
+            "urdu-translation": "اور اپنے فضل سے میری امید کو منقطع نہ کر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 236,
+            "arabic": "وَاكْفِنِي شَرَّ الْجِنِّ وَالإِنْسِ مِنْ أَعْدَائِي",
+            "transliteration": "Wakfinī sharra l-jinni wa l-insi min aʿdāʾī",
+            "english-translation": "And protect me from the evil of jinn and humans among my enemies,",
+            "urdu-translation": "اور مجھے جن و انس کے دشمنوں کے شر سے بچا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 237,
+            "arabic": "يَا سَرِيعَ الرِّضَا",
+            "transliteration": "Yā Sarīʿa r-riḍā",
+            "english-translation": "O You who are swift to be pleased,",
+            "urdu-translation": "اے وہ جو بہت جلد راضی ہو جاتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 238,
+            "arabic": "اغْفِرْ لِمَن لا يَمْلِكُ إِلاَّ الدُّعَاءَ",
+            "transliteration": "Ighfir liman lā yamliku illā d-duʿāʾ",
+            "english-translation": "Forgive the one who possesses nothing but prayer,",
+            "urdu-translation": "اسے معاف فرما جو تیرے حضور صرف دعا ہی رکھتا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 239,
+            "arabic": "فَإِنَّكَ فَعَّالٌ لِّمَا تَشَاءُ",
+            "transliteration": "Fa-innaka faʿʿālun limā tashāʾ",
+            "english-translation": "For indeed, You do whatever You will.",
+            "urdu-translation": "بے شک تُو جو چاہے کر سکتا ہے۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 240,
+            "arabic": "يَا مَنْ اسْمُهُ دَوَاءٌ",
+            "transliteration": "Yā man ismuhu dawāʾ",
+            "english-translation": "O He whose name is a cure,",
+            "urdu-translation": "اے وہ جس کا نام شفا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 241,
+            "arabic": "وَذِكْرُهُ شِفَاءٌ",
+            "transliteration": "Wa dhikruhu shifāʾ",
+            "english-translation": "And whose remembrance is healing,",
+            "urdu-translation": "اور جس کا ذکر شفا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 242,
+            "arabic": "وَطَاعَتُهُ غِنًى",
+            "transliteration": "Wa ṭāʿatuhu ghinā",
+            "english-translation": "And whose obedience is wealth,",
+            "urdu-translation": "اور جس کی اطاعت باعثِ غنا ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 243,
+            "arabic": "ارْحَمْ مَنْ رَأْسُ مَالِهِ الرَّجَاءُ",
+            "transliteration": "Irḥam man raʾsu mālihi r-rajāʾ",
+            "english-translation": "Have mercy on the one whose capital is hope,",
+            "urdu-translation": "اس پر رحم فرما جس کا کل سرمایہ تیری امید ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 244,
+            "arabic": "وَسِلَاحُهُ الْبُكَاءُ",
+            "transliteration": "Wa silāḥuhu l-bukāʾ",
+            "english-translation": "And whose weapon is weeping.",
+            "urdu-translation": "اور جس کا ہتھیار آنسو ہیں۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 245,
+            "arabic": "يَا سَابِغَ النِّعَمِ",
+            "transliteration": "Yā sābigha n-niʿam",
+            "english-translation": "O Giver of overflowing blessings,",
+            "urdu-translation": "اے نعمتیں بھرپور عطا کرنے والے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 246,
+            "arabic": "يَا دَافِعَ النِّقَمِ",
+            "transliteration": "Yā dāfiʿa n-niqam",
+            "english-translation": "O Repeller of misfortunes,",
+            "urdu-translation": "اے مصیبتوں کو دور کرنے والے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 247,
+            "arabic": "يَا نُورَ الْمُسْتَوْحِشِينَ فِي الظُّلَمِ",
+            "transliteration": "Yā nūra l-mustawḥishīna fī ẓ-ẓulam",
+            "english-translation": "O Light of those who are lonely in the darkness,",
+            "urdu-translation": "اے اندھیروں میں گھبرا جانے والوں کا نور،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 248,
+            "arabic": "يَا عَالِمًا لَا يُعَلَّمُ",
+            "transliteration": "Yā ʿāliman lā yuʿallam",
+            "english-translation": "O Knower who is not taught,",
+            "urdu-translation": "اے وہ جو جانتا ہے اور جسے سکھایا نہیں جاتا،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 249,
+            "arabic": "صَلِّ عَلَىٰ مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
+            "transliteration": "Ṣalli ʿalā Muḥammadin wa āli Muḥammad",
+            "english-translation": "Send Your blessings upon Muhammad and the family of Muhammad,",
+            "urdu-translation": "محمد اور آل محمد پر درود بھیج،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 250,
+            "arabic": "وافْعَلْ بِي مَا أَنتَ أَهْلُهُ",
+            "transliteration": "Wafʿal bī mā anta ahluh",
+            "english-translation": "And do with me what You are worthy of,",
+            "urdu-translation": "اور میرے ساتھ وہ کر جو تیرے شایان شان ہے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 251,
+            "arabic": "وَصَلَّى اللَّهُ عَلَىٰ رَسُولِهِ",
+            "transliteration": "Wa ṣallā llāhu ʿalā rasūlih",
+            "english-translation": "And may Allah bless His Messenger,",
+            "urdu-translation": "اور اللہ اپنے رسول پر درود بھیجے،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 252,
+            "arabic": "وَالْأَئِمَّةِ الْمَيَامِينَ مِنْ آلِهِ",
+            "transliteration": "Wa l-aʾimmati l-mayāmīn min ālih",
+            "english-translation": "And the blessed Imams from among his family,",
+            "urdu-translation": "اور اس کی آل کے نیک اماموں پر،",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        },
+        {
+            "verseNumber": 253,
+            "arabic": "وَسَلَّمَ تَسْلِيمًا كَثِيرًا",
+            "transliteration": "Wa sallama taslīman kathīrā",
+            "english-translation": "And send abundant peace upon them.",
+            "urdu-translation": "اور ان پر بہت زیادہ سلام ہو۔",
+            "timestamp": {
+                "start": "",
+                "end": ""
+            }
+        }
+    ]
+}

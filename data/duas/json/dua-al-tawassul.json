@@ -1,0 +1,1971 @@
+{
+    "id": "dua-al-tawassul",
+    "title": "Dua al-Tawassul",
+    "description": "Add description",
+    "sections": [
+        {
+            "sectionNumber": 1,
+            "sectionName": "Prophet Muhammad (s.a.w)",
+            "verses": [
+                {
+                    "verseNumber": 1,
+                    "arabic": "اَللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ",
+                    "transliteration": "Allāhumma innī as’aluka wa atawajjahu ilayk",
+                    "english-translation": "O Allah, I ask You and turn to You",
+                    "urdu-translation": "اے اللہ! میں تجھ سے سوال کرتا ہوں اور تیری طرف متوجہ ہوتا ہوں",
+                    "timestamp": {
+                        "start": "00:00",
+                        "end": "00:08"
+                    },
+                    "id": "verse-001"
+                },
+                {
+                    "verseNumber": 2,
+                    "arabic": "بِنَبِيِّكَ نَبِيِّ ٱلرَّحْمَةِ",
+                    "transliteration": "Bina-biyyika nabiyyi r-raḥmah",
+                    "english-translation": "By Your Prophet, the Prophet of Mercy",
+                    "urdu-translation": "تیرے نبی، نبی رحمت کے واسطے سے",
+                    "timestamp": {
+                        "start": "00:08",
+                        "end": "00:12"
+                    },
+                    "id": "verse-002"
+                },
+                {
+                    "verseNumber": 3,
+                    "arabic": "مُحَمَّدٍ صَلَّىٰ ٱللَّهُ عَلَيْهِ وَآلِهِ",
+                    "transliteration": "Muḥammad ṣallā llāhu ʿalayhi wa ālih",
+                    "english-translation": "Muhammad, may Allah send blessings upon him and his family",
+                    "urdu-translation": "محمدؐ، جن پر اللہ اور ان کی آل پر درود ہو۔",
+                    "timestamp": {
+                        "start": "00:12",
+                        "end": "00:18"
+                    },
+                    "id": "verse-003"
+                },
+                {
+                    "verseNumber": 4,
+                    "arabic": "يَا أَبَا ٱلْقَاسِمِ",
+                    "transliteration": "Yā Abā l-Qāsim",
+                    "english-translation": "O Aba al-Qāsim",
+                    "urdu-translation": "اے ابا القاسم",
+                    "timestamp": {
+                        "start": "00:18",
+                        "end": "00:21"
+                    },
+                    "id": "verse-004"
+                },
+                {
+                    "verseNumber": 5,
+                    "arabic": "يَا رَسُولَ ٱللَّهِ",
+                    "transliteration": "Yā Rasūlallāh",
+                    "english-translation": "O Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہ",
+                    "timestamp": {
+                        "start": "00:21",
+                        "end": "00:23"
+                    },
+                    "id": "verse-005"
+                },
+                {
+                    "verseNumber": 6,
+                    "arabic": "يَا إِمَامَ ٱلرَّحْمَةِ",
+                    "transliteration": "Yā Imāma r-raḥmah",
+                    "english-translation": "O Leader of Mercy",
+                    "urdu-translation": "اے رحمت کے پیشوا",
+                    "timestamp": {
+                        "start": "00:23",
+                        "end": "00:26"
+                    },
+                    "id": "verse-006"
+                },
+                {
+                    "verseNumber": 7,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلَانَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "00:26",
+                        "end": "00:30"
+                    },
+                    "id": "verse-007"
+                },
+                {
+                    "verseNumber": 8,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn through you and seek your intercession",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور آپ سے شفاعت طلب کرتے ہیں",
+                    "timestamp": {
+                        "start": "00:30",
+                        "end": "00:36"
+                    },
+                    "id": "verse-008"
+                },
+                {
+                    "verseNumber": 9,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "00:36",
+                        "end": "00:41"
+                    },
+                    "id": "verse-009"
+                },
+                {
+                    "verseNumber": 10,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "00:41",
+                        "end": "00:48"
+                    },
+                    "id": "verse-010"
+                },
+                {
+                    "verseNumber": 11,
+                    "arabic": "يَا وَجِيهاً عِندَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the presence of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک صاحبِ مقام ہستی",
+                    "timestamp": {
+                        "start": "00:48",
+                        "end": "00:55"
+                    },
+                    "id": "verse-011"
+                },
+                {
+                    "verseNumber": 12,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "00:55",
+                        "end": "01:02"
+                    },
+                    "id": "verse-012"
+                }
+            ],
+            "timestamp": {
+                "start": "00:00",
+                "end": "01:02"
+            }
+        },
+        {
+            "sectionNumber": 2,
+            "sectionName": "Imam Ali (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 13,
+                    "arabic": "يَا أَبَا ٱلْحَسَنِ",
+                    "transliteration": "Yā Abā l-Ḥasan",
+                    "english-translation": "O Aba al-Hasan",
+                    "urdu-translation": "اے ابا الحسن",
+                    "timestamp": {
+                        "start": "01:02",
+                        "end": "01:05"
+                    },
+                    "id": "verse-013"
+                },
+                {
+                    "verseNumber": 14,
+                    "arabic": "يَا أَمِيرَ ٱلْمُؤْمِنِينَ",
+                    "transliteration": "Yā Amīra l-Muʾminīn",
+                    "english-translation": "O Commander of the Faithful",
+                    "urdu-translation": "اے امیر المؤمنین",
+                    "timestamp": {
+                        "start": "01:05",
+                        "end": "01:09"
+                    },
+                    "id": "verse-014"
+                },
+                {
+                    "verseNumber": 15,
+                    "arabic": "يَا عَلِيُّ بْنَ أَبِي طَالِبٍ",
+                    "transliteration": "Yā ʿAlī ibna Abī Ṭālib",
+                    "english-translation": "O ʿAlī, son of Abū Ṭālib",
+                    "urdu-translation": "اے علیؑ بن ابی طالبؑ",
+                    "timestamp": {
+                        "start": "01:09",
+                        "end": "01:14"
+                    },
+                    "id": "verse-015"
+                },
+                {
+                    "verseNumber": 16,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O Proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "01:14",
+                        "end": "01:18"
+                    },
+                    "id": "verse-016"
+                },
+                {
+                    "verseNumber": 17,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "01:18",
+                        "end": "01:23"
+                    },
+                    "id": "verse-017"
+                },
+                {
+                    "verseNumber": 18,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "01:23",
+                        "end": "01:29"
+                    },
+                    "id": "verse-018"
+                },
+                {
+                    "verseNumber": 19,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "01:29",
+                        "end": "01:33"
+                    },
+                    "id": "verse-019"
+                },
+                {
+                    "verseNumber": 20,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "01:33",
+                        "end": "01:40"
+                    },
+                    "id": "verse-020"
+                },
+                {
+                    "verseNumber": 21,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک صاحبِ مقام ہستی",
+                    "timestamp": {
+                        "start": "01:40",
+                        "end": "01:47"
+                    },
+                    "id": "verse-021"
+                },
+                {
+                    "verseNumber": 22,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "01:47",
+                        "end": "01:54"
+                    },
+                    "id": "verse-022"
+                }
+            ],
+            "timestamp": {
+                "start": "01:02",
+                "end": "01:54"
+            }
+        },
+        {
+            "sectionNumber": 3,
+            "sectionName": "Bibi Fatimah (s.a)",
+            "verses": [
+                {
+                    "verseNumber": 23,
+                    "arabic": "يَا فَاطِمَةُ ٱلزَّهْرَاءُ",
+                    "transliteration": "Yā Fāṭimatu z-Zahrāʾ",
+                    "english-translation": "O Fāṭimah al-Zahrāʾ",
+                    "urdu-translation": "اے فاطمہ زہرا سلام اللہ علیہا",
+                    "timestamp": {
+                        "start": "01:54",
+                        "end": "01:59"
+                    },
+                    "id": "verse-023"
+                },
+                {
+                    "verseNumber": 24,
+                    "arabic": "يَا بِنْتَ مُحَمَّدٍ",
+                    "transliteration": "Yā binta Muḥammad",
+                    "english-translation": "O daughter of Muhammad",
+                    "urdu-translation": "اے محمدؐ کی بیٹی",
+                    "timestamp": {
+                        "start": "01:59",
+                        "end": "02:03"
+                    },
+                    "id": "verse-024"
+                },
+                {
+                    "verseNumber": 25,
+                    "arabic": "يَا قُرَّةَ عَيْنِ ٱلرَّسُولِ",
+                    "transliteration": "Yā qurrata ʿayni r-rasūl",
+                    "english-translation": "O delight of the eyes of the Messenger",
+                    "urdu-translation": "اے رسولؐ کی آنکھوں کی ٹھنڈک",
+                    "timestamp": {
+                        "start": "02:03",
+                        "end": "02:08"
+                    },
+                    "id": "verse-025"
+                },
+                {
+                    "verseNumber": 26,
+                    "arabic": "يَا سَيِّدَتَنَا وَمَوْلاَتَنَا",
+                    "transliteration": "Yā Sayyidatanā wa Mawlātanā",
+                    "english-translation": "O our Lady and our Mistress",
+                    "urdu-translation": "اے ہماری خاتون اور ہماری آقا",
+                    "timestamp": {
+                        "start": "02:08",
+                        "end": "02:12"
+                    },
+                    "id": "verse-026"
+                },
+                {
+                    "verseNumber": 27,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "02:12",
+                        "end": "02:18"
+                    },
+                    "id": "verse-027"
+                },
+                {
+                    "verseNumber": 28,
+                    "arabic": "وَتَوَسَّلْنَا بِكِ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā biki ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "02:18",
+                        "end": "02:24"
+                    },
+                    "id": "verse-028"
+                },
+                {
+                    "verseNumber": 29,
+                    "arabic": "وَقَدَّمْنَاكِ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāki bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "02:24",
+                        "end": "02:30"
+                    },
+                    "id": "verse-029"
+                },
+                {
+                    "verseNumber": 30,
+                    "arabic": "يَا وَجِيهَةً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhatan ʿinda llāh",
+                    "english-translation": "O one honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک صاحبِ عزت خاتون",
+                    "timestamp": {
+                        "start": "02:30",
+                        "end": "02:38"
+                    },
+                    "id": "verse-030"
+                },
+                {
+                    "verseNumber": 31,
+                    "arabic": "إِشْفَعي لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿī lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت فرمائیں۔",
+                    "timestamp": {
+                        "start": "02:38",
+                        "end": "02:44"
+                    },
+                    "id": "verse-031"
+                }
+            ],
+            "timestamp": {
+                "start": "01:54",
+                "end": "02:44"
+            }
+        },
+        {
+            "sectionNumber": 4,
+            "sectionName": "Imam al-Hasan (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 32,
+                    "arabic": "يَا أَبَا مُحَمَّدٍ",
+                    "transliteration": "Yā Abā Muḥammad",
+                    "english-translation": "O Aba Muḥammad",
+                    "urdu-translation": "اے ابا محمد",
+                    "timestamp": {
+                        "start": "02:44",
+                        "end": "02:47"
+                    },
+                    "id": "verse-032"
+                },
+                {
+                    "verseNumber": 33,
+                    "arabic": "يَا حَسَنُ بْنَ عَلِيٍّ",
+                    "transliteration": "Yā Ḥasan ibna ʿAlī",
+                    "english-translation": "O Ḥasan, son of ʿAlī",
+                    "urdu-translation": "اے حسنؑ بن علیؑ",
+                    "timestamp": {
+                        "start": "02:47",
+                        "end": "02:51"
+                    },
+                    "id": "verse-033"
+                },
+                {
+                    "verseNumber": 34,
+                    "arabic": "أَيُّهَا ٱلْمُجْتَبَىٰ",
+                    "transliteration": "Ayyuhā l-Mujtabā",
+                    "english-translation": "O the chosen one",
+                    "urdu-translation": "اے برگزیدہ ہستی",
+                    "timestamp": {
+                        "start": "02:51",
+                        "end": "02:54"
+                    },
+                    "id": "verse-034"
+                },
+                {
+                    "verseNumber": 35,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "02:55",
+                        "end": "02:58"
+                    },
+                    "id": "verse-035"
+                },
+                {
+                    "verseNumber": 36,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "02:58",
+                        "end": "03:02"
+                    },
+                    "id": "verse-036"
+                },
+                {
+                    "verseNumber": 37,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور ہمارے آقا",
+                    "timestamp": {
+                        "start": "03:02",
+                        "end": "03:08"
+                    },
+                    "id": "verse-037"
+                },
+                {
+                    "verseNumber": 38,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "03:08",
+                        "end": "03:14"
+                    },
+                    "id": "verse-038"
+                },
+                {
+                    "verseNumber": 39,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "03:14",
+                        "end": "03:20"
+                    },
+                    "id": "verse-039"
+                },
+                {
+                    "verseNumber": 40,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "03:20",
+                        "end": "03:28"
+                    },
+                    "id": "verse-040"
+                },
+                {
+                    "verseNumber": 41,
+                    "arabic": "يَا وَجِيهاً عِندَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "03:28",
+                        "end": "03:35"
+                    },
+                    "id": "verse-041"
+                },
+                {
+                    "verseNumber": 42,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "03:35",
+                        "end": "03:42"
+                    },
+                    "id": "verse-042"
+                }
+            ],
+            "timestamp": {
+                "start": "02:44",
+                "end": "03:42"
+            }
+        },
+        {
+            "sectionNumber": 5,
+            "sectionName": "Imam al-Husayn (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 43,
+                    "arabic": "يَا أَبَا عَبْدِ ٱللَّهِ",
+                    "transliteration": "Yā Abā ʿAbdillāh",
+                    "english-translation": "O Aba ʿAbdillāh",
+                    "urdu-translation": "اے ابا عبداللہ",
+                    "timestamp": {
+                        "start": "03:42",
+                        "end": "03:48"
+                    },
+                    "id": "verse-043"
+                },
+                {
+                    "verseNumber": 44,
+                    "arabic": "يَا حُسَيْنُ بْنَ عَلِيٍّ",
+                    "transliteration": "Yā Ḥusayn ibna ʿAlī",
+                    "english-translation": "O Ḥusayn, son of ʿAlī",
+                    "urdu-translation": "اے حسینؑ بن علیؑ",
+                    "timestamp": {
+                        "start": "03:48",
+                        "end": "03:53"
+                    },
+                    "id": "verse-044"
+                },
+                {
+                    "verseNumber": 45,
+                    "arabic": "أَيُّهَا ٱلشَّهِيدُ",
+                    "transliteration": "Ayyuhā sh-shahīd",
+                    "english-translation": "O you, the martyr",
+                    "urdu-translation": "اے شہیدِ راہِ خدا",
+                    "timestamp": {
+                        "start": "03:53",
+                        "end": "03:57"
+                    },
+                    "id": "verse-045"
+                },
+                {
+                    "verseNumber": 46,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "03:57",
+                        "end": "04:01"
+                    },
+                    "id": "verse-046"
+                },
+                {
+                    "verseNumber": 47,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "04:01",
+                        "end": "04:08"
+                    },
+                    "id": "verse-047"
+                },
+                {
+                    "verseNumber": 48,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "04:08",
+                        "end": "04:13"
+                    },
+                    "id": "verse-048"
+                },
+                {
+                    "verseNumber": 49,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "04:13",
+                        "end": "04:19"
+                    },
+                    "id": "verse-049"
+                },
+                {
+                    "verseNumber": 50,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "04:19",
+                        "end": "04:26"
+                    },
+                    "id": "verse-050"
+                },
+                {
+                    "verseNumber": 51,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "04:26",
+                        "end": "04:35"
+                    },
+                    "id": "verse-051"
+                },
+                {
+                    "verseNumber": 52,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "04:35",
+                        "end": "04:42"
+                    },
+                    "id": "verse-052"
+                },
+                {
+                    "verseNumber": 53,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "04:42",
+                        "end": "04:49"
+                    },
+                    "id": "verse-053"
+                }
+            ],
+            "timestamp": {
+                "start": "03:42",
+                "end": "04:49"
+            }
+        },
+        {
+            "sectionNumber": 6,
+            "sectionName": "Imam Ali ibn al-Husayn (a.s.)",
+            "verses": [
+                {
+                    "verseNumber": 54,
+                    "arabic": "يَا أَبَا ٱلْحَسَنِ",
+                    "transliteration": "Yā Abā l-Ḥasan",
+                    "english-translation": "O Aba al-Ḥasan",
+                    "urdu-translation": "اے ابا الحسن",
+                    "timestamp": {
+                        "start": "04:49",
+                        "end": "04:52"
+                    },
+                    "id": "verse-054"
+                },
+                {
+                    "verseNumber": 55,
+                    "arabic": "يَا عَلِيُّ بْنَ ٱلْحُسَيْنِ",
+                    "transliteration": "Yā ʿAlī ibna l-Ḥusayn",
+                    "english-translation": "O ʿAlī, son of al-Ḥusayn",
+                    "urdu-translation": "اے علیؑ بن حسینؑ",
+                    "timestamp": {
+                        "start": "04:52",
+                        "end": "04:57"
+                    },
+                    "id": "verse-055"
+                },
+                {
+                    "verseNumber": 56,
+                    "arabic": "يَا زَيْنَ ٱلْعَابِدِينَ",
+                    "transliteration": "Yā Zayna l-ʿĀbidīn",
+                    "english-translation": "O adornment of the worshippers",
+                    "urdu-translation": "اے عابدوں کی زینت",
+                    "timestamp": {
+                        "start": "04:57",
+                        "end": "05:00"
+                    },
+                    "id": "verse-056"
+                },
+                {
+                    "verseNumber": 57,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "05:00",
+                        "end": "05:04"
+                    },
+                    "id": "verse-057"
+                },
+                {
+                    "verseNumber": 58,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "05:04",
+                        "end": "05:09"
+                    },
+                    "id": "verse-058"
+                },
+                {
+                    "verseNumber": 59,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور ہمارے آقا",
+                    "timestamp": {
+                        "start": "05:09",
+                        "end": "05:14"
+                    },
+                    "id": "verse-059"
+                },
+                {
+                    "verseNumber": 60,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "05:14",
+                        "end": "05:19"
+                    },
+                    "id": "verse-060"
+                },
+                {
+                    "verseNumber": 61,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "05:19",
+                        "end": "05:24"
+                    },
+                    "id": "verse-061"
+                },
+                {
+                    "verseNumber": 62,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "05:24",
+                        "end": "05:32"
+                    },
+                    "id": "verse-062"
+                },
+                {
+                    "verseNumber": 63,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "05:32",
+                        "end": "05:39"
+                    },
+                    "id": "verse-063"
+                },
+                {
+                    "verseNumber": 64,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "05:39",
+                        "end": "05:46"
+                    },
+                    "id": "verse-064"
+                }
+            ],
+            "timestamp": {
+                "start": "04:49",
+                "end": "05:46"
+            }
+        },
+        {
+            "sectionNumber": 7,
+            "sectionName": "Imam Muhammad ibn Ali (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 65,
+                    "arabic": "يَا أَبَا جَعْفَرٍ",
+                    "transliteration": "Yā Abā Jaʿfar",
+                    "english-translation": "O Aba Jaʿfar",
+                    "urdu-translation": "اے ابا جعفر",
+                    "timestamp": {
+                        "start": "05:46",
+                        "end": "05:51"
+                    },
+                    "id": "verse-065"
+                },
+                {
+                    "verseNumber": 66,
+                    "arabic": "يَا مُحَمَّدُ بْنَ عَلِيٍّ",
+                    "transliteration": "Yā Muḥammad ibna ʿAlī",
+                    "english-translation": "O Muḥammad, son of ʿAlī",
+                    "urdu-translation": "اے محمدؑ بن علیؑ",
+                    "timestamp": {
+                        "start": "05:51",
+                        "end": "05:55"
+                    },
+                    "id": "verse-066"
+                },
+                {
+                    "verseNumber": 67,
+                    "arabic": "أَيُّهَا ٱلْبَاقِرُ",
+                    "transliteration": "Ayyuhā l-Bāqir",
+                    "english-translation": "O al-Bāqir",
+                    "urdu-translation": "اے امام باقرؑ",
+                    "timestamp": {
+                        "start": "05:55",
+                        "end": "05:57"
+                    },
+                    "id": "verse-067"
+                },
+                {
+                    "verseNumber": 68,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "05:57",
+                        "end": "06:01"
+                    },
+                    "id": "verse-068"
+                },
+                {
+                    "verseNumber": 69,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "06:01",
+                        "end": "06:06"
+                    },
+                    "id": "verse-069"
+                },
+                {
+                    "verseNumber": 70,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "06:06",
+                        "end": "06:11"
+                    },
+                    "id": "verse-070"
+                },
+                {
+                    "verseNumber": 71,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "06:11",
+                        "end": "06:16"
+                    },
+                    "id": "verse-071"
+                },
+                {
+                    "verseNumber": 72,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "06:16",
+                        "end": "06:22"
+                    },
+                    "id": "verse-072"
+                },
+                {
+                    "verseNumber": 73,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "06:22",
+                        "end": "06:28"
+                    },
+                    "id": "verse-073"
+                },
+                {
+                    "verseNumber": 74,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "06:28",
+                        "end": "06:35"
+                    },
+                    "id": "verse-074"
+                },
+                {
+                    "verseNumber": 75,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "06:35",
+                        "end": "06:41"
+                    },
+                    "id": "verse-075"
+                }
+            ],
+            "timestamp": {
+                "start": "05:46",
+                "end": "06:41"
+            }
+        },
+        {
+            "sectionNumber": 8,
+            "sectionName": "Imam Jaʿfar ibn Muhammad (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 76,
+                    "arabic": "يَا أَبَا عَبْدِ ٱللَّهِ",
+                    "transliteration": "Yā Abā ʿAbdillāh",
+                    "english-translation": "O Aba ʿAbdillāh",
+                    "urdu-translation": "اے ابا عبداللہ",
+                    "timestamp": {
+                        "start": "06:41",
+                        "end": "06:46"
+                    },
+                    "id": "verse-076"
+                },
+                {
+                    "verseNumber": 77,
+                    "arabic": "يَا جَعْفَرُ بْنَ مُحَمَّدٍ",
+                    "transliteration": "Yā Jaʿfar ibna Muḥammad",
+                    "english-translation": "O Jaʿfar, son of Muḥammad",
+                    "urdu-translation": "اے جعفرؑ بن محمدؑ",
+                    "timestamp": {
+                        "start": "06:46",
+                        "end": "06:49"
+                    },
+                    "id": "verse-077"
+                },
+                {
+                    "verseNumber": 78,
+                    "arabic": "أَيُّهَا ٱلصَّادِقُ",
+                    "transliteration": "Ayyuhā ṣ-Ṣādiq",
+                    "english-translation": "O the truthful one",
+                    "urdu-translation": "اے صادقؑ",
+                    "timestamp": {
+                        "start": "06:49",
+                        "end": "06:52"
+                    },
+                    "id": "verse-078"
+                },
+                {
+                    "verseNumber": 79,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "06:52",
+                        "end": "06:55"
+                    },
+                    "id": "verse-079"
+                },
+                {
+                    "verseNumber": 80,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "06:55",
+                        "end": "07:00"
+                    },
+                    "id": "verse-080"
+                },
+                {
+                    "verseNumber": 81,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور ہمارے آقا",
+                    "timestamp": {
+                        "start": "07:00",
+                        "end": "07:06"
+                    },
+                    "id": "verse-081"
+                },
+                {
+                    "verseNumber": 82,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "07:06",
+                        "end": "07:11"
+                    },
+                    "id": "verse-082"
+                },
+                {
+                    "verseNumber": 83,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "07:11",
+                        "end": "07:16"
+                    },
+                    "id": "verse-083"
+                },
+                {
+                    "verseNumber": 84,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "07:16",
+                        "end": "07:23"
+                    },
+                    "id": "verse-084"
+                },
+                {
+                    "verseNumber": 85,
+                    "arabic": "يَا وَجِيهاً عِندَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "07:23",
+                        "end": "07:30"
+                    },
+                    "id": "verse-085"
+                },
+                {
+                    "verseNumber": 86,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "07:30",
+                        "end": "07:36"
+                    },
+                    "id": "verse-086"
+                }
+            ],
+            "timestamp": {
+                "start": "06:41",
+                "end": "07:36"
+            }
+        },
+        {
+            "sectionNumber": 9,
+            "sectionName": "Imam Musa ibn Jaʿfar (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 87,
+                    "arabic": "يَا أَبَا ٱلْحَسَنِ",
+                    "transliteration": "Yā Abā l-Ḥasan",
+                    "english-translation": "O Aba al-Ḥasan",
+                    "urdu-translation": "اے ابا الحسن",
+                    "timestamp": {
+                        "start": "07:36",
+                        "end": "07:40"
+                    },
+                    "id": "verse-087"
+                },
+                {
+                    "verseNumber": 88,
+                    "arabic": "يَا مُوسَىٰ بْنَ جَعْفَرٍ",
+                    "transliteration": "Yā Mūsā ibna Jaʿfar",
+                    "english-translation": "O Mūsā, son of Jaʿfar",
+                    "urdu-translation": "اے موسیٰؑ بن جعفرؑ",
+                    "timestamp": {
+                        "start": "07:40",
+                        "end": "07:44"
+                    },
+                    "id": "verse-088"
+                },
+                {
+                    "verseNumber": 89,
+                    "arabic": "أَيُّهَا ٱلْكَاظِمُ",
+                    "transliteration": "Ayyuhā l-Kāẓim",
+                    "english-translation": "O al-Kāẓim (the one who controls anger)",
+                    "urdu-translation": "اے کاظمؑ",
+                    "timestamp": {
+                        "start": "07:44",
+                        "end": "07:47"
+                    },
+                    "id": "verse-089"
+                },
+                {
+                    "verseNumber": 90,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "07:47",
+                        "end": "07:50"
+                    },
+                    "id": "verse-090"
+                },
+                {
+                    "verseNumber": 91,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "07:50",
+                        "end": "07:54"
+                    },
+                    "id": "verse-091"
+                },
+                {
+                    "verseNumber": 92,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور ہمارے آقا",
+                    "timestamp": {
+                        "start": "07:54",
+                        "end": "08:00"
+                    },
+                    "id": "verse-092"
+                },
+                {
+                    "verseNumber": 93,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "08:00",
+                        "end": "08:06"
+                    },
+                    "id": "verse-093"
+                },
+                {
+                    "verseNumber": 94,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "08:06",
+                        "end": "08:11"
+                    },
+                    "id": "verse-094"
+                },
+                {
+                    "verseNumber": 95,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "08:11",
+                        "end": "08:19"
+                    },
+                    "id": "verse-095"
+                },
+                {
+                    "verseNumber": 96,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "08:19",
+                        "end": "08:26"
+                    },
+                    "id": "verse-096"
+                },
+                {
+                    "verseNumber": 97,
+                    "arabic": "إِشْفَعْ لَنَا عِندَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "08:26",
+                        "end": "08:32"
+                    },
+                    "id": "verse-097"
+                }
+            ],
+            "timestamp": {
+                "start": "07:36",
+                "end": "08:32"
+            }
+        },
+        {
+            "sectionNumber": 10,
+            "sectionName": "Imam Ali ibn Musa (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 98,
+                    "arabic": "يَا أَبَا ٱلْحَسَنِ",
+                    "transliteration": "Yā Abā l-Ḥasan",
+                    "english-translation": "O Aba al-Ḥasan",
+                    "urdu-translation": "اے ابا الحسن",
+                    "timestamp": {
+                        "start": "08:32",
+                        "end": "08:36"
+                    },
+                    "id": "verse-098"
+                },
+                {
+                    "verseNumber": 99,
+                    "arabic": "يَا عَلِيُّ بْنَ مُوسَىٰ",
+                    "transliteration": "Yā ʿAlī ibna Mūsā",
+                    "english-translation": "O ʿAlī, son of Mūsā",
+                    "urdu-translation": "اے علیؑ بن موسیٰؑ",
+                    "timestamp": {
+                        "start": "08:36",
+                        "end": "08:40"
+                    },
+                    "id": "verse-099"
+                },
+                {
+                    "verseNumber": 100,
+                    "arabic": "أَيُّهَا ٱلرِّضَا",
+                    "transliteration": "Ayyuhā r-Riḍā",
+                    "english-translation": "O al-Riḍā",
+                    "urdu-translation": "اے امام رضاؑ",
+                    "timestamp": {
+                        "start": "08:40",
+                        "end": "08:42"
+                    },
+                    "id": "verse-100"
+                },
+                {
+                    "verseNumber": 101,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسولؐ اللہ کے بیٹے",
+                    "timestamp": {
+                        "start": "08:42",
+                        "end": "08:46"
+                    },
+                    "id": "verse-101"
+                },
+                {
+                    "verseNumber": 102,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "08:46",
+                        "end": "08:51"
+                    },
+                    "id": "verse-102"
+                },
+                {
+                    "verseNumber": 103,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "08:51",
+                        "end": "08:55"
+                    },
+                    "id": "verse-103"
+                },
+                {
+                    "verseNumber": 104,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "08:55",
+                        "end": "09:00"
+                    },
+                    "id": "verse-104"
+                },
+                {
+                    "verseNumber": 105,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "09:00",
+                        "end": "09:05"
+                    },
+                    "id": "verse-105"
+                },
+                {
+                    "verseNumber": 106,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "09:05",
+                        "end": "09:12"
+                    },
+                    "id": "verse-106"
+                },
+                {
+                    "verseNumber": 107,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "09:12",
+                        "end": "09:19"
+                    },
+                    "id": "verse-107"
+                },
+                {
+                    "verseNumber": 108,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "09:19",
+                        "end": "09:26"
+                    },
+                    "id": "verse-108"
+                }
+            ],
+            "timestamp": {
+                "start": "08:32",
+                "end": "09:26"
+            }
+        },
+        {
+            "sectionNumber": 11,
+            "sectionName": "Imam Muhammad ibn Ali (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 109,
+                    "arabic": "يَا أَبَا جَعْفَرٍ",
+                    "transliteration": "Yā Abā Jaʿfar",
+                    "english-translation": "O Aba Jaʿfar",
+                    "urdu-translation": "اے ابا جعفر",
+                    "timestamp": {
+                        "start": "09:26",
+                        "end": "09:30"
+                    },
+                    "id": "verse-109"
+                },
+                {
+                    "verseNumber": 110,
+                    "arabic": "يَا مُحَمَّدُ بْنَ عَلِيٍّ",
+                    "transliteration": "Yā Muḥammad ibna ʿAlī",
+                    "english-translation": "O Muḥammad, son of ʿAlī",
+                    "urdu-translation": "اے محمدؑ بن علیؑ",
+                    "timestamp": {
+                        "start": "09:30",
+                        "end": "09:34"
+                    },
+                    "id": "verse-110"
+                },
+                {
+                    "verseNumber": 111,
+                    "arabic": "أَيُّهَا ٱلتَّقِيُّ ٱلْجَوَادُ",
+                    "transliteration": "Ayyuhā t-Taqī al-Jawād",
+                    "english-translation": "O the pious, the generous",
+                    "urdu-translation": "اے پرہیزگار اور سخی",
+                    "timestamp": {
+                        "start": "09:34",
+                        "end": "09:38"
+                    },
+                    "id": "verse-111"
+                },
+                {
+                    "verseNumber": 112,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "09:38",
+                        "end": "09:41"
+                    },
+                    "id": "verse-112"
+                },
+                {
+                    "verseNumber": 113,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "09:41",
+                        "end": "09:46"
+                    },
+                    "id": "verse-113"
+                },
+                {
+                    "verseNumber": 114,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "09:46",
+                        "end": "09:50"
+                    },
+                    "id": "verse-114"
+                },
+                {
+                    "verseNumber": 115,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "09:50",
+                        "end": "09:55"
+                    },
+                    "id": "verse-115"
+                },
+                {
+                    "verseNumber": 116,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "09:55",
+                        "end": "10:00"
+                    },
+                    "id": "verse-116"
+                },
+                {
+                    "verseNumber": 117,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "10:00",
+                        "end": "10:07"
+                    },
+                    "id": "verse-117"
+                },
+                {
+                    "verseNumber": 118,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "10:07",
+                        "end": "10:14"
+                    },
+                    "id": "verse-118"
+                },
+                {
+                    "verseNumber": 119,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "10:14",
+                        "end": "10:21"
+                    },
+                    "id": "verse-119"
+                }
+            ],
+            "timestamp": {
+                "start": "09:26",
+                "end": "10:21"
+            }
+        },
+        {
+            "sectionNumber": 12,
+            "sectionName": "Imam Ali ibn Muhammad (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 120,
+                    "arabic": "يَا أَبَا ٱلْحَسَنِ",
+                    "transliteration": "Yā Abā l-Ḥasan",
+                    "english-translation": "O Aba al-Ḥasan",
+                    "urdu-translation": "اے ابا الحسن",
+                    "timestamp": {
+                        "start": "10:21",
+                        "end": "10:24"
+                    },
+                    "id": "verse-120"
+                },
+                {
+                    "verseNumber": 121,
+                    "arabic": "يَا عَلِيُّ بْنَ مُحَمَّدٍ",
+                    "transliteration": "Yā ʿAlī ibna Muḥammad",
+                    "english-translation": "O ʿAlī, son of Muḥammad",
+                    "urdu-translation": "اے علیؑ بن محمدؑ",
+                    "timestamp": {
+                        "start": "10:24",
+                        "end": "10:28"
+                    },
+                    "id": "verse-121"
+                },
+                {
+                    "verseNumber": 122,
+                    "arabic": "أَيُّهَا ٱلْهَادِي ٱلنَّقِيُّ",
+                    "transliteration": "Ayyuhā l-Hādī an-Naqī",
+                    "english-translation": "O the guided, the pure",
+                    "urdu-translation": "اے ہادیؑ، اے پاکیزہ",
+                    "timestamp": {
+                        "start": "10:28",
+                        "end": "10:33"
+                    },
+                    "id": "verse-122"
+                },
+                {
+                    "verseNumber": 123,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسولؐ اللہ کے بیٹے",
+                    "timestamp": {
+                        "start": "10:33",
+                        "end": "10:36"
+                    },
+                    "id": "verse-123"
+                },
+                {
+                    "verseNumber": 124,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "10:36",
+                        "end": "10:40"
+                    },
+                    "id": "verse-124"
+                },
+                {
+                    "verseNumber": 125,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "10:40",
+                        "end": "10:45"
+                    },
+                    "id": "verse-125"
+                },
+                {
+                    "verseNumber": 126,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "10:45",
+                        "end": "10:50"
+                    },
+                    "id": "verse-126"
+                },
+                {
+                    "verseNumber": 127,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "10:50",
+                        "end": "10:55"
+                    },
+                    "id": "verse-127"
+                },
+                {
+                    "verseNumber": 128,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "10:55",
+                        "end": "11:02"
+                    },
+                    "id": "verse-128"
+                },
+                {
+                    "verseNumber": 129,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "11:02",
+                        "end": "11:09"
+                    },
+                    "id": "verse-129"
+                },
+                {
+                    "verseNumber": 130,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "11:09",
+                        "end": "11:16"
+                    },
+                    "id": "verse-130"
+                }
+            ],
+            "timestamp": {
+                "start": "10:21",
+                "end": "11:16"
+            }
+        },
+        {
+            "sectionNumber": 13,
+            "sectionName": "Imam al-Hasan ibn Ali (a.s)",
+            "verses": [
+                {
+                    "verseNumber": 131,
+                    "arabic": "يَا أَبَا مُحَمَّدٍ",
+                    "transliteration": "Yā Abā Muḥammad",
+                    "english-translation": "O Aba Muḥammad",
+                    "urdu-translation": "اے ابا محمد",
+                    "timestamp": {
+                        "start": "11:16",
+                        "end": "11:20"
+                    },
+                    "id": "verse-131"
+                },
+                {
+                    "verseNumber": 132,
+                    "arabic": "يَا حَسَنُ بْنَ عَلِيٍّ",
+                    "transliteration": "Yā Ḥasan ibna ʿAlī",
+                    "english-translation": "O Ḥasan, son of ʿAlī",
+                    "urdu-translation": "اے حسنؑ بن علیؑ",
+                    "timestamp": {
+                        "start": "11:20",
+                        "end": "11:23"
+                    },
+                    "id": "verse-132"
+                },
+                {
+                    "verseNumber": 133,
+                    "arabic": "أَيُّهَا ٱلزَّكِيُّ ٱلْعَسْكَرِيُّ",
+                    "transliteration": "Ayyuhā z-Zakī al-ʿAskarī",
+                    "english-translation": "O the pure, the Askarī",
+                    "urdu-translation": "اے پاکیزہ اور عسکریؑ",
+                    "timestamp": {
+                        "start": "11:23",
+                        "end": "11:29"
+                    },
+                    "id": "verse-133"
+                },
+                {
+                    "verseNumber": 134,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسول اللہؐ کے بیٹے",
+                    "timestamp": {
+                        "start": "11:29",
+                        "end": "11:33"
+                    },
+                    "id": "verse-134"
+                },
+                {
+                    "verseNumber": 135,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "11:33",
+                        "end": "11:38"
+                    },
+                    "id": "verse-135"
+                },
+                {
+                    "verseNumber": 136,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "11:38",
+                        "end": "11:42"
+                    },
+                    "id": "verse-136"
+                },
+                {
+                    "verseNumber": 137,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "11:42",
+                        "end": "11:47"
+                    },
+                    "id": "verse-137"
+                },
+                {
+                    "verseNumber": 138,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "11:47",
+                        "end": "11:52"
+                    },
+                    "id": "verse-138"
+                },
+                {
+                    "verseNumber": 139,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "11:52",
+                        "end": "11:59"
+                    },
+                    "id": "verse-139"
+                },
+                {
+                    "verseNumber": 140,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "11:59",
+                        "end": "12:05"
+                    },
+                    "id": "verse-140"
+                },
+                {
+                    "verseNumber": 141,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "12:05",
+                        "end": "12:12"
+                    },
+                    "id": "verse-141"
+                }
+            ],
+            "timestamp": {
+                "start": "11:16",
+                "end": "12:12"
+            }
+        },
+        {
+            "sectionNumber": 14,
+            "sectionName": "Imam al-Mahdi (a.t.f.s)",
+            "verses": [
+                {
+                    "verseNumber": 142,
+                    "arabic": "يَا وَصِيَّ ٱلْحَسَنِ",
+                    "transliteration": "Yā Waṣiyya l-Ḥasan",
+                    "english-translation": "O successor of al-Ḥasan",
+                    "urdu-translation": "اے حسنؑ کے جانشین",
+                    "timestamp": {
+                        "start": "12:13",
+                        "end": "12:16"
+                    },
+                    "id": "verse-142"
+                },
+                {
+                    "verseNumber": 143,
+                    "arabic": "وَٱلْخَلَفُ ٱلْحُجَّةُ",
+                    "transliteration": "Wa l-Khalafu l-Ḥujjah",
+                    "english-translation": "The remaining one, the proof [of Allah]",
+                    "urdu-translation": "باقی رہنے والی حجتؑ",
+                    "timestamp": {
+                        "start": "12:16",
+                        "end": "12:20"
+                    },
+                    "id": "verse-143"
+                },
+                {
+                    "verseNumber": 144,
+                    "arabic": "أَيُّهَا ٱلْقَائِمُ ٱلْمُنْتَظَرُ ٱلْمَهْدِيُّ",
+                    "transliteration": "Ayyuhā l-Qāʾim al-Muntaẓar al-Mahdī",
+                    "english-translation": "O the Riser, the Awaited, the Mahdī",
+                    "urdu-translation": "اے قائمؑ، منتظرؑ، مہدیؑ",
+                    "timestamp": {
+                        "start": "12:20",
+                        "end": "12:27"
+                    },
+                    "id": "verse-144"
+                },
+                {
+                    "verseNumber": 145,
+                    "arabic": "يَا بْنَ رَسُولِ ٱللَّهِ",
+                    "transliteration": "Yā bna Rasūlillāh",
+                    "english-translation": "O son of the Messenger of Allah",
+                    "urdu-translation": "اے رسولؐ اللہ کے بیٹے",
+                    "timestamp": {
+                        "start": "12:27",
+                        "end": "12:30"
+                    },
+                    "id": "verse-145"
+                },
+                {
+                    "verseNumber": 146,
+                    "arabic": "يَا حُجَّةَ ٱللَّهِ عَلَىٰ خَلْقِهِ",
+                    "transliteration": "Yā ḥujjata llāh ʿalā khalqih",
+                    "english-translation": "O proof of Allah over His creation",
+                    "urdu-translation": "اے اللہ کی مخلوق پر حجت",
+                    "timestamp": {
+                        "start": "12:30",
+                        "end": "12:36"
+                    },
+                    "id": "verse-146"
+                },
+                {
+                    "verseNumber": 147,
+                    "arabic": "يَا سَيِّدَنَا وَمَوْلاَنَا",
+                    "transliteration": "Yā Sayyidanā wa Mawlānā",
+                    "english-translation": "O our Master and our Patron",
+                    "urdu-translation": "اے ہمارے سردار اور آقا",
+                    "timestamp": {
+                        "start": "12:36",
+                        "end": "12:44"
+                    },
+                    "id": "verse-147"
+                },
+                {
+                    "verseNumber": 148,
+                    "arabic": "إِنَّا تَوَجَّهْنَا وَٱسْتَشْفَعْنَا",
+                    "transliteration": "Innā tawajjahnā wa istašfaʿnā",
+                    "english-translation": "Indeed, we turn and seek intercession through you",
+                    "urdu-translation": "ہم آپ کے ذریعے متوجہ ہوئے اور شفاعت چاہتے ہیں",
+                    "timestamp": {
+                        "start": "12:44",
+                        "end": "12:49"
+                    },
+                    "id": "verse-148"
+                },
+                {
+                    "verseNumber": 149,
+                    "arabic": "وَتَوَسَّلْنَا بِكَ إِلَىٰ ٱللَّهِ",
+                    "transliteration": "Wa tawassalnā bika ilā llāh",
+                    "english-translation": "And we seek nearness to Allah through you",
+                    "urdu-translation": "اور ہم آپ کے وسیلے سے اللہ سے قرب چاہتے ہیں",
+                    "timestamp": {
+                        "start": "12:49",
+                        "end": "12:54"
+                    },
+                    "id": "verse-149"
+                },
+                {
+                    "verseNumber": 150,
+                    "arabic": "وَقَدَّمْنَاكَ بَيْنَ يَدَيْ حَاجَاتِنَا",
+                    "transliteration": "Wa qaddamnāka bayna yaday ḥājātinā",
+                    "english-translation": "And we place you before all our needs",
+                    "urdu-translation": "اور ہم نے آپ کو اپنی حاجات کے آگے رکھا۔",
+                    "timestamp": {
+                        "start": "12:54",
+                        "end": "13:03"
+                    },
+                    "id": "verse-150"
+                },
+                {
+                    "verseNumber": 151,
+                    "arabic": "يَا وَجِيهاً عِنْدَ ٱللَّهِ",
+                    "transliteration": "Yā wajīhan ʿinda llāh",
+                    "english-translation": "O one who is honored in the sight of Allah",
+                    "urdu-translation": "اے اللہ کے نزدیک عزت والے",
+                    "timestamp": {
+                        "start": "13:03",
+                        "end": "13:10"
+                    },
+                    "id": "verse-151"
+                },
+                {
+                    "verseNumber": 152,
+                    "arabic": "إِشْفَعْ لَنَا عِنْدَ ٱللَّهِ",
+                    "transliteration": "Ishfaʿ lanā ʿinda llāh",
+                    "english-translation": "Intercede for us before Allah",
+                    "urdu-translation": "ہمارے لیے اللہ کے حضور شفاعت کریں۔",
+                    "timestamp": {
+                        "start": "13:10",
+                        "end": "13:17"
+                    },
+                    "id": "verse-152"
+                }
+            ],
+            "timestamp": {
+                "start": "12:13",
+                "end": "13:17"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1162 @@
+{
+	"id": "ziyarat-ashura",
+	"title": "Ziyarat Ashura",
+	"description": "Add description",
+	"verses": [
+		{
+			"verseNumber": 1,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا أَبَا عَبْدِ ٱللَّهِ",
+			"transliteration": "As-salāmu ʿalayka yā Abā ʿAbdillāh",
+			"english-translation": "Peace be upon you, O Aba Abdillah.",
+			"urdu-translation": "سلام ہو آپ پر، اے ابا عبداللہ!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 2,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا ٱبْنَ رَسُولِ ٱللَّهِ",
+			"transliteration": "As-salāmu ʿalayka yabna Rasūlillāh",
+			"english-translation": "Peace be upon you, O son of the Messenger of Allah.",
+			"urdu-translation": "سلام ہو آپ پر، اے رسولِ خدا کے بیٹے!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 3,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا خِيَرَةَ ٱللَّهِ وَٱبْنَ خِيَرَتِهِ",
+			"transliteration": "As-salāmu ʿalayka yā khīrata-llāh wabna khīratih",
+			"english-translation": "Peace be upon you, O chosen one of Allah and son of His chosen one.",
+			"urdu-translation": "سلام ہو آپ پر، اے اللہ کے برگزیدہ اور اس کے برگزیدہ کے بیٹے!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 4,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا ٱبْنَ أَمِيرِ ٱلْمُؤْمِنِينَ",
+			"transliteration": "As-salāmu ʿalayka yabna Amīri l-Muʾminīn",
+			"english-translation": "Peace be upon you, O son of the Commander of the Faithful.",
+			"urdu-translation": "سلام ہو آپ پر، اے امیرالمؤمنین کے بیٹے!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 5,
+			"arabic": "وَٱبْنَ سَيِّدِ ٱلْوَصِيِّينَ",
+			"transliteration": "Wabna Sayyidi l-Waṣiyyīn",
+			"english-translation": "And the son of the Master of the Executors.",
+			"urdu-translation": "اور وصیّوں کے سردار کے بیٹے!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 6,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا ٱبْنَ فَاطِمَةَ",
+			"transliteration": "As-salāmu ʿalayka yabna Fāṭimah",
+			"english-translation": "Peace be upon you, O son of Fāṭimah.",
+			"urdu-translation": "سلام ہو آپ پر، اے فاطمہ کے بیٹے!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 7,
+			"arabic": "سَيِّدَةِ نِسَاءِ ٱلْعَالَمِينَ",
+			"transliteration": "Sayyidati Nisā’i l-ʿĀlamīn",
+			"english-translation": "The leader of the women of the worlds.",
+			"urdu-translation": "تمام جہانوں کی عورتوں کی سردار۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 8,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ يَا ثَارَ ٱللَّهِ وَٱبْنَ ثَارِهِ وَٱلْوِتْرَ ٱلْمَوْتُورَ",
+			"transliteration": "As-salāmu ʿalayka yā Thāra-llāh wabna Thārih wal-witra l-mawtūr",
+			"english-translation": "Peace be upon you, O blood avenged by Allah and son of His avenged blood, the solitary martyred one.",
+			"urdu-translation": "سلام ہو آپ پر، اے اللہ کے انتقام اور اس کے انتقام کے بیٹے، تنہا مظلوم شہید!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 9,
+			"arabic": "ٱلسَّلَامُ عَلَيْكَ وَعَلَىٰ ٱلْأَرْوَاحِ ٱلَّتِي حَلَّتْ بِفِنَائِكَ",
+			"transliteration": "As-salāmu ʿalayka wa ʿalā l-arwāḥi l-latī ḥallat bifināʾik",
+			"english-translation": "Peace be upon you and upon the souls who have gathered in your courtyard.",
+			"urdu-translation": "سلام ہو آپ پر اور ان روحوں پر جو آپ کے صحن میں ٹھہریں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 10,
+			"arabic": "عَلَيْكُمْ مِنِّي جَمِيعاً سَلَامُ ٱللَّهِ أَبَدًا",
+			"transliteration": "ʿAlaykum minnī jamīʿan salāmu-llāhi abadan",
+			"english-translation": "Peace of Allah be upon all of you from me forever.",
+			"urdu-translation": "تم سب پر میری طرف سے ہمیشہ کے لیے اللہ کا سلام ہو۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 11,
+			"arabic": "مَا بَقِيتُ وَبَقِيَ ٱللَّيْلُ وَٱلنَّهَارُ",
+			"transliteration": "Mā baqītu wa baqiya l-layl wa n-nahār",
+			"english-translation": "As long as I live, and as long as night and day remain.",
+			"urdu-translation": "جب تک میں زندہ ہوں اور جب تک رات اور دن باقی ہیں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 12,
+			"arabic": "يَا أَبَا عَبْدِ ٱللَّهِ",
+			"transliteration": "Yā Abā ʿAbdillāh",
+			"english-translation": "O Aba Abdillah!",
+			"urdu-translation": "اے ابا عبداللہ!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 13,
+			"arabic": "لَقَدْ عَظُمَتِ ٱلرَّزِيَّةُ",
+			"transliteration": "Laqad ʿaẓumat ar-raziyyah",
+			"english-translation": "Indeed, the calamity was immense.",
+			"urdu-translation": "یقیناً مصیبت بہت عظیم تھی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 14,
+			"arabic": "وَجَلَّتْ وَعَظُمَتِ ٱلْمُصِيبَةُ بِكَ",
+			"transliteration": "Wa jallat wa ʿaẓumat al-muṣībatu bika",
+			"english-translation": "And the calamity through you was great and overwhelming.",
+			"urdu-translation": "اور آپ کے ذریعے جو مصیبت آئی وہ بہت بڑی اور دل دہلا دینے والی تھی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 15,
+			"arabic": "عَلَيْنَا وَعَلَىٰ جَمِيعِ أَهْلِ ٱلْإِسْلَامِ",
+			"transliteration": "ʿAlaynā wa ʿalā jamīʿi ahli l-Islām",
+			"english-translation": "Upon us and upon all the people of Islam.",
+			"urdu-translation": "ہم پر اور تمام اہلِ اسلام پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 16,
+			"arabic": "وَجَلَّتْ وَعَظُمَتْ مُصِيبَتُكَ",
+			"transliteration": "Wa jallat wa ʿaẓumat muṣībatuk",
+			"english-translation": "And your calamity was truly great and magnificent.",
+			"urdu-translation": "اور آپ کی مصیبت واقعی عظیم اور شاندار تھی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 17,
+			"arabic": "فِي ٱلسَّمَاوَاتِ عَلَىٰ جَمِيعِ أَهْلِ ٱلسَّمَاوَاتِ",
+			"transliteration": "Fī s-samāwāt ʿalā jamīʿi ahli s-samāwāt",
+			"english-translation": "In the heavens, upon all the inhabitants of the heavens.",
+			"urdu-translation": "آسمانوں میں، تمام آسمانی مخلوق پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 18,
+			"arabic": "فَلَعَنَ ٱللَّهُ أُمَّةً أَسَّسَتْ أَسَاسَ ٱلظُّلْمِ وَٱلْجَوْرِ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ",
+			"transliteration": "Falaʿana llāh ummatan assasat asāsa ẓ-ẓulmi wa l-jawri ʿalaykum ahla l-bayt",
+			"english-translation": "So may Allah curse the nation that laid the foundation of oppression and injustice upon you, O People of the House.",
+			"urdu-translation": "اللہ کی لعنت ہو اس قوم پر جس نے تم اہلِ بیت پر ظلم و جور کی بنیاد رکھی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 19,
+			"arabic": "وَلَعَنَ ٱللَّهُ أُمَّةً دَفَعَتْكُمْ عَنْ مَقَامِكُمْ",
+			"transliteration": "Walaʿana llāh ummatan dafaʿatkum ʿan maqāmikum",
+			"english-translation": "And may Allah curse the nation that pushed you away from your rightful station.",
+			"urdu-translation": "اور اللہ کی لعنت ہو اس قوم پر جس نے تمہیں تمہارے مقام سے ہٹایا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 20,
+			"arabic": "وَأَزَالَتْكُمْ عَنْ مَرَاتِبِكُمُ ٱلَّتِي رَتَّبَكُمُ ٱللَّهُ فِيهَا",
+			"transliteration": "Wa azālatkum ʿan marātibikum allatī rattabakumu llāh fīhā",
+			"english-translation": "And removed you from the ranks that Allah had assigned for you.",
+			"urdu-translation": "اور تمہیں ان مرتبوں سے ہٹا دیا جو اللہ نے تمہارے لیے مقرر کیے تھے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 21,
+			"arabic": "وَلَعَنَ ٱللَّهُ أُمَّةً قَتَلَتْكُمْ",
+			"transliteration": "Walaʿana llāh ummatan qatalatkum",
+			"english-translation": "And may Allah curse the nation that killed you.",
+			"urdu-translation": "اور اللہ کی لعنت ہو اس قوم پر جس نے تمہیں قتل کیا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 22,
+			"arabic": "وَلَعَنَ ٱللَّهُ ٱلْمُمَهِّدِينَ لَهُمْ",
+			"transliteration": "Walaʿana llāh al-mumahhidīn lahum",
+			"english-translation": "And may Allah curse those who paved the way for them.",
+			"urdu-translation": "اور اللہ کی لعنت ہو ان لوگوں پر جنہوں نے ان کے لیے راہ ہموار کی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 23,
+			"arabic": "بِٱلتَّمْكِينِ مِنْ قِتَالِكُمْ",
+			"transliteration": "Bi t-tamkīn min qitālikum",
+			"english-translation": "By enabling them to wage war against you.",
+			"urdu-translation": "کہ انہوں نے تمہارے خلاف جنگ کو ممکن بنایا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 24,
+			"arabic": "بَرِئْتُ إِلَىٰ ٱللَّهِ وَإِلَيْكُمْ مِنْهُمْ",
+			"transliteration": "Barīʾtu ilā llāh wa ilaykum minhum",
+			"english-translation": "I dissociate myself before Allah and you from them.",
+			"urdu-translation": "میں اللہ اور تم سے ان لوگوں سے بیزاری کا اعلان کرتا ہوں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 25,
+			"arabic": "وَمِنْ أَشْيَاعِهِمْ وَأَتْبَاعِهِمْ وَأَوْلِيَائِهِمْ",
+			"transliteration": "Wa min ashyāʿihim wa atbāʿihim wa awliyāʾihim",
+			"english-translation": "And from their followers, their adherents, and their allies.",
+			"urdu-translation": "اور ان کے پیروکاروں، تابعین اور حامیوں سے بھی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 26,
+			"arabic": "يَا أَبَا عَبْدِ ٱللَّهِ",
+			"transliteration": "Yā Abā ʿAbdillāh",
+			"english-translation": "O Aba Abdillah!",
+			"urdu-translation": "اے ابا عبداللہ!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 27,
+			"arabic": "إِنِّي سِلْمٌ لِمَنْ سَالَمَكُمْ",
+			"transliteration": "Innī silmun liman sālmakum",
+			"english-translation": "Indeed, I am at peace with those who are at peace with you.",
+			"urdu-translation": "یقیناً میں اُن کے ساتھ ہوں جو تم سے صلح رکھتے ہیں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 28,
+			"arabic": "وَحَرْبٌ لِمَنْ حَارَبَكُمْ إِلَىٰ يَوْمِ ٱلْقِيَامَةِ",
+			"transliteration": "Wa ḥarbun liman ḥārabakum ilā yawmi l-qiyāmah",
+			"english-translation": "And at war with those who are at war with you until the Day of Judgment.",
+			"urdu-translation": "اور ان کے خلاف جنگ میں ہوں جو تم سے قیامت تک جنگ کریں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 29,
+			"arabic": "وَلَعَنَ ٱللَّهُ آلَ زِيَادٍ وَآلَ مَرْوَانَ",
+			"transliteration": "Walaʿana llāh āla Ziyād wa āla Marwān",
+			"english-translation": "And may Allah curse the family of Ziyād and the family of Marwān.",
+			"urdu-translation": "اور اللہ کی لعنت ہو آلِ زیاد اور آلِ مروان پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 30,
+			"arabic": "وَلَعَنَ ٱللَّهُ بَنِي أُمَيَّةَ قَاطِبَةً",
+			"transliteration": "Walaʿana llāh banī Umayyah qāṭibah",
+			"english-translation": "And may Allah curse all of the Banu Umayyah completely.",
+			"urdu-translation": "اور اللہ کی لعنت ہو بنی اُمیہ پر، سب کے سب پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 31,
+			"arabic": "وَلَعَنَ ٱللَّهُ ٱبْنَ مَرْجَانَةَ",
+			"transliteration": "Walaʿana llāh ibna Marjānah",
+			"english-translation": "And may Allah curse the son of Marjānah.",
+			"urdu-translation": "اور اللہ کی لعنت ہو ابنِ مرجانہ پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 32,
+			"arabic": "وَلَعَنَ ٱللَّهُ عُمَرَ بْنَ سَعْدٍ",
+			"transliteration": "Walaʿana llāh ʿUmar ibn Saʿd",
+			"english-translation": "And may Allah curse ʿUmar ibn Saʿd.",
+			"urdu-translation": "اور اللہ کی لعنت ہو عمر بن سعد پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 33,
+			"arabic": "وَلَعَنَ ٱللَّهُ شِمْرًا",
+			"transliteration": "Walaʿana llāh Shimran",
+			"english-translation": "And may Allah curse Shimr.",
+			"urdu-translation": "اور اللہ کی لعنت ہو شمر پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 34,
+			"arabic": "وَلَعَنَ ٱللَّهُ أُمَّةً أَسْرَجَتْ وَأَلْجَمَتْ",
+			"transliteration": "Walaʿana llāh ummatan asrajat wa aljamat",
+			"english-translation": "And may Allah curse the nation that saddled and bridled [their horses for battle against you].",
+			"urdu-translation": "اور اللہ کی لعنت ہو اس قوم پر جس نے تمہارے خلاف گھوڑے کَسے اور لگامیں ڈالی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 35,
+			"arabic": "وَتَنَقَّبَتْ لِقِتَالِكَ",
+			"transliteration": "Wa tanaqqabat li-qitālik",
+			"english-translation": "And masked themselves to fight you.",
+			"urdu-translation": "اور تم سے جنگ کے لیے نقاب پہنا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 36,
+			"arabic": "بِأَبِي أَنْتَ وَأُمِّي",
+			"transliteration": "Bi-abī anta wa ummī",
+			"english-translation": "May my father and mother be sacrificed for you.",
+			"urdu-translation": "میرے ماں باپ آپ پر قربان ہوں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 37,
+			"arabic": "لَقَدْ عَظُمَ مُصَابِي بِكَ",
+			"transliteration": "Laqad ʿaẓuma muṣābī bik",
+			"english-translation": "Indeed, my grief over you is immense.",
+			"urdu-translation": "بے شک آپ کا غم میرے لیے بہت بڑا ہے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 38,
+			"arabic": "فَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَكْرَمَ مَقَامَكَ وَأَكْرَمَنِي بِكَ",
+			"transliteration": "Fa as’alu llāha alladhī akrama maqāmak wa akramanī bik",
+			"english-translation": "So I ask Allah, the One who honored your status and honored me through you,",
+			"urdu-translation": "پس میں اللہ سے سوال کرتا ہوں جس نے آپ کے مقام کو بلند کیا اور مجھے آپ کے ذریعے عزت دی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 39,
+			"arabic": "أَنْ يَرْزُقَنِي طَلَبَ ثَأْرِكَ",
+			"transliteration": "An yarzuqanī ṭalaba thaʾrik",
+			"english-translation": "That He grants me the opportunity to seek your revenge,",
+			"urdu-translation": "کہ وہ مجھے آپ کے انتقام کا طالب بنائے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 40,
+			"arabic": "مَعَ إِمَامٍ مَنْصُورٍ مِنْ أَهْلِ بَيْتِ مُحَمَّدٍ",
+			"transliteration": "Maʿa imāmin manṣūr min ahli bayti Muḥammad",
+			"english-translation": "Alongside a supported Imam from the family of Muhammad.",
+			"urdu-translation": "محمدؐ کے اہلِ بیتؑ میں سے ایک کامیاب امام کے ساتھ۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 41,
+			"arabic": "صَلَّىٰ ٱللَّهُ عَلَيْهِ وَآلِهِ",
+			"transliteration": "Ṣallā llāhu ʿalayhi wa ālih",
+			"english-translation": "May Allah send blessings upon him and his family.",
+			"urdu-translation": "اللہ کی رحمت ہو ان پر اور ان کے اہلِ بیت پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 42,
+			"arabic": "ٱللَّهُمَّ ٱجْعَلْنِي عِندَكَ وَجِيهاً",
+			"transliteration": "Allāhumma ajʿalnī ʿindaka wajīhan",
+			"english-translation": "O Allah, make me honored in Your presence,",
+			"urdu-translation": "اے اللہ! مجھے اپنے ہاں باعزت بنا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 43,
+			"arabic": "بِٱلْحُسَيْنِ عَلَيْهِ ٱلسَّلَامُ فِي ٱلدُّنْيَا وَٱلْآخِرَةِ",
+			"transliteration": "Bil-Ḥusayn ʿalayhi s-salām fī d-dunyā wa l-ākhirah",
+			"english-translation": "Through al-Ḥusayn, peace be upon him, in this world and the hereafter.",
+			"urdu-translation": "حسینؑ کے وسیلے سے دنیا اور آخرت میں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 44,
+			"arabic": "يَا أَبَا عَبْدِ ٱللَّهِ",
+			"transliteration": "Yā Abā ʿAbdillāh",
+			"english-translation": "O Aba Abdillah!",
+			"urdu-translation": "اے ابا عبداللہ!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 45,
+			"arabic": "إِنِّي أَتَقَرَّبُ إِلَىٰ ٱللَّهِ وَإِلَىٰ رَسُولِهِ",
+			"transliteration": "Innī ataqarrabu ilā llāh wa ilā Rasūlih",
+			"english-translation": "Indeed, I seek closeness to Allah and to His Messenger,",
+			"urdu-translation": "میں اللہ اور اس کے رسولؐ کا قرب چاہتا ہوں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 46,
+			"arabic": "وَإِلَىٰ أَمِيرِ ٱلْمُؤْمِنِينَ وَإِلَىٰ فَاطِمَةَ",
+			"transliteration": "Wa ilā Amīri l-Muʾminīn wa ilā Fāṭimah",
+			"english-translation": "And to the Commander of the Faithful and to Fāṭimah,",
+			"urdu-translation": "اور امیرالمؤمنین اور فاطمہؑ کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 47,
+			"arabic": "وَإِلَىٰ ٱلْحَسَنِ وَإِلَيْكَ بِمُوَالاَتِكَ",
+			"transliteration": "Wa ilā l-Ḥasan wa ilayka bimuwālātik",
+			"english-translation": "And to al-Ḥasan, and to you through loyalty to you,",
+			"urdu-translation": "اور حسنؑ کے ذریعے، اور آپ سے وفاداری کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 48,
+			"arabic": "وَبِٱلْبَرَاءَةِ مِمَّنْ قَاتَلَكَ",
+			"transliteration": "Wa bil-barāʾati mimman qātalak",
+			"english-translation": "And by disassociating from the one who fought you.",
+			"urdu-translation": "اور ان سے براءت کے ذریعے جنہوں نے آپ سے جنگ کی۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 49,
+			"arabic": "وَنَصَبَ لَكَ ٱلْحَرْبَ",
+			"transliteration": "Wa naṣaba laka l-ḥarb",
+			"english-translation": "And waged war against you,",
+			"urdu-translation": "اور آپ کے خلاف جنگ چھیڑی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 50,
+			"arabic": "وَبِٱلْبَرَاءَةِ مِمَّنْ أَسَّسَ أَسَاسَ ٱلظُّلْمِ وَٱلْجَوْرِ عَلَيْكُمْ",
+			"transliteration": "Wa bil-barāʾati mimman assasa asāsa ẓ-ẓulmi wa l-jawri ʿalaykum",
+			"english-translation": "And by disassociating from the one who laid the foundation of oppression and injustice upon you,",
+			"urdu-translation": "اور اس سے براءت کے ذریعے جس نے تم پر ظلم و ستم کی بنیاد رکھی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 51,
+			"arabic": "وَأَبْرَأُ إِلَىٰ ٱللَّهِ وَإِلَىٰ رَسُولِهِ",
+			"transliteration": "Wa abraʾu ilā llāh wa ilā Rasūlih",
+			"english-translation": "And I dissociate myself before Allah and His Messenger,",
+			"urdu-translation": "اور میں اللہ اور اس کے رسولؐ کے حضور براءت کا اظہار کرتا ہوں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 52,
+			"arabic": "مِمَّنْ أَسَّسَ أَسَاسَ ذٰلِكَ",
+			"transliteration": "Mimman assasa asāsa dhālik",
+			"english-translation": "From the one who laid the foundation for that.",
+			"urdu-translation": "اس شخص سے جس نے اس ظلم کی بنیاد رکھی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 53,
+			"arabic": "وَبَنَىٰ عَلَيْهِ بُنْيَانَهُ",
+			"transliteration": "Wa banā ʿalayhi bunyānah",
+			"english-translation": "And built his structure upon it,",
+			"urdu-translation": "اور اسی پر اپنی عمارت کھڑی کی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 54,
+			"arabic": "وَجَرَىٰ فِي ظُلْمِهِ وَجَوْرِهِ عَلَيْكُمْ وَعَلَىٰ أَشْيَاعِكُمْ",
+			"transliteration": "Wa jarā fī ẓulmihi wa jawrihi ʿalaykum wa ʿalā ashyāʿikum",
+			"english-translation": "And continued in his oppression and injustice against you and your followers.",
+			"urdu-translation": "اور اس نے تم پر اور تمہارے شیعوں پر ظلم و ستم جاری رکھا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 55,
+			"arabic": "بَرِئْتُ إِلَىٰ ٱللَّهِ وَإِلَيْكُمْ مِنْهُمْ",
+			"transliteration": "Barīʾtu ilā llāh wa ilaykum minhum",
+			"english-translation": "I dissociate myself before Allah and you from them.",
+			"urdu-translation": "میں اللہ اور تم سے ان لوگوں سے بیزاری کا اعلان کرتا ہوں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 56,
+			"arabic": "وَأَتَقَرَّبُ إِلَىٰ ٱللَّهِ ثُمَّ إِلَيْكُمْ",
+			"transliteration": "Wa ataqarrabu ilā llāh thumma ilaykum",
+			"english-translation": "And I seek closeness to Allah, and then to you,",
+			"urdu-translation": "اور میں اللہ کے بعد تمہاری قربت کا طلبگار ہوں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 57,
+			"arabic": "بِمُوَالاَتِكُمْ وَمُوَالاَةِ وَلِيِّكُمْ",
+			"transliteration": "Bimuwālātikum wa muwālati waliyyikum",
+			"english-translation": "Through loyalty to you and loyalty to your guardian,",
+			"urdu-translation": "تم سے اور تمہارے ولی سے وفاداری کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 58,
+			"arabic": "وَبِٱلْبَرَاءَةِ مِنْ أَعْدَائِكُمْ",
+			"transliteration": "Wa bil-barāʾati min aʿdāʾikum",
+			"english-translation": "And by disassociating from your enemies,",
+			"urdu-translation": "اور تمہارے دشمنوں سے براءت کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 59,
+			"arabic": "وَٱلنَّاصِبِينَ لَكُمُ ٱلْحَرْبَ",
+			"transliteration": "Wa n-nāṣibīna lakumu l-ḥarb",
+			"english-translation": "And those who declared war against you,",
+			"urdu-translation": "اور ان سے جو تمہارے خلاف جنگ کے لیے اٹھے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 60,
+			"arabic": "وَبِٱلْبَرَاءَةِ مِنْ أَشْيَاعِهِمْ وَأَتْبَاعِهِمْ",
+			"transliteration": "Wa bil-barāʾati min ashyāʿihim wa atbāʿihim",
+			"english-translation": "And by disassociating from their followers and supporters.",
+			"urdu-translation": "اور ان کے پیروکاروں اور مددگاروں سے براءت کے ذریعے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 61,
+			"arabic": "إِنِّي سِلْمٌ لِمَنْ سَالَمَكُمْ",
+			"transliteration": "Innī silmun liman sālmakum",
+			"english-translation": "Indeed, I am at peace with those who are at peace with you,",
+			"urdu-translation": "بیشک میں ان کے ساتھ ہوں جو تم سے صلح رکھتے ہیں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 62,
+			"arabic": "وَحَرْبٌ لِمَنْ حَارَبَكُمْ",
+			"transliteration": "Wa ḥarbun liman ḥārabakum",
+			"english-translation": "And at war with those who are at war with you.",
+			"urdu-translation": "اور ان سے جنگ میں ہوں جو تم سے جنگ کرتے ہیں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 63,
+			"arabic": "وَوَلِيٌّ لِمَنْ وَالاَكُمْ",
+			"transliteration": "Wa waliyyun liman wālākum",
+			"english-translation": "And a friend to those who befriend you,",
+			"urdu-translation": "اور ان کا دوست ہوں جو تم سے دوستی رکھتے ہیں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 64,
+			"arabic": "وَعَدُوٌّ لِمَنْ عَادَاكُمْ",
+			"transliteration": "Wa ʿaduwwun liman ʿādākum",
+			"english-translation": "And an enemy to those who show enmity toward you.",
+			"urdu-translation": "اور دشمن ہوں ان کا جو تم سے دشمنی رکھتے ہیں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 65,
+			"arabic": "فَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَكْرَمَنِي بِمَعْرِفَتِكُمْ",
+			"transliteration": "Fa as’alu llāh alladhī akramanī bimaʿrifatikum",
+			"english-translation": "So I ask Allah, the One who honored me with knowledge of you,",
+			"urdu-translation": "پس میں اللہ سے سوال کرتا ہوں جس نے مجھے تمہاری معرفت عطا فرمائی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 66,
+			"arabic": "وَمَعْرِفَةِ أَوْلِيَائِكُمْ",
+			"transliteration": "Wa maʿrifati awliyāʾikum",
+			"english-translation": "And knowledge of your loyal ones,",
+			"urdu-translation": "اور تمہارے اولیاء کی معرفت بھی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 67,
+			"arabic": "وَرَزَقَنِيَ ٱلْبَرَاءَةَ مِنْ أَعْدَائِكُمْ",
+			"transliteration": "Wa razaqanī al-barāʾata min aʿdāʾikum",
+			"english-translation": "And provided me with disassociation from your enemies,",
+			"urdu-translation": "اور مجھے تمہارے دشمنوں سے بیزاری عطا فرمائی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 68,
+			"arabic": "أَنْ يَجْعَلَنِي مَعَكُمْ فِي ٱلدُّنْيَا وَٱلآخِرَةِ",
+			"transliteration": "An yajʿalanī maʿakum fī d-dunyā wa l-ākhirah",
+			"english-translation": "That He places me with you in this world and the hereafter,",
+			"urdu-translation": "کہ وہ مجھے دنیا اور آخرت میں تمہارے ساتھ رکھے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 69,
+			"arabic": "وَأَنْ يُثَبِّتَ لِي عِنْدَكُمْ قَدَمَ صِدْقٍ",
+			"transliteration": "Wa an yuthabbit lī ʿindakum qadam ṣidqin",
+			"english-translation": "And that He makes firm for me, with you, a true footing,",
+			"urdu-translation": "اور تمہارے پاس میرے لیے سچائی کا پختہ قدم ثابت رکھے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 70,
+			"arabic": "فِي ٱلدُّنْيَا وَٱلآخِرَةِ",
+			"transliteration": "Fī d-dunyā wa l-ākhirah",
+			"english-translation": "In this world and the hereafter.",
+			"urdu-translation": "دنیا اور آخرت میں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 71,
+			"arabic": "وَأَسْأَلُهُ أَنْ يُبَلِّغَنِيَ ٱلْمَقَامَ ٱلْمَحْمُودَ لَكُمْ عِندَ ٱللَّهِ",
+			"transliteration": "Wa as’aluhu an yuballighanī al-maqāma l-maḥmūda lakum ʿinda llāh",
+			"english-translation": "And I ask Him to let me reach the praised station you have with Allah,",
+			"urdu-translation": "اور میں اس سے دعا کرتا ہوں کہ مجھے وہ مقامِ محمود عطا فرمائے جو تمہیں اللہ کے ہاں حاصل ہے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 72,
+			"arabic": "وَأَنْ يَرْزُقَنِي طَلَبَ ثَأْرِي",
+			"transliteration": "Wa an yarzuqanī ṭalaba thaʾrī",
+			"english-translation": "And that He grants me the opportunity to seek my revenge,",
+			"urdu-translation": "اور وہ مجھے میرے انتقام کا موقع عطا فرمائے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 73,
+			"arabic": "مَعَ إِمَامِ هُدىًٰ ظَاهِرٍ",
+			"transliteration": "Maʿa imāmi hudan ẓāhir",
+			"english-translation": "Alongside a manifest Imam of guidance,",
+			"urdu-translation": "ایک ظاہری امامِ ہدایت کے ساتھ،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 74,
+			"arabic": "نَاطِقٍ بِٱلْحَقِّ مِنْكُمْ",
+			"transliteration": "Nāṭiqin bil-ḥaqqi minkum",
+			"english-translation": "Who speaks the truth from among you.",
+			"urdu-translation": "جو تم میں سے حق بولنے والا ہو۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 75,
+			"arabic": "وَأَسْأَلُ ٱللَّهَ بِحَقِّكُمْ",
+			"transliteration": "Wa as’alu llāh bihaqqikum",
+			"english-translation": "And I ask Allah by your right,",
+			"urdu-translation": "اور میں اللہ سے تمہارے حق کے واسطے سے سوال کرتا ہوں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 76,
+			"arabic": "وَبِٱلشَّأْنِ ٱلَّذِي لَكُمْ عِندَهُ",
+			"transliteration": "Wa bish-shaʾni l-ladhī lakum ʿindah",
+			"english-translation": "And by the status that you have with Him,",
+			"urdu-translation": "اور تمہارے اُس مرتبے کے واسطے جو تمہیں اس کے ہاں حاصل ہے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 77,
+			"arabic": "أَنْ يُعْطِيَنِي بِمُصَابِي بِكُمْ",
+			"transliteration": "An yuʿṭiyanī bimuṣābī bikum",
+			"english-translation": "That He grants me, through my grief for you,",
+			"urdu-translation": "کہ وہ مجھے تمہارے غم کے بدلے میں عطا فرمائے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 78,
+			"arabic": "أَفْضَلَ مَا يُعْطِي مُصَاباً بِمُصِيبَتِهِ",
+			"transliteration": "Afḍala mā yuʿṭī muṣāban bimuṣībatih",
+			"english-translation": "The best that He gives to one afflicted by his own loss.",
+			"urdu-translation": "سب سے بہتر اجر جو کسی مصیبت زدہ کو اس کی مصیبت کے بدلے عطا کیا جاتا ہے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 79,
+			"arabic": "مُصِيبَةً مَا أَعْظَمَهَا",
+			"transliteration": "Muṣībatan mā aʿẓamahā",
+			"english-translation": "What a great calamity it was!",
+			"urdu-translation": "کیا ہی عظیم مصیبت تھی!",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 80,
+			"arabic": "وَأَعْظَمَ رَزِيَّتَهَا فِي ٱلإِسْلَامِ",
+			"transliteration": "Wa aʿẓama raziyyatahā fī l-Islām",
+			"english-translation": "And how immense was its loss in Islam.",
+			"urdu-translation": "اور اسلام میں اس کا صدمہ کتنا شدید تھا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 81,
+			"arabic": "وَفِي جَمِيعِ ٱلسَّمَاوَاتِ وَٱلْأَرْضِ",
+			"transliteration": "Wa fī jamīʿi s-samāwāti wa l-arḍ",
+			"english-translation": "And throughout all the heavens and the earth.",
+			"urdu-translation": "اور تمام آسمانوں اور زمین میں۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 82,
+			"arabic": "ٱللَّهُمَّ ٱجْعَلْنِي فِي مَقَامِي هٰذَا",
+			"transliteration": "Allāhumma ajʿalnī fī maqāmī hādhā",
+			"english-translation": "O Allah, place me in this position of mine,",
+			"urdu-translation": "اے اللہ! مجھے میرے اس مقام پر رکھ،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 83,
+			"arabic": "مِمَّنْ تَنَالُهُ مِنْكَ صَلَوَاتٌ وَرَحْمَةٌ وَمَغْفِرَةٌ",
+			"transliteration": "Mimman tanāluhū minka ṣalawātun wa raḥmatun wa maghfirah",
+			"english-translation": "Among those who receive from You blessings, mercy, and forgiveness.",
+			"urdu-translation": "ان لوگوں میں سے جن پر تیری طرف سے صلوات، رحمت اور مغفرت نازل ہوتی ہے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 84,
+			"arabic": "ٱللَّهُمَّ ٱجْعَلْ مَحْيَايَ مَحْيَا مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
+			"transliteration": "Allāhumma ajʿal maḥyāya maḥyā Muḥammad wa āli Muḥammad",
+			"english-translation": "O Allah, make my life like the life of Muhammad and the family of Muhammad,",
+			"urdu-translation": "اے اللہ! میری زندگی کو محمدؐ و آلِ محمدؐ کی زندگی جیسا بنا،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 85,
+			"arabic": "وَمَمَاتِي مَمَاتَ مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
+			"transliteration": "Wa mamātī mamāta Muḥammad wa āli Muḥammad",
+			"english-translation": "And my death like the death of Muhammad and the family of Muhammad.",
+			"urdu-translation": "اور میری موت کو محمدؐ و آلِ محمدؐ کی موت جیسا بنا۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 86,
+			"arabic": "ٱللَّهُمَّ إِنَّ هٰذَا يَوْمٌ",
+			"transliteration": "Allāhumma inna hādhā yawmun",
+			"english-translation": "O Allah, surely this is a day",
+			"urdu-translation": "اے اللہ! بے شک یہ دن ہے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 87,
+			"arabic": "تَبَرَّكَتْ بِهِ بَنُو أُمَيَّةَ",
+			"transliteration": "Tabarrakat bihī Banū Umayyah",
+			"english-translation": "On which the children of Umayyah rejoiced,",
+			"urdu-translation": "جس دن پر بنی امیہ نے خوشی منائی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 88,
+			"arabic": "وَٱبْنُ آكِلَةِ ٱلْأَكْبَادِ",
+			"transliteration": "Wa bnu ākilati l-akbād",
+			"english-translation": "And the son of the liver-eater,",
+			"urdu-translation": "اور جگر خوار کی اولاد،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 89,
+			"arabic": "ٱللَّعِينُ ٱبْنُ ٱللَّعِينِ",
+			"transliteration": "Al-laʿīn ibnu l-laʿīn",
+			"english-translation": "The accursed son of the accursed,",
+			"urdu-translation": "ملعون، ملعون کی اولاد،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 90,
+			"arabic": "عَلَىٰ لِسَانِكَ وَلِسَانِ نَبِيِّكَ",
+			"transliteration": "ʿAlā lisānik wa lisāni nabiyyik",
+			"english-translation": "Cursed by Your tongue and the tongue of Your Prophet,",
+			"urdu-translation": "تیرے اور تیرے نبیؐ کی زبان پر ملعون،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 91,
+			"arabic": "صَلَّىٰ ٱللَّهُ عَلَيْهِ وَآلِهِ",
+			"transliteration": "Ṣallā llāhu ʿalayhi wa ālih",
+			"english-translation": "May Allah bless him and his family.",
+			"urdu-translation": "اللہ کی رحمت ہو ان پر اور ان کی آل پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 92,
+			"arabic": "فِي كُلِّ مَوْطِنٍ وَمَوْقِفٍ",
+			"transliteration": "Fī kulli mawṭinin wa mawqif",
+			"english-translation": "In every place and position,",
+			"urdu-translation": "ہر مقام اور ہر موقف میں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 93,
+			"arabic": "وَقَفَ فِيهِ نَبِيُّكَ صَلَّىٰ ٱللَّهُ عَلَيْهِ وَآلِهِ",
+			"transliteration": "Waqafa fīhi nabiyyuka ṣallā llāhu ʿalayhi wa ālih",
+			"english-translation": "Where your Prophet stood — may Allah bless him and his family.",
+			"urdu-translation": "جہاں تیرے نبیؐ نے قیام فرمایا — اللہ کی صلوات ہو ان پر اور ان کی آل پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 94,
+			"arabic": "ٱللَّهُمَّ ٱلْعَنْ أَبَا سُفْيَانَ وَمُعَاوِيَةَ وَيَزِيدَ بْنَ مُعَاوِيَةَ",
+			"transliteration": "Allāhumma lʿan Abā Sufyān wa Muʿāwiyah wa Yazīd ibn Muʿāwiyah",
+			"english-translation": "O Allah, curse Abū Sufyān, Muʿāwiyah, and Yazīd son of Muʿāwiyah,",
+			"urdu-translation": "اے اللہ! ابوسفیان، معاویہ، اور یزید بن معاویہ پر لعنت کر،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 95,
+			"arabic": "عَلَيْهِمْ مِنْكَ ٱللَّعْنَةُ أَبَدَ ٱلْآبِدِينَ",
+			"transliteration": "ʿAlayhim minka l-laʿnatu abada l-ābidīn",
+			"english-translation": "Upon whom is Your curse forever and ever.",
+			"urdu-translation": "جن پر تیری لعنت ہمیشہ ہمیشہ کے لیے ہے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 96,
+			"arabic": "وَهٰذَا يَوْمٌ فَرِحَتْ بِهِ آلُ زِيَادٍ وَآلُ مَرْوَانَ",
+			"transliteration": "Wa hādhā yawmun fariḥat bihī ālu Ziyād wa ālu Marwān",
+			"english-translation": "And this is the day on which the family of Ziyād and the family of Marwān rejoiced,",
+			"urdu-translation": "اور یہ وہ دن ہے جس پر آلِ زیاد اور آلِ مروان خوش ہوئے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 97,
+			"arabic": "بِقَتْلِهِمُ ٱلْحُسَيْنَ صَلَوَاتُ ٱللَّهِ عَلَيْهِ",
+			"transliteration": "Bi-qatlihimu l-Ḥusayn ṣalawātu llāhi ʿalayh",
+			"english-translation": "For their killing of al-Ḥusayn — may Allah’s blessings be upon him.",
+			"urdu-translation": "اس لیے کہ انہوں نے حسینؑ کو شہید کیا — اللہ کی صلوات ہو ان پر۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 98,
+			"arabic": "ٱللَّهُمَّ فَضَاعِفْ عَلَيْهِمُ ٱللَّعْنَ مِنْكَ",
+			"transliteration": "Allāhumma fa-ḍāʿif ʿalayhim al-laʿna minka",
+			"english-translation": "O Allah, so multiply Your curse upon them,",
+			"urdu-translation": "اے اللہ! ان پر اپنی لعنت دوگنی فرما،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 99,
+			"arabic": "وَٱلْعَذَابَ ٱلْأَلِيمَ",
+			"transliteration": "Wa l-ʿadhāba l-alīm",
+			"english-translation": "And [increase] the painful punishment.",
+			"urdu-translation": "اور ان پر دردناک عذاب کو بڑھا دے۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 100,
+			"arabic": "ٱللَّهُمَّ إِنِّي أَتَقَرَّبُ إِلَيْكَ فِي هٰذَا ٱلْيَوْمِ",
+			"transliteration": "Allāhumma innī ataqarrabu ilayka fī hādhā l-yawm",
+			"english-translation": "O Allah, indeed I seek nearness to You on this day,",
+			"urdu-translation": "اے اللہ! میں آج کے دن تجھ سے قربت چاہتا ہوں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 101,
+			"arabic": "وَفِي مَوْقِفِي هٰذَا",
+			"transliteration": "Wa fī mawqifī hādhā",
+			"english-translation": "And in this stance of mine,",
+			"urdu-translation": "اور اس مقام پر بھی،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 102,
+			"arabic": "وَأَيَّامِ حَيَاتِي",
+			"transliteration": "Wa ayyāmi ḥayātī",
+			"english-translation": "And throughout the days of my life,",
+			"urdu-translation": "اور میری زندگی کے تمام دنوں میں،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 103,
+			"arabic": "بِٱلْبَرَاءَةِ مِنْهُمْ وَٱللَّعْنَةِ عَلَيْهِمْ",
+			"transliteration": "Bil-barāʾati minhum wa l-laʿnati ʿalayhim",
+			"english-translation": "By disassociating from them and cursing them,",
+			"urdu-translation": "ان سے بیزاری اور ان پر لعنت کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 104,
+			"arabic": "وَبِٱلْمُوَالاَةِ لِنَبِيِّكَ وَآلِ نَبِيِّكَ",
+			"transliteration": "Wa bil-muwālāti li-nabiyyik wa āli nabiyyik",
+			"english-translation": "And through loyalty to Your Prophet and the family of Your Prophet,",
+			"urdu-translation": "اور تیرے نبیؐ اور ان کی آل سے وفاداری کے ذریعے،",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		},
+		{
+			"verseNumber": 105,
+			"arabic": "عَلَيْهِ وَعَلَيْهِمُ ٱلسَّلَامُ",
+			"transliteration": "ʿAlayhi wa ʿalayhimu s-salām",
+			"english-translation": "Peace be upon him and upon them.",
+			"urdu-translation": "ان پر اور ان کی آل پر سلام ہو۔",
+			"timestamp": {
+				"start": "",
+				"end": ""
+			}
+		}
+	]
+}
