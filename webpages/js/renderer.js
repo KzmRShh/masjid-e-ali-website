@@ -7,10 +7,40 @@ let viewType = 'full';
     Fetches Dua JSON and renders initial view.
 */
 export async function fetchDua(path) {
-    const res = await fetch(path);
-    duaData = await res.json();
-    renderView();
-    return duaData;
+    const container = document.getElementById('verses-container');
+
+    try {
+        const res = await fetch(path);
+        if (!res.ok) {
+            throw new Error(`Network error: ${res.status} ${res.statusText}`);
+        }
+        duaData = await res.json();
+        renderView();
+        return duaData;
+    } catch (err) {
+        console.error('Failed to load Dua:', err);
+        // Hide other controls so user focuses on the error.
+        document.getElementById('view-controls').style.display = 'none';
+        document.getElementById('controls').style.display = 'none';
+        document.getElementById('audio-bar').style.display = 'none';
+
+        // Show an error banner with a retry button.
+        container.innerHTML = `
+          <div class="error-banner">
+            <p>⚠️ Sorry, we couldn’t load the content.<br>${err.message}</p>
+            <button id="retry-btn">Retry</button>
+          </div>
+        `;
+
+        document.getElementById('retry-btn').addEventListener('click', async () => {
+            // Clear the banner, restore controls, and retry.
+            container.innerHTML = '';
+            document.getElementById('view-controls').style.display = '';
+            document.getElementById('controls').style.display = '';
+            document.getElementById('audio-bar').style.display = '';
+            await fetchDua(path);
+        });
+    }
 }
 
 /*

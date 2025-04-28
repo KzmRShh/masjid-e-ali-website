@@ -240,6 +240,34 @@ body {
     border-radius:4px;
 }
 
+.error-banner {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+  text-align: center;
+}
+  
+.error-banner p {
+    margin: 0 0 12px;
+}
+  
+#error-banner button, .error-banner button {
+padding: 8px 16px;
+    border: none;
+    background: #721c24;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.error-banner button:hover {
+    opacity: 0.9;
+}
+
 @media(max-width:768px) {
     body { 
         padding:80px 10px 200px;
