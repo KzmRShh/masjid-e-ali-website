@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dua al-Tawassul</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <h1>Dua al-Tawassul</h1>
-  <div id="view-controls">
-    <button class="view-btn active" data-view="full">Full View</button>
-    <button class="view-btn" data-view="section">Section View</button>
-    <button class="view-btn" data-view="verse">Verse View</button>
-    <button id="audio-toggle" class="audio-toggle active">Audio</button>
-  </div>
-  <div id="controls">
-    <button class="toggle-btn active" data-class="arabic">Arabic</button>
-    <button class="toggle-btn active" data-class="english">English</button>
-    <button class="toggle-btn" data-class="transliteration">Transliteration</button>
-    <button class="toggle-btn" data-class="urdu">Urdu</button>
-  </div>
-  <div id="verses-container"></div>
-
-  <!-- Fixed Audio Bar -->
-  <div id="audio-bar">
-    <audio id="audio-player" preload="metadata"></audio>
-    <div id="audio-controls">
-      <button id="rewind" title="Rewind 10s">⏪</button>
-      <button id="play-pause" title="Play/Pause">▶️</button>
-      <button id="forward" title="Forward 10s">⏩</button>
-      <button id="mute-btn" title="Mute/Unmute">🔊</button>
-      <input type="range" id="volume-slider" value="1" min="0" max="1" step="0.01" aria-label="Volume">
-	  <span id="time-display">0:00 / 0:00</span>
-      <input type="range" id="seek-bar" value="0" min="0" max="100" aria-label="Seek">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dua al-Tawassul</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Dua al-Tawassul</h1>
+    <div id="view-controls">
+      <button class="view-btn active" data-view="full">Full View</button>
+      <button class="view-btn" data-view="section">Section View</button>
+      <button class="view-btn" data-view="verse">Verse View</button>
+      <button id="audio-toggle" class="audio-toggle active">Audio</button>
     </div>
-  </div>
+    <div id="controls">
+      <button class="toggle-btn active" data-class="arabic">Arabic</button>
+      <button class="toggle-btn active" data-class="english">English</button>
+      <button class="toggle-btn" data-class="transliteration">Transliteration</button>
+      <button class="toggle-btn" data-class="urdu">Urdu</button>
+    </div>
+    <div id="verses-container"></div>
 
-  <div id="resume-modal" class="modal-backdrop hidden">
-    <div class="modal">
-      <h3>Resume Progress</h3>
-      <p id="resume-text">Resume where you left off?</p>
-      <div class="modal-buttons">
-        <button id="btn-resume" class="toggle-btn">Resume</button>
-        <button id="btn-restart" class="toggle-btn">Restart</button>
+    <!-- Audio Bar -->
+    <div id="audio-bar">
+      <audio id="audio-player" preload="metadata"></audio>
+      <div id="audio-controls">
+        <button id="rewind" title="Rewind 10s">⏪</button>
+        <button id="play-pause" title="Play/Pause">▶️</button>
+        <button id="forward" title="Forward 10s">⏩</button>
+        <button id="mute-btn" title="Mute/Unmute">🔊</button>
+        <input type="range" id="volume-slider" value="1" min="0" max="1" step="0.01" aria-label="Volume">
+        <span id="time-display">0:00 / 0:00</span>
+        <input type="range" id="seek-bar" value="0" min="0" max="100" aria-label="Seek">
       </div>
     </div>
-  </div>
-  <script
-  type="module"
-  src="js/main.js"
-  data-json-path="/data/duas/json/dua-al-tawassul.json"
-  data-audio-src="/data/duas/mp3/dua-al-tawassul.mp3">
-</script>
-</body>
+
+    <div id="resume-modal" class="modal-backdrop hidden">
+      <div class="modal">
+        <h3>Resume Progress</h3>
+        <p id="resume-text">Resume where you left off?</p>
+        <div class="modal-buttons">
+          <button id="btn-resume" class="toggle-btn">Resume</button>
+          <button id="btn-restart" class="toggle-btn">Restart</button>
+        </div>
+      </div>
+    </div>
+    
+    <script
+    type="module"
+    src="js/main.js"
+    data-json-path="/data/duas/json/dua-al-tawassul.json"
+    data-audio-src="/data/duas/mp3/dua-al-tawassul.mp3">
+    </script>
+  </body>
 </html>
