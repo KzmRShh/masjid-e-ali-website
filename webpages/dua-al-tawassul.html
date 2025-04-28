@@ -49,58 +49,11 @@
       </div>
     </div>
   </div>
-
-  <script>
-    // Audio logic
-    const audio = document.getElementById('audio-player');
-    audio.src = '../data/duas/mp3/dua-al-tawassul.mp3';
-    const playPauseBtn = document.getElementById('play-pause');
-    const rewindBtn = document.getElementById('rewind');
-    const forwardBtn = document.getElementById('forward');
-    const muteBtn = document.getElementById('mute-btn');
-    const seekBar = document.getElementById('seek-bar');
-    const volumeSlider = document.getElementById('volume-slider');
-    const timeDisplay = document.getElementById('time-display');
-    const audioToggle = document.getElementById('audio-toggle');
-    
-    function formatTime(sec) {
-      const m = Math.floor(sec/60);
-      const s = Math.floor(sec%60).toString().padStart(2,'0');
-      return `${m}:${s}`;
-    }
-    
-    playPauseBtn.addEventListener('click', () => {
-      if (audio.paused) { audio.play(); playPauseBtn.textContent = '❚❚'; }
-      else { audio.pause(); playPauseBtn.textContent = '▶️'; }
-    });
-    rewindBtn.addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 10); });
-    forwardBtn.addEventListener('click', () => { audio.currentTime = Math.min(audio.duration, audio.currentTime + 10); });
-    muteBtn.addEventListener('click', () => { audio.muted = !audio.muted; muteBtn.textContent = audio.muted ? '🔇' : '🔊'; });
-    audio.addEventListener('loadedmetadata', () => {
-      timeDisplay.textContent = `0:00 / ${formatTime(audio.duration)}`;
-    });
-    audio.addEventListener('timeupdate', () => {
-      seekBar.value = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
-      timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
-    });
-    seekBar.addEventListener('input', () => { audio.currentTime = (seekBar.value/100)*audio.duration; });
-    volumeSlider.addEventListener('input', () => { audio.volume = volumeSlider.value; audio.muted = volumeSlider.value==0; muteBtn.textContent = audio.muted?'🔇':'🔊'; });
-    audioToggle.addEventListener('click', () => { const bar=document.getElementById('audio-bar'); bar.style.display = bar.style.display==='none'?'flex':'flex'; audioToggle.classList.toggle('active'); });
-	
-	// Dua rendering logic
-    let duaData, currentSection = 0, currentVerse = 0, viewType = 'full', pendingView;
-    const modal = document.getElementById('resume-modal'), resumeText = document.getElementById('resume-text');
-    document.getElementById('btn-resume').onclick = () => { modal.classList.add('hidden'); switchView(pendingView); };
-    document.getElementById('btn-restart').onclick = () => { modal.classList.add('hidden'); if(pendingView==='section'){currentSection=0;localStorage.removeItem('dua-currentSection')} if(pendingView==='verse'){currentVerse=0;localStorage.removeItem('dua-currentVerse')} switchView(pendingView); };
-    function setupControls(){ document.querySelectorAll('.view-btn').forEach(btn=>btn.onclick=()=>{const nv=btn.dataset.view; if(nv==='section'&&localStorage.getItem('dua-currentSection')!=null){pendingView='section';resumeText.textContent='Resume section where you left off?';modal.classList.remove('hidden')}else if(nv==='verse'&&localStorage.getItem('dua-currentVerse')!=null){pendingView='verse';resumeText.textContent='Resume verse where you left off?';modal.classList.remove('hidden')}else switchView(nv);} ); document.querySelectorAll('.toggle-btn').forEach(btn=>btn.onclick=()=>{btn.classList.toggle('active'); document.querySelectorAll('.'+btn.dataset.class).forEach(el=>el.classList.toggle('hidden')); updateDividers(); } ); }
-    function switchView(type){ document.querySelector('.view-btn.active').classList.remove('active'); document.querySelector('.view-btn[data-view="'+type+'"]').classList.add('active'); viewType=type; renderView(); }
-    fetch('../data/duas/json/dua-al-tawassul.json').then(r=>r.json()).then(d=>{duaData=d;setupControls();renderView()}).catch(e=>console.error('JSON load error:',e));
-    function renderView(){ const c=document.getElementById('verses-container');c.innerHTML=''; if(viewType==='full')renderFull(); if(viewType==='section')renderSection(); if(viewType==='verse')renderVerse(); updateDividers(); }
-    function renderFull(){ duaData.sections.forEach((sec,i)=>{ const w=document.createElement('div');w.className='section-wrapper'; const h=document.createElement('h2');h.textContent=sec.sectionName;w.appendChild(h); sec.verses.forEach(v=>w.appendChild(createVerseDiv(v))); document.getElementById('verses-container').appendChild(w); }); }
-    function renderSection(){ const sec=duaData.sections[currentSection]; const w=document.createElement('div');w.className='section-wrapper'; const h=document.createElement('h2');h.textContent=sec.sectionName;w.appendChild(h); sec.verses.forEach(v=>w.appendChild(createVerseDiv(v))); document.getElementById('verses-container').appendChild(w); const nav=document.createElement('div');nav.className='nav-arrows'; const prev=document.createElement('button');prev.textContent='←';prev.disabled=currentSection===0; prev.onclick=()=>{currentSection--;localStorage.setItem('dua-currentSection',currentSection);renderView();setTimeout(()=>{document.querySelector('.section-wrapper h2').scrollIntoView({behavior:'smooth',block:'start'})},0)}; const next=document.createElement('button');next.textContent='→';next.disabled=currentSection===duaData.sections.length-1; next.onclick=()=>{currentSection++;localStorage.setItem('dua-currentSection',currentSection);renderView();setTimeout(()=>{document.querySelector('.section-wrapper h2').scrollIntoView({behavior:'smooth',block:'start'})},0)}; nav.appendChild(prev);nav.appendChild(next);document.getElementById('verses-container').appendChild(nav); }
-    function renderVerse(){ const flat=duaData.sections.flatMap(s=>s.verses), v=flat[currentVerse], idx=duaData.sections.findIndex(s=>s.verses.some(x=>x.id===v.id)); const w=document.createElement('div');w.className='section-wrapper'; const h=document.createElement('h2');h.textContent=duaData.sections[idx].sectionName;w.appendChild(h); w.appendChild(createVerseDiv(v)); document.getElementById('verses-container').appendChild(w); const nav=document.createElement('div');nav.className='nav-arrows'; const prev=document.createElement('button');prev.textContent='←';prev.disabled=currentVerse===0;prev.onclick=()=>{currentVerse--;localStorage.setItem('dua-currentVerse',currentVerse);renderView()}; const next=document.createElement('button');next.textContent='→';next.disabled=currentVerse===flat.length-1;next.onclick=()=>{currentVerse++;localStorage.setItem('dua-currentVerse',currentVerse);renderView()}; nav.appendChild(prev);nav.appendChild(next);document.getElementById('verses-container').appendChild(nav); }
-    function createVerseDiv(v){ const d=document.createElement('div');d.className='verse'; const num=document.createElement('span');num.className='verse-number';num.textContent=v.verseNumber;d.appendChild(num); ['arabic','english','transliteration','urdu'].forEach(cls=>{ const btn=document.querySelector('button[data-class="'+cls+'"]'); const p=document.createElement('p'); p.className=cls+(cls!=='arabic'&&!btn.classList.contains('active')?' hidden':''); p.textContent = cls==='arabic'?v.arabic:cls==='english'?v['english-translation']:cls==='transliteration'?v.transliteration:v['urdu-translation']; d.appendChild(p); }); return d; }
-    function updateDividers(){ document.querySelectorAll('.verse').forEach(v=>{ v.querySelectorAll('hr').forEach(hr=>hr.remove()); const vis=Array.from(v.querySelectorAll('p')).filter(p=>!p.classList.contains('hidden')); vis.slice(1).forEach(p=>v.insertBefore(document.createElement('hr'),p)); }); }
-  </script>
+  <script
+  type="module"
+  src="js/main.js"
+  data-json-path="/data/duas/json/dua-al-tawassul.json"
+  data-audio-src="/data/duas/mp3/dua-al-tawassul.mp3">
+</script>
 </body>
 </html>
