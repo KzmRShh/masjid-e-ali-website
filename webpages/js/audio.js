@@ -46,7 +46,9 @@ export function initAudioControls(src) {
 
     toggleBtn.addEventListener('click', () => {
         const bar = document.getElementById('audio-bar');
-        bar.style.display = bar.style.display === 'none' ? 'flex' : 'flex';
+        // Read the actual computed display value.
+        const isHidden = getComputedStyle(bar).display === 'none';
+        bar.style.display = isHidden ? 'flex' : 'none';
         toggleBtn.classList.toggle('active');
     });
 }  
