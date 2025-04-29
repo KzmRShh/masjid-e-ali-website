@@ -153,13 +153,18 @@ function renderVerse() {
     document.getElementById('verses-container').appendChild(nav);
 }
 
+function parseTimestamp(ts) {
+    const [mins, secs] = ts.split(':').map(Number);
+    return mins * 60 + secs;
+}
+
 function createVerseDiv(v) {
     const div = document.createElement('div');
     div.className = 'verse';
 
-    div.dataset.start = v.timestamp.start;
-    div.dataset.end   = v.timestamp.end;
-    
+    div.dataset.start = parseTimestamp(v.timestamp.start);
+    div.dataset.end   = parseTimestamp(v.timestamp.end);
+
     const num = document.createElement('span');
     num.className = 'verse-number';
     num.textContent = v.verseNumber;
