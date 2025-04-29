@@ -201,3 +201,46 @@ function updateDividers() {
         visible.slice(1).forEach(p => v.insertBefore(document.createElement('hr'), p));
     });
 }
+
+export function handleLeftArrow() {
+    const audio = document.getElementById('audio-player');
+    if (viewType === 'full') {
+        // Skip backwards in audio.
+        audio.currentTime = Math.max(0, audio.currentTime - 10);
+    } else if (viewType === 'verse') {
+        // Go to previous verse.
+        if (currentVerse > 0) currentVerse--;
+        localStorage.setItem('dua-currentVerse', currentVerse);
+        renderView();
+    } else if (viewType === 'section') {
+        // Go to previous section.
+        if (currentSection > 0) currentSection--;
+        localStorage.setItem('dua-currentSection', currentSection);
+        renderView();
+    }
+}
+
+export function handleRightArrow() {
+    const audio = document.getElementById('audio-player');
+    if (viewType === 'full') {
+        // Skip forwards in audio.
+        audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
+    } else if (viewType === 'verse') {
+        // Go to next verse.
+        const flat = duaData.sections.flatMap(s => s.verses);
+        if (currentVerse < flat.length - 1) currentVerse++;
+        localStorage.setItem('dua-currentVerse', currentVerse);
+        renderView();
+    } else if (viewType === 'section') {
+        // Go to next section.
+        if (currentSection < duaData.sections.length - 1) currentSection++;
+        localStorage.setItem('dua-currentSection', currentSection);
+        renderView();
+    }
+}
+
+export function handleSpace() {
+    const audio = document.getElementById('audio-player');
+    if (audio.paused) audio.play();
+    else audio.pause();
+}
