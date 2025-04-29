@@ -156,6 +156,10 @@ function renderVerse() {
 function createVerseDiv(v) {
     const div = document.createElement('div');
     div.className = 'verse';
+
+    div.dataset.start = v.timestamp.start;
+    div.dataset.end   = v.timestamp.end;
+    
     const num = document.createElement('span');
     num.className = 'verse-number';
     num.textContent = v.verseNumber;

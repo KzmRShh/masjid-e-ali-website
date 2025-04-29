@@ -11,6 +11,7 @@ export function initAudioControls(src) {
     const timeDisp = document.getElementById('time-display');
     const toggleBtn = document.getElementById('audio-toggle');
     const speedSelector = document.getElementById('speed-selector');
+    const verses = Array.from(document.querySelectorAll('.verse'));
 
     speedSelector.addEventListener('change', () => {
       audio.playbackRate = parseFloat(speedSelector.value);
@@ -57,5 +58,27 @@ export function initAudioControls(src) {
         const isHidden = getComputedStyle(bar).display === 'none';
         bar.style.display = isHidden ? 'flex' : 'none';
         toggleBtn.classList.toggle('active');
+    });
+
+    const verseMap = verses.map(el => ({
+        el,
+        start: parseFloat(el.dataset.start),
+        end:   parseFloat(el.dataset.end)
+    }));
+      
+      // Highlight current verse.
+    audio.addEventListener('timeupdate', () => {
+        const t = audio.currentTime;
+        verseMap.forEach(v => {
+            v.el.classList.toggle('current', t >= v.start && t < v.end);
+        });
+    });
+      
+    // Seek on click.
+    verseMap.forEach(v => {
+        v.el.addEventListener('click', () => {
+            audio.currentTime = v.start;
+            audio.play();
+        });
     });
 }  

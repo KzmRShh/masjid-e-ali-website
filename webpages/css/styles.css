@@ -166,6 +166,11 @@ h1 {
     width:50%;
 }
 
+.verse.current {
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+  
 /* Navigation Arrows */
 .nav-arrows {
     display:flex;
