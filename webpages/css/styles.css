@@ -110,7 +110,7 @@ h1 {
 
 /* Verses */
 #verses-container { 
-    padding: 16px var(--mobile-padding);
+    padding: 20px var(--mobile-padding) 160px;
     margin: 0 auto;
     max-width: 1000px;
 }
