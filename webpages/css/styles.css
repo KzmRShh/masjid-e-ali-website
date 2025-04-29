@@ -26,6 +26,50 @@ body {
     text-align: center;
 }
 
+/* Navigation Bar */
+.main-nav {
+    background: var(--accent-color);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main-nav .nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--mobile-padding);
+}
+
+.main-nav .logo img {
+    height: 40px;
+    display: block;
+}
+
+.main-nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .nav-links a {
+    color: var(--bg-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.main-nav .nav-links a:hover {
+    background: var(--divider-color);
+}
+
 /* Controls */
 #view-controls, #controls {
     display:flex; justify-content:center; flex-wrap:wrap; gap:8px;
