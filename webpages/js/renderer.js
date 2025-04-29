@@ -181,7 +181,7 @@ function createVerseDiv(v) {
             v['urdu-translation'];
         div.appendChild(p);
     });
-
+    
     const seekBtn = document.createElement('button');
     seekBtn.className = 'seek-btn';
     seekBtn.title     = 'Play from here';

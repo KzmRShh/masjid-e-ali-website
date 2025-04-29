@@ -15,7 +15,7 @@ export function initAudioControls(src) {
 
     // Sync play/pause icon via audio events
     audio.addEventListener('play',  () => playPause.textContent = '❚❚');
-    audio.addEventListener('pause', () => playPause.textContent = '▶️');
+    audio.addEventListener('pause', () => playPause.textContent = '►');
 
     // Playback speed control
     speedSelector.addEventListener('change', () => {
