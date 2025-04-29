@@ -1,7 +1,7 @@
 export let duaData;
-let currentSection = 0;
-let currentVerse = 0;
-let viewType = 'full';
+export let currentSection = 0;
+export let currentVerse = 0;
+export let viewType = 'full';
 
 /*
     Fetches Dua JSON and renders initial view.
@@ -153,7 +153,7 @@ function renderVerse() {
     document.getElementById('verses-container').appendChild(nav);
 }
 
-function parseTimestamp(ts) {
+export function parseTimestamp(ts) {
     const [mins, secs] = ts.split(':').map(Number);
     return mins * 60 + secs;
 }
