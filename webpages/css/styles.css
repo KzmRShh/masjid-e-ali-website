@@ -16,13 +16,17 @@
 .hidden { display: none !important;
 
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
   
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
-    padding: 20px var(--mobile-padding) 160px;
     text-align: center;
 }
 
@@ -35,12 +39,13 @@ body {
 
 
 .main-nav .nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;        /* full-width flush */
+    max-width: none;    /* remove any container limit */
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 var(--mobile-padding);
+    padding: 0;
 }
 
 .main-nav .logo img {
@@ -60,9 +65,7 @@ body {
     color: var(--bg-color);
     text-decoration: none;
     font-weight: 500;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: background 0.3s;
+    padding: 16px 20px;
 }
 
 .main-nav .nav-links a:hover {
@@ -71,12 +74,24 @@ body {
 
 .main-nav .nav-links a:hover {
     background: var(--divider-color);
+}
+
+/* Headings */
+h1 {
+    margin: 0;
+    padding: 20px var(--mobile-padding) 0;
 }
 
 /* Controls */
 #view-controls, #controls {
-    display:flex; justify-content:center; flex-wrap:wrap; gap:8px;
-    background:var(--bg-color); padding:8px 0; position:sticky; top:0; z-index:100;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap; gap:8px;
+    background:var(--bg-color);
+    padding: 16px var(--mobile-padding);
+    position:sticky;
+    top:0;
+    z-index:100;
 }
 
 .view-btn, .toggle-btn, .audio-toggle {
@@ -95,8 +110,9 @@ body {
 
 /* Verses */
 #verses-container { 
-    max-width:1000px;
-    margin:40px auto;
+    padding: 40px var(--mobile-padding) 160px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .section-wrapper {
@@ -329,10 +345,6 @@ padding: 8px 16px;
   
 .error-banner button:hover {
     opacity: 0.9;
-}
-
-h1 {
-    margin-top: 0;
 }
 
 @media(max-width:768px) {
