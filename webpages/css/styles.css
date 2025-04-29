@@ -79,7 +79,7 @@ body {
 /* Headings */
 h1 {
     margin: 0;
-    padding: 20px var(--mobile-padding) 0;
+    padding: 40px var(--mobile-padding) 0;
 }
 
 /* Controls */
@@ -110,7 +110,7 @@ h1 {
 
 /* Verses */
 #verses-container { 
-    padding: 40px var(--mobile-padding) 160px;
+    padding: 16px var(--mobile-padding);
     margin: 0 auto;
     max-width: 1000px;
 }
