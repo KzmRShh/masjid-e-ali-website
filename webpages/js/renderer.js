@@ -181,6 +181,14 @@ function createVerseDiv(v) {
             v['urdu-translation'];
         div.appendChild(p);
     });
+    
+    const seekBtn = document.createElement('button');
+    seekBtn.className = 'seek-btn';
+    seekBtn.title     = 'Play from here';
+    seekBtn.textContent = '▶️';
+    seekBtn.dataset.start = parseTimestamp(v.timestamp.start);
+
+    div.appendChild(seekBtn);
     return div;
 }
 

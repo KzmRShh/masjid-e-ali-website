@@ -170,6 +170,25 @@ h1 {
     border: 2px solid var(--accent-color);
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
+
+.seek-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.seek-btn:hover {
+    transform: scale(1.1);
+}
   
 /* Navigation Arrows */
 .nav-arrows {

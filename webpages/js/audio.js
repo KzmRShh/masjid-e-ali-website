@@ -65,6 +65,16 @@ export function initAudioControls(src) {
         start: parseFloat(el.dataset.start),
         end:   parseFloat(el.dataset.end)
     }));
+
+    verseMap.forEach(v => {
+        const btn = v.el.querySelector('.seek-btn');
+        if (!btn) return;
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          audio.currentTime = v.start;
+          audio.play();
+        });
+    });
       
       // Highlight current verse.
     audio.addEventListener('timeupdate', () => {
