@@ -31,6 +31,15 @@
         <button id="rewind" title="Rewind 10s">⏪</button>
         <button id="play-pause" title="Play/Pause">▶️</button>
         <button id="forward" title="Forward 10s">⏩</button>
+        <label for="speed-selector" class="sr-only">Speed</label>
+        <select id="speed-selector" title="Playback Speed">
+          <option value="0.5">0.5×</option>
+          <option value="0.75">0.75×</option>
+          <option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+          <option value="2">2×</option>
+        </select>
         <button id="mute-btn" title="Mute/Unmute">🔊</button>
         <input type="range" id="volume-slider" value="1" min="0" max="1" step="0.01" aria-label="Volume">
         <span id="time-display">0:00 / 0:00</span>

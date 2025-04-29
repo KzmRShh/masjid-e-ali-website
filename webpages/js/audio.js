@@ -10,6 +10,13 @@ export function initAudioControls(src) {
     const volume = document.getElementById('volume-slider');
     const timeDisp = document.getElementById('time-display');
     const toggleBtn = document.getElementById('audio-toggle');
+    const speedSelector = document.getElementById('speed-selector');
+
+    speedSelector.addEventListener('change', () => {
+      audio.playbackRate = parseFloat(speedSelector.value);
+    });
+    
+    audio.playbackRate = parseFloat(speedSelector.value);
 
     const format = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
 
