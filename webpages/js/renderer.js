@@ -47,6 +47,12 @@ export async function fetchDua(path) {
     Switches to a given view type and re-renders.
 */
 export function switchView(type) {
+    if (type === 'section') {
+        currentSection = parseInt(localStorage.getItem('dua-currentSection') || '0', 10);
+    } else if (type === 'verse') {
+        currentVerse   = parseInt(localStorage.getItem('dua-currentVerse')   || '0', 10);
+    }
+    
     const activeBtn = document.querySelector('.view-btn.active');
     if (activeBtn) activeBtn.classList.remove('active');
     const nextBtn = document.querySelector(`.view-btn[data-view="${type}"]`);
