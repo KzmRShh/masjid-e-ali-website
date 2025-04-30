@@ -17,28 +17,28 @@ function getFirstVerseEnd() {
 }
 
 export function initViewControls() {
-  const audioPlayer = document.getElementById('audio-player');
-  const modal       = document.getElementById('resume-modal');
-  const resumeBtn   = document.getElementById('btn-resume');
-  const restartBtn  = document.getElementById('btn-restart');
-  const resumeAudio = document.getElementById('btn-resume-audio');
-  const cancelBtn   = document.getElementById('btn-cancel');
+  const audioPlayer  = document.getElementById('audio-player');
+  const modal        = document.getElementById('resume-modal');
+  const resumeBtn    = document.getElementById('btn-resume');
+  const restartBtn   = document.getElementById('btn-restart');
+  const resumeAudio  = document.getElementById('btn-resume-audio');
+  const cancelBtn    = document.getElementById('btn-cancel');
 
-  // Bail out if modal elements are missing
+  // If any modal element is missing, bail early
   if (!modal || !resumeBtn || !restartBtn || !resumeAudio || !cancelBtn) {
-    console.warn('Resume modal elements not found in DOM. Skipping view controls.');
+    console.warn('Missing resume-modal elements; skipping view controls.');
     return;
   }
 
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const next = btn.dataset.view;             // "full" | "section" | "verse"
-      const key  = `dua-${next}`;                // matches storage keys
+      const next = btn.dataset.view;        // "full" | "section" | "verse"
+      const key  = `dua-${next}`;           // localStorage key
 
       const stored     = parseInt(localStorage.getItem(key) || '0', 10);
-      const progressed = (next === 'section')
+      const progressed = next === 'section'
         ? audioPlayer.currentTime > getFirstSectionEnd()
-        : (next === 'verse')
+        : next === 'verse'
           ? audioPlayer.currentTime > getFirstVerseEnd()
           : false;
 
@@ -46,34 +46,34 @@ export function initViewControls() {
       const showProgressedOnly = !showStoredModal && progressed;
 
       if (showStoredModal || showProgressedOnly) {
+        // show the modal, but do NOT switch views yet
         pendingView = next;
         document.getElementById('resume-text').textContent =
           showStoredModal
             ? `Resume ${next} where you left off?`
             : `Resume ${next} from where audio ended?`;
 
-        // Toggle button visibility
-        resumeBtn.classList.toggle('hidden', !showStoredModal);
-        restartBtn.classList.toggle('hidden', !showStoredModal);
-        resumeAudio.classList.toggle('hidden', !showProgressedOnly);
+        resumeBtn   .classList.toggle('hidden', !showStoredModal);
+        restartBtn  .classList.toggle('hidden', !showStoredModal);
+        resumeAudio .classList.toggle('hidden', !showProgressedOnly);
         cancelBtn.classList.remove('hidden');
         modal.classList.remove('hidden');
-      } else {
-        switchView(next);
+        return;  // <- prevent falling through to switchView
       }
+
+      // no modal needed → go straight to the new view
+      switchView(next);
     });
   });
 
-  // RESUME
+  // Resume where you left off
   resumeBtn.addEventListener('click', () => {
     modal.classList.add('hidden');
-    if (pendingView) {
-      switchView(pendingView);
-      pendingView = null;
-    }
+    if (pendingView) switchView(pendingView);
+    pendingView = null;
   });
 
-  // RESTART
+  // Restart from the beginning
   restartBtn.addEventListener('click', () => {
     modal.classList.add('hidden');
     localStorage.removeItem('dua-section');
@@ -82,13 +82,14 @@ export function initViewControls() {
     pendingView = null;
   });
 
-  // RESUME FROM AUDIO
+  // Resume from where audio ended
   resumeAudio.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (!pendingView) return;
 
     const t   = audioPlayer.currentTime;
     const key = `dua-${pendingView}`;
+
     if (pendingView === 'section') {
       duaData.sections.forEach((sec, idx) => {
         if (sec.verses.some(v =>
@@ -104,19 +105,31 @@ export function initViewControls() {
         parseTimestamp(v.timestamp.start) <= t &&
         parseTimestamp(v.timestamp.end)   > t
       );
-      if (idx !== -1) {
-        localStorage.setItem(key, idx);
-      }
+      if (idx !== -1) localStorage.setItem(key, idx);
     }
 
     switchView(pendingView);
     pendingView = null;
   });
 
-  // CANCEL
+  // Cancel/respect “No”
   cancelBtn.addEventListener('click', () => {
     modal.classList.add('hidden');
     pendingView = null;
+  });
+
+  // Also dismiss modal via backdrop click or Escape key
+  modal.addEventListener('click', e => {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+      pendingView = null;
+    }
+  });
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+      modal.classList.add('hidden');
+      pendingView = null;
+    }
   });
 }
 
