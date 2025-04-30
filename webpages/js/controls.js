@@ -2,8 +2,7 @@ import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
-// Compute the end time of the first section or verse
-function getFirstSectionEnd() {
+// Compute the end time of the first section or verseunction getFirstSectionEnd() {
   if (!duaData?.sections?.length) return 0;
   return duaData.sections[0].verses
     .reduce((max, v) => Math.max(max, parseTimestamp(v.timestamp.end)), 0);
@@ -22,6 +21,12 @@ export function initViewControls() {
   const restartBtn  = document.getElementById('btn-restart');
   const resumeAudio = document.getElementById('btn-resume-audio');
   const cancelBtn   = document.getElementById('btn-cancel');
+
+  // Bail out if modal elements are missing
+  if (!modal || !resumeBtn || !restartBtn || !resumeAudio || !cancelBtn) {
+    console.warn('Resume modal elements not found in DOM. Skipping view controls.');
+    return;
+  }
 
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
