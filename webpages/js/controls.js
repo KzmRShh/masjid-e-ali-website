@@ -1,3 +1,5 @@
+// controls.js
+
 import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
@@ -33,6 +35,7 @@ export function initViewControls() {
         const showResumeRestart = hasSavedIndex;
         const showAudioOption   = !audioAtStart;
 
+        // No resume options needed: switch immediately
         if (!showResumeRestart && !showAudioOption) {
           switchView(next);
           viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === next));
@@ -58,7 +61,7 @@ export function initViewControls() {
     });
   });
 
-  // Modal button handlers
+  // Resume Progress
   resumeBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (pendingView) {
@@ -68,6 +71,7 @@ export function initViewControls() {
     pendingView = null;
   });
 
+  // Restart Progress
   restartBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     localStorage.removeItem(`dua-${pendingView}`);
@@ -76,6 +80,7 @@ export function initViewControls() {
     pendingView = null;
   });
 
+  // Resume from Audio
   audioBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (!pendingView) return;
@@ -106,20 +111,28 @@ export function initViewControls() {
     pendingView = null;
   });
 
+  // Cancel → switch to view anyway
   cancelBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
+    if (pendingView) {
+      switchView(pendingView);
+      viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
+    }
     pendingView = null;
   });
 
-  // Close modal on backdrop click
+  // Click outside modal or Escape → also switch
   modal?.addEventListener('click', e => {
     if (e.target === modal) {
       modal.classList.add('hidden');
+      if (pendingView) {
+        switchView(pendingView);
+        viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
+      }
       pendingView = null;
     }
   });
 
-  // Trap focus and close on Escape within modal
   modal?.addEventListener('keydown', e => {
     if (e.key === 'Tab') {
       const focusables = Array.from(modal.querySelectorAll('button:not(.hidden)'));
@@ -131,6 +144,10 @@ export function initViewControls() {
       focusables[nextIdx].focus();
     } else if (e.key === 'Escape') {
       modal.classList.add('hidden');
+      if (pendingView) {
+        switchView(pendingView);
+        viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
+      }
       pendingView = null;
     }
   });
