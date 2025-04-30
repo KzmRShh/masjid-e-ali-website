@@ -1,3 +1,5 @@
+// controls.js
+
 import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
@@ -10,60 +12,58 @@ export function initViewControls() {
   const audioBtn    = document.getElementById('btn-resume-audio');
   const cancelBtn   = document.getElementById('btn-cancel');
 
-  // Always wire up the Section/Verse buttons
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const next = btn.dataset.view; // "full" | "section" | "verse"
 
       if (next === 'section' || next === 'verse') {
-        const key   = `dua-${next}`;
-        const saved = localStorage.getItem(key) !== null;   // index saved?
-        const audioAtStart = audioPlayer.currentTime === 0; // audio at 0:00?
+        const key           = `dua-${next}`;
+        const savedIndex    = Number(localStorage.getItem(key));
+        const hasSavedIndex = savedIndex > 0;                 // only treat >0 as saved
+        const audioAtStart  = audioPlayer.currentTime === 0;  // no audio progress
 
-        const showResumeRestart = saved;            // only if we have a saved index
-        const showAudioOption   = !audioAtStart;    // only if audio has progressed
+        const showResumeRestart = hasSavedIndex;
+        const showAudioOption   = !audioAtStart;
 
-        // If neither option makes sense, skip modal
+        // If no option is relevant, go straight to view
         if (!showResumeRestart && !showAudioOption) {
-          return switchView(next);
+          switchView(next);
+          return;
         }
 
-        // Otherwise, prep & show modal with only the applicable buttons
+        // Otherwise, show modal with only applicable buttons
         pendingView = next;
         document.getElementById('resume-text').textContent =
           `What would you like to do with the ${next} view?`;
 
-        // toggle visibility
-        resumeBtn .classList.toggle('hidden', !showResumeRestart);
-        restartBtn.classList.toggle('hidden', !showResumeRestart);
-        audioBtn  .classList.toggle('hidden', !showAudioOption);
+        resumeBtn  .classList.toggle('hidden', !showResumeRestart);
+        restartBtn .classList.toggle('hidden', !showResumeRestart);
+        audioBtn   .classList.toggle('hidden', !showAudioOption);
         cancelBtn?.classList.remove('hidden');
-
         modal.classList.remove('hidden');
-        return; // stop here—don’t switch view yet
+        return;
       }
 
-      // Full view: go straight in
+      // Full view: switch immediately
       switchView(next);
     });
   });
 
-  // Resume where you left off
+  // Modal button handlers
   resumeBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (pendingView) switchView(pendingView);
     pendingView = null;
   });
 
-  // Restart from the beginning
   restartBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
-    localStorage.setItem(`dua-${pendingView}`, 0);
+    // clear saved index so it's treated as "first"
+    localStorage.removeItem(`dua-${pendingView}`);
     switchView(pendingView);
     pendingView = null;
   });
 
-  // Go to Audio position
   audioBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (!pendingView) return;
@@ -93,19 +93,20 @@ export function initViewControls() {
     pendingView = null;
   });
 
-  // Cancel / backdrop / Escape
   cancelBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
     pendingView = null;
   });
+
   modal?.addEventListener('click', e => {
     if (e.target === modal) {
       modal.classList.add('hidden');
       pendingView = null;
     }
   });
+
   window.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
       modal.classList.add('hidden');
       pendingView = null;
     }
