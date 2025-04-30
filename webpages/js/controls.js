@@ -98,9 +98,10 @@ export function initViewControls() {
     hideModalAndSwitch();
   });
 
-  // Close button in top-right corner
+  // Close button in top-right corner: cancel without switching
   closeBtn?.addEventListener('click', () => {
-    hideModalAndSwitch();
+    modal.classList.add('hidden');
+    pendingView = null;
   });
 
   // Click outside modal or Escape → close and switch
