@@ -17,7 +17,7 @@ export async function fetchDua(path) {
     const res = await fetch(path);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     duaData = await res.json();
-    flatVerses = duaData.sections.flatMap(s => s.verses);
+    flatVerses = duaData.sections.flatMap(s => s.erses);
     renderView();
   } catch (err) {
     console.error('Dua load error:', err);
@@ -48,7 +48,13 @@ function renderView() {
     items.forEach(sec =>
       fragment.appendChild(makeSection(sec.sectionName, sec.verses))
     );
-    fragment.appendChild(makeNav(items[0].verses, flatVerses.length));
+
+    // Determine total based on viewType
+    const totalItems = viewType === 'section'
+      ? duaData.sections.length
+      : flatVerses.length;
+
+    fragment.appendChild(makeNav(items[0].verses, totalItems));
   }
 
   versesContainer.appendChild(fragment);
@@ -94,7 +100,6 @@ function makeSection(titleText, verses) {
       title: 'Play from here',
       textContent: '►'
     });
-    // Correctly set data-start instead of assigning dataset object
     btn.dataset.start = parser(v.timestamp.start);
     btn.addEventListener('click', e => {
       e.stopPropagation();
@@ -144,7 +149,6 @@ export function parseTimestamp(ts) {
   return m * 60 + s;
 }
 
-// Arrow and space handlers
 export function handleLeftArrow()  { viewAction(-1); }
 export function handleRightArrow() { viewAction( 1); }
 export function handleSpace()      { const a = document.getElementById('audio-player'); a[a.paused?'play':'pause'](); }
@@ -162,7 +166,6 @@ function viewAction(delta) {
   }
 }
 
-// Graceful error display for failed fetch
 function showError(err) {
   console.error(err);
   const container = document.getElementById('verses-container');
