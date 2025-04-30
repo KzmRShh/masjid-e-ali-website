@@ -2,74 +2,113 @@ import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
+// Compute the end time of the first section or verse
+function getFirstSectionEnd() {
+  if (!duaData?.sections?.length) return 0;
+  return duaData.sections[0].verses
+    .reduce((max, v) => Math.max(max, parseTimestamp(v.timestamp.end)), 0);
+}
+
+function getFirstVerseEnd() {
+  if (!duaData?.sections?.length) return 0;
+  const firstVerse = duaData.sections[0].verses[0];
+  return parseTimestamp(firstVerse.timestamp.end);
+}
+
 export function initViewControls() {
+  const audioPlayer = document.getElementById('audio-player');
+  const modal       = document.getElementById('resume-modal');
+  const resumeBtn   = document.getElementById('btn-resume');
+  const restartBtn  = document.getElementById('btn-restart');
+  const resumeAudio = document.getElementById('btn-resume-audio');
+  const cancelBtn   = document.getElementById('btn-cancel');
+
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const next = btn.dataset.view;               // "full" | "section" | "verse"
-      const key  = `dua-${next}`;                  // matches updateIndex storage keys
+      const next = btn.dataset.view;             // "full" | "section" | "verse"
+      const key  = `dua-${next}`;                // matches storage keys
 
-      if ((next === 'section' || next === 'verse') && localStorage.getItem(key)) {
-        // show resume/restart modal
+      const stored     = parseInt(localStorage.getItem(key) || '0', 10);
+      const progressed = (next === 'section')
+        ? audioPlayer.currentTime > getFirstSectionEnd()
+        : (next === 'verse')
+          ? audioPlayer.currentTime > getFirstVerseEnd()
+          : false;
+
+      const showStoredModal    = stored > 0;
+      const showProgressedOnly = !showStoredModal && progressed;
+
+      if (showStoredModal || showProgressedOnly) {
         pendingView = next;
         document.getElementById('resume-text').textContent =
-          `Resume ${next} where you left off?`;
-        document.getElementById('resume-modal').classList.remove('hidden');
+          showStoredModal
+            ? `Resume ${next} where you left off?`
+            : `Resume ${next} from where audio ended?`;
+
+        // Toggle button visibility
+        resumeBtn.classList.toggle('hidden', !showStoredModal);
+        restartBtn.classList.toggle('hidden', !showStoredModal);
+        resumeAudio.classList.toggle('hidden', !showProgressedOnly);
+        cancelBtn.classList.remove('hidden');
+        modal.classList.remove('hidden');
       } else {
-        // first time or full view → jump straight in
         switchView(next);
       }
     });
   });
 
-  // RESUME button
-  document.getElementById('btn-resume').addEventListener('click', () => {
-    document.getElementById('resume-modal').classList.add('hidden');
+  // RESUME
+  resumeBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
     if (pendingView) {
       switchView(pendingView);
       pendingView = null;
     }
   });
 
-  // RESTART button
-  document.getElementById('btn-restart').addEventListener('click', () => {
-    document.getElementById('resume-modal').classList.add('hidden');
-    // clear saved positions
+  // RESTART
+  restartBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
     localStorage.removeItem('dua-section');
     localStorage.removeItem('dua-verse');
-    // fallback to full view if none
     switchView(pendingView || 'full');
     pendingView = null;
   });
 
-  // RESUME FROM AUDIO button
-  document.getElementById('btn-resume-audio').addEventListener('click', () => {
-    document.getElementById('resume-modal').classList.add('hidden');
+  // RESUME FROM AUDIO
+  resumeAudio.addEventListener('click', () => {
+    modal.classList.add('hidden');
     if (!pendingView) return;
 
-    const t = document.getElementById('audio-player').currentTime;
-
+    const t   = audioPlayer.currentTime;
+    const key = `dua-${pendingView}`;
     if (pendingView === 'section') {
       duaData.sections.forEach((sec, idx) => {
         if (sec.verses.some(v =>
             parseTimestamp(v.timestamp.start) <= t &&
             parseTimestamp(v.timestamp.end)   > t
         )) {
-          localStorage.setItem('dua-section', idx);
+          localStorage.setItem(key, idx);
         }
       });
-    } else {
-      // verse
+    } else if (pendingView === 'verse') {
       const flat = duaData.sections.flatMap(s => s.verses);
       const idx  = flat.findIndex(v =>
         parseTimestamp(v.timestamp.start) <= t &&
         parseTimestamp(v.timestamp.end)   > t
       );
       if (idx !== -1) {
-        localStorage.setItem('dua-verse', idx);
+        localStorage.setItem(key, idx);
       }
     }
 
     switchView(pendingView);
+    pendingView = null;
+  });
+
+  // CANCEL
+  cancelBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
     pendingView = null;
   });
 }
