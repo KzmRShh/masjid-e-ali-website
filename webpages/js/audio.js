@@ -15,9 +15,15 @@ export function initAudioControls(src) {
     // Grab the verse-display element.
     const verseDisplay = document.getElementById('current-verse-display');
 
-    // Sync play/pause icon via audio events.
-    audio.addEventListener('play',  () => playPause.textContent = '❚❚');
-    audio.addEventListener('pause', () => playPause.textContent = '►');
+    // Sync play/pause icon and aria-label via audio events.
+    audio.addEventListener('play', () => {
+        playPause.textContent = '❚❚';
+        playPause.setAttribute('aria-label', 'Pause');
+    });
+    audio.addEventListener('pause', () => {
+        playPause.textContent = '►';
+        playPause.setAttribute('aria-label', 'Play');
+    });
 
     // Playback speed control.
     const speedSelector = document.getElementById('speed-selector');
@@ -34,12 +40,15 @@ export function initAudioControls(src) {
         else              audio.pause();
     });
 
+    // Rewind and forward buttons.
     rewind.addEventListener('click', () => audio.currentTime = Math.max(0, audio.currentTime - 10));
     forward.addEventListener('click', () => audio.currentTime = Math.min(audio.duration, audio.currentTime + 10));
 
+    // Mute/unmute toggle with aria-label update.
     muteBtn.addEventListener('click', () => {
         audio.muted = !audio.muted;
         muteBtn.textContent = audio.muted ? '🔇' : '🔊';
+        muteBtn.setAttribute('aria-label', audio.muted ? 'Unmute' : 'Mute');
     });
 
     audio.addEventListener('loadedmetadata', () => {
@@ -62,21 +71,26 @@ export function initAudioControls(src) {
         }
     });
 
+    // Seek on input change.
     seek.addEventListener('input', () => {
         audio.currentTime = (seek.value/100)*audio.duration;
     });
 
+    // Volume control also updates mute state and aria-label.
     volume.addEventListener('input', () => {
         audio.volume = volume.value;
         audio.muted  = volume.value == 0;
         muteBtn.textContent = audio.muted ? '🔇' : '🔊';
+        muteBtn.setAttribute('aria-label', audio.muted ? 'Unmute' : 'Mute');
     });
 
+    // Toggle audio bar visibility and update aria-pressed.
     toggleBtn.addEventListener('click', () => {
         const bar = document.getElementById('audio-bar');
         const isHidden = getComputedStyle(bar).display === 'none';
         bar.style.display = isHidden ? 'flex' : 'none';
         toggleBtn.classList.toggle('active');
+        toggleBtn.setAttribute('aria-pressed', toggleBtn.classList.contains('active'));
     });
 
     const verseMap = verses.map(el => ({

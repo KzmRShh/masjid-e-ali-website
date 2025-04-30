@@ -1,10 +1,9 @@
-// controls.js
-
 import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
 export function initViewControls() {
+  const viewBtns    = Array.from(document.querySelectorAll('.view-btn'));
   const audioPlayer = document.getElementById('audio-player');
   const modal       = document.getElementById('resume-modal');
   const resumeBtn   = document.getElementById('btn-resume');
@@ -12,55 +11,68 @@ export function initViewControls() {
   const audioBtn    = document.getElementById('btn-resume-audio');
   const cancelBtn   = document.getElementById('btn-cancel');
 
-  document.querySelectorAll('.view-btn').forEach(btn => {
+  // Handle view button clicks
+  viewBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const next = btn.dataset.view; // "full" | "section" | "verse"
 
+      // Full view: switch immediately and update aria-pressed
+      if (next === 'full') {
+        switchView(next);
+        viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === next));
+        return;
+      }
+
+      // Section or Verse view: determine if resume modal is needed
       if (next === 'section' || next === 'verse') {
         const key           = `dua-${next}`;
         const savedIndex    = Number(localStorage.getItem(key));
-        const hasSavedIndex = savedIndex > 0;                 // only treat >0 as saved
-        const audioAtStart  = audioPlayer.currentTime === 0;  // no audio progress
+        const hasSavedIndex = savedIndex > 0;
+        const audioAtStart  = audioPlayer.currentTime === 0;
 
         const showResumeRestart = hasSavedIndex;
         const showAudioOption   = !audioAtStart;
 
-        // If no option is relevant, go straight to view
         if (!showResumeRestart && !showAudioOption) {
           switchView(next);
+          viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === next));
           return;
         }
 
-        // Otherwise, show modal with only applicable buttons
+        // Show resume modal
         pendingView = next;
         document.getElementById('resume-text').textContent =
           `What would you like to do with the ${next} view?`;
 
-        resumeBtn  .classList.toggle('hidden', !showResumeRestart);
-        restartBtn .classList.toggle('hidden', !showResumeRestart);
-        audioBtn   .classList.toggle('hidden', !showAudioOption);
-        cancelBtn?.classList.remove('hidden');
-        modal.classList.remove('hidden');
+        resumeBtn .classList.toggle('hidden', !showResumeRestart);
+        restartBtn.classList.toggle('hidden', !showResumeRestart);
+        audioBtn  .classList.toggle('hidden', !showAudioOption);
+        cancelBtn .classList.remove('hidden');
+        modal     .classList.remove('hidden');
+
+        // Focus first available button in modal
+        const focusables = Array.from(modal.querySelectorAll('button:not(.hidden)'));
+        if (focusables.length) focusables[0].focus();
         return;
       }
-
-      // Full view: switch immediately
-      switchView(next);
     });
   });
 
   // Modal button handlers
   resumeBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
-    if (pendingView) switchView(pendingView);
+    if (pendingView) {
+      switchView(pendingView);
+      viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
+    }
     pendingView = null;
   });
 
   restartBtn?.addEventListener('click', () => {
     modal.classList.add('hidden');
-    // clear saved index so it's treated as "first"
     localStorage.removeItem(`dua-${pendingView}`);
     switchView(pendingView);
+    viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
     pendingView = null;
   });
 
@@ -90,6 +102,7 @@ export function initViewControls() {
     }
 
     switchView(pendingView);
+    viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
     pendingView = null;
   });
 
@@ -98,6 +111,7 @@ export function initViewControls() {
     pendingView = null;
   });
 
+  // Close modal on backdrop click
   modal?.addEventListener('click', e => {
     if (e.target === modal) {
       modal.classList.add('hidden');
@@ -105,8 +119,17 @@ export function initViewControls() {
     }
   });
 
-  window.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+  // Trap focus and close on Escape within modal
+  modal?.addEventListener('keydown', e => {
+    if (e.key === 'Tab') {
+      const focusables = Array.from(modal.querySelectorAll('button:not(.hidden)'));
+      const idx = focusables.indexOf(document.activeElement);
+      e.preventDefault();
+      const nextIdx = e.shiftKey
+        ? (idx - 1 + focusables.length) % focusables.length
+        : (idx + 1) % focusables.length;
+      focusables[nextIdx].focus();
+    } else if (e.key === 'Escape') {
       modal.classList.add('hidden');
       pendingView = null;
     }
@@ -116,7 +139,8 @@ export function initViewControls() {
 export function initToggleControls() {
   document.querySelectorAll('.toggle-btn[data-class]').forEach(btn => {
     btn.addEventListener('click', () => {
-      btn.classList.toggle('active');
+      const nowOn = btn.classList.toggle('active');
+      btn.setAttribute('aria-pressed', nowOn);
       document.querySelectorAll(`.${btn.dataset.class}`)
         .forEach(el => el.classList.toggle('hidden'));
     });

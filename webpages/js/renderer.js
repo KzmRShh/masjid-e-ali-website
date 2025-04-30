@@ -17,7 +17,7 @@ export async function fetchDua(path) {
     const res = await fetch(path);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     duaData = await res.json();
-    flatVerses = duaData.sections.flatMap(s => s.erses);
+    flatVerses = duaData.sections.flatMap(s => s.verses);
     renderView();
   } catch (err) {
     console.error('Dua load error:', err);
@@ -80,16 +80,21 @@ function makeSection(titleText, verses) {
     });
     div.appendChild(num);
 
-    // content paragraphs
+    // content paragraphs with proper lang attributes
     ['arabic','english','transliteration','urdu'].forEach(cls => {
       const p = document.createElement('p');
       if (!textToggles[cls] && cls !== 'arabic') p.classList.add('hidden');
       p.classList.add(cls);
+      // add language attribute for non-English text
+      if (cls === 'arabic') p.setAttribute('lang', 'ar');
+      else if (cls === 'urdu') p.setAttribute('lang', 'ur');
+      else if (cls === 'transliteration') p.setAttribute('lang', 'en');
+
       p.textContent = (
-        cls==='arabic' ? v.arabic
-      : cls==='english' ? v['english-translation']
-      : cls==='transliteration' ? v.transliteration
-      : v['urdu-translation']
+        cls === 'arabic'         ? v.arabic
+      : cls === 'english'        ? v['english-translation']
+      : cls === 'transliteration' ? v.transliteration
+      :                            v['urdu-translation']
       );
       div.appendChild(p);
     });

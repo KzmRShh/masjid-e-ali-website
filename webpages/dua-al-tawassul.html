@@ -24,27 +24,32 @@
     </nav>
 
     <h1>Dua al-Tawassul</h1>
-    <div id="view-controls">
-      <button class="view-btn active" data-view="full">Full View</button>
-      <button class="view-btn" data-view="section">Section View</button>
-      <button class="view-btn" data-view="verse">Verse View</button>
+
+    <!-- View Controls (tabs) -->
+    <div id="view-controls" role="tablist">
+      <button class="view-btn active" data-view="full" aria-pressed="true">Full View</button>
+      <button class="view-btn" data-view="section" aria-pressed="false">Section View</button>
+      <button class="view-btn" data-view="verse" aria-pressed="false">Verse View</button>
     </div>
+
+    <!-- Language & Audio Toggles -->
     <div id="controls">
-      <button class="toggle-btn active" data-class="arabic">Arabic</button>
-      <button class="toggle-btn active" data-class="english">English</button>
-      <button class="toggle-btn" data-class="transliteration">Transliteration</button>
-      <button class="toggle-btn" data-class="urdu">Urdu</button>
-      <button id="audio-toggle" class="audio-toggle active">Audio</button>
+      <button class="toggle-btn active" data-class="arabic" aria-pressed="true">Arabic</button>
+      <button class="toggle-btn active" data-class="english" aria-pressed="true">English</button>
+      <button class="toggle-btn" data-class="transliteration" aria-pressed="false">Transliteration</button>
+      <button class="toggle-btn" data-class="urdu" aria-pressed="false">Urdu</button>
+      <button id="audio-toggle" class="audio-toggle active" aria-pressed="true">Audio</button>
     </div>
+
     <div id="verses-container"></div>
 
     <!-- Audio Bar -->
     <div id="audio-bar">
       <audio id="audio-player" preload="metadata"></audio>
       <div id="audio-controls">
-        <button id="rewind" title="Rewind 10s">◄◄</button>
-        <button id="play-pause" title="Play/Pause">►</button>
-        <button id="forward" title="Forward 10s">►►</button>
+        <button id="rewind" title="Rewind 10 seconds" aria-label="Rewind 10 seconds">◄◄</button>
+        <button id="play-pause" title="Play" aria-label="Play">►</button>
+        <button id="forward" title="Forward 10 seconds" aria-label="Forward 10 seconds">►►</button>
         <label for="speed-selector" class="sr-only">Speed</label>
         <select id="speed-selector" title="Playback Speed">
           <option value="0.5">0.5×</option>
@@ -54,32 +59,34 @@
           <option value="1.5">1.5×</option>
           <option value="2">2×</option>
         </select>
-        <button id="mute-btn" title="Mute/Unmute">🔊</button>
+        <button id="mute-btn" title="Mute" aria-label="Mute">🔊</button>
         <input type="range" id="volume-slider" value="1" min="0" max="1" step="0.01" aria-label="Volume">
-        <span id="time-display">0:00 / 0:00</span>
+        <span id="time-display" aria-live="off">0:00 / 0:00</span>
         <input type="range" id="seek-bar" value="0" min="0" max="100" aria-label="Seek">
         <span id="current-verse-display" aria-live="polite">V-1</span>
       </div>
     </div>
 
-    <div id="resume-modal" class="modal-backdrop hidden">
+    <!-- Resume Progress Modal -->
+    <div id="resume-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="resume-title">
       <div class="modal">
-        <h3>Resume Progress</h3>
+        <h3 id="resume-title">Resume Progress</h3>
         <p id="resume-text">Resume where you left off?</p>
         <div class="modal-buttons">
           <button id="btn-resume" class="toggle-btn">Resume</button>
           <button id="btn-restart" class="toggle-btn">Restart</button>
           <button id="btn-resume-audio" class="toggle-btn">Resume from Audio</button>
+          <button id="btn-cancel" class="toggle-btn">Cancel</button>
         </div>
       </div>
     </div>
-    
+
     <script
-    id ="main-script"
-    type="module"
-    src="js/main.js"
-    data-json-path="../data/duas/json/dua-al-tawassul.json"
-    data-audio-src="../data/duas/mp3/dua-al-tawassul.mp3">
+      id="main-script"
+      type="module"
+      src="js/main.js"
+      data-json-path="../data/duas/json/dua-al-tawassul.json"
+      data-audio-src="../data/duas/mp3/dua-al-tawassul.mp3">
     </script>
   </body>
 </html>
