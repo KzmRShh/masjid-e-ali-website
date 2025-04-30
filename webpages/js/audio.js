@@ -10,8 +10,11 @@ export function initAudioControls(src) {
     const volume    = document.getElementById('volume-slider');
     const timeDisp  = document.getElementById('time-display');
     const toggleBtn = document.getElementById('audio-toggle');
-    const syncBtn   = document.getElementById('sync-toggle');
+    const continueBtn = document.getElementById('continue-toggle');
     const verses    = Array.from(document.querySelectorAll('.verse'));
+
+    // Set initial aria-label for Continue Play toggle
+    continueBtn.setAttribute('aria-label', 'Toggle Continue Play');
 
     // Grab the verse-display element.
     const verseDisplay = document.getElementById('current-verse-display');
@@ -35,12 +38,11 @@ export function initAudioControls(src) {
 
     const format = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
 
-    // Play/pause toggle.
+    // Play/pause toggle with cleanup of verse-stop
     playPause.addEventListener('click', () => {
-        // remove any verse-stop handler when using global play
-        if (!syncBtn.classList.contains('active')) {
-            audio.removeEventListener('timeupdate', audio._stopHandler);
-            audio._stopHandler = null;
+        if (!continueBtn.classList.contains('active')) {
+            audio.removeEventListener('timeupdate', audio._verseStopHandler);
+            audio._verseStopHandler = null;
         }
         if (audio.paused) audio.play();
         else              audio.pause();
@@ -67,7 +69,6 @@ export function initAudioControls(src) {
         seek.value = audio.duration ? (t / audio.duration) * 100 : 0;
         timeDisp.textContent = `${format(t)} / ${format(audio.duration)}`;
 
-        // Compute current verse.
         const current = verseMap.find(v => t >= v.start && t < v.end);
         if (current) {
             const num = current.el.querySelector('.verse-number').textContent;
@@ -99,14 +100,14 @@ export function initAudioControls(src) {
         toggleBtn.setAttribute('aria-pressed', toggleBtn.classList.contains('active'));
     });
 
-    // Sync toggle for verse-only play
-    syncBtn.addEventListener('click', () => {
-        const isSync = syncBtn.classList.toggle('active');
-        syncBtn.setAttribute('aria-pressed', isSync);
-        // remove any pending stop handler if re-enabling sync
-        if (isSync && audio._stopHandler) {
-            audio.removeEventListener('timeupdate', audio._stopHandler);
-            audio._stopHandler = null;
+    // Continue Play toggle for verse-only play
+    continueBtn.addEventListener('click', () => {
+        const continueEnabled = continueBtn.classList.toggle('active');
+        continueBtn.setAttribute('aria-pressed', continueEnabled);
+        continueBtn.setAttribute('aria-label', continueEnabled ? 'Continue Play enabled' : 'Continue Play disabled');
+        if (continueEnabled && audio._verseStopHandler) {
+            audio.removeEventListener('timeupdate', audio._verseStopHandler);
+            audio._verseStopHandler = null;
         }
     });
 
@@ -116,27 +117,24 @@ export function initAudioControls(src) {
         end:   parseFloat(el.dataset.end)
     }));
 
-    // Seek from individual verse buttons with sync control.
+    // Seek from individual verse buttons with continue-play control.
     verseMap.forEach(v => {
         const btn = v.el.querySelector('.seek-btn');
         if (!btn) return;
         btn.addEventListener('click', e => {
             e.stopPropagation();
-            // jump to the start of this verse
             audio.currentTime = v.start;
             audio.play();
 
-            // if sync disabled, stop at verse end
-            if (!syncBtn.classList.contains('active')) {
-                const stopHandler = () => {
+            if (!continueBtn.classList.contains('active')) {
+                const handler = () => {
                     if (audio.currentTime >= v.end) {
                         audio.pause();
-                        audio.removeEventListener('timeupdate', stopHandler);
+                        audio.removeEventListener('timeupdate', handler);
                     }
                 };
-                // store and attach handler
-                audio._stopHandler = stopHandler;
-                audio.addEventListener('timeupdate', stopHandler);
+                audio._verseStopHandler = handler;
+                audio.addEventListener('timeupdate', handler);
             }
         });
     });
