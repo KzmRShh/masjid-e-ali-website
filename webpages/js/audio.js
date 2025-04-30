@@ -10,6 +10,7 @@ export function initAudioControls(src) {
     const volume    = document.getElementById('volume-slider');
     const timeDisp  = document.getElementById('time-display');
     const toggleBtn = document.getElementById('audio-toggle');
+    const syncBtn   = document.getElementById('sync-toggle');
     const verses    = Array.from(document.querySelectorAll('.verse'));
 
     // Grab the verse-display element.
@@ -36,6 +37,11 @@ export function initAudioControls(src) {
 
     // Play/pause toggle.
     playPause.addEventListener('click', () => {
+        // remove any verse-stop handler when using global play
+        if (!syncBtn.classList.contains('active')) {
+            audio.removeEventListener('timeupdate', audio._stopHandler);
+            audio._stopHandler = null;
+        }
         if (audio.paused) audio.play();
         else              audio.pause();
     });
@@ -93,20 +99,45 @@ export function initAudioControls(src) {
         toggleBtn.setAttribute('aria-pressed', toggleBtn.classList.contains('active'));
     });
 
+    // Sync toggle for verse-only play
+    syncBtn.addEventListener('click', () => {
+        const isSync = syncBtn.classList.toggle('active');
+        syncBtn.setAttribute('aria-pressed', isSync);
+        // remove any pending stop handler if re-enabling sync
+        if (isSync && audio._stopHandler) {
+            audio.removeEventListener('timeupdate', audio._stopHandler);
+            audio._stopHandler = null;
+        }
+    });
+
     const verseMap = verses.map(el => ({
         el,
         start: parseFloat(el.dataset.start),
         end:   parseFloat(el.dataset.end)
     }));
 
-    // Seek from individual verse buttons.
+    // Seek from individual verse buttons with sync control.
     verseMap.forEach(v => {
         const btn = v.el.querySelector('.seek-btn');
         if (!btn) return;
         btn.addEventListener('click', e => {
             e.stopPropagation();
+            // jump to the start of this verse
             audio.currentTime = v.start;
             audio.play();
+
+            // if sync disabled, stop at verse end
+            if (!syncBtn.classList.contains('active')) {
+                const stopHandler = () => {
+                    if (audio.currentTime >= v.end) {
+                        audio.pause();
+                        audio.removeEventListener('timeupdate', stopHandler);
+                    }
+                };
+                // store and attach handler
+                audio._stopHandler = stopHandler;
+                audio.addEventListener('timeupdate', stopHandler);
+            }
         });
     });
 
