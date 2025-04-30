@@ -2,133 +2,114 @@ import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
-// Compute the end time of the first section
-function getFirstSectionEnd() {
-  if (!duaData?.sections?.length) return 0;
-  return duaData.sections[0].verses
-    .reduce((max, v) => Math.max(max, parseTimestamp(v.timestamp.end)), 0);
-}
-
-// Compute the end time of the first verse
-function getFirstVerseEnd() {
-  if (!duaData?.sections?.length) return 0;
-  const firstVerse = duaData.sections[0].verses[0];
-  return parseTimestamp(firstVerse.timestamp.end);
-}
-
 export function initViewControls() {
-  const audioPlayer  = document.getElementById('audio-player');
-  const modal        = document.getElementById('resume-modal');
-  const resumeBtn    = document.getElementById('btn-resume');
-  const restartBtn   = document.getElementById('btn-restart');
-  const resumeAudio  = document.getElementById('btn-resume-audio');
-  const cancelBtn    = document.getElementById('btn-cancel'); // may be null
+  const audioPlayer = document.getElementById('audio-player');
+  const modal       = document.getElementById('resume-modal');
+  const resumeBtn   = document.getElementById('btn-resume');
+  const restartBtn  = document.getElementById('btn-restart');
+  const audioBtn    = document.getElementById('btn-resume-audio');
+  const cancelBtn   = document.getElementById('btn-cancel');
 
-  // Always wire up the view buttons
+  // Always wire up the Section/Verse buttons
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const next = btn.dataset.view;        // "full" | "section" | "verse"
-      const key  = `dua-${next}`;           // localStorage key
+      const next = btn.dataset.view; // "full" | "section" | "verse"
 
-      // Did the user already manually switch?
-      const stored = parseInt(localStorage.getItem(key) || '0', 10);
-      // Has audio progressed beyond the first section/verse?
-      const progressed = next === 'section'
-        ? audioPlayer.currentTime > getFirstSectionEnd()
-        : next === 'verse'
-          ? audioPlayer.currentTime > getFirstVerseEnd()
-          : false;
+      if (next === 'section' || next === 'verse') {
+        const key   = `dua-${next}`;
+        const saved = localStorage.getItem(key) !== null;   // index saved?
+        const audioAtStart = audioPlayer.currentTime === 0; // audio at 0:00?
 
-      const showStoredModal    = stored > 0;
-      const showProgressedOnly = !showStoredModal && progressed;
+        const showResumeRestart = saved;            // only if we have a saved index
+        const showAudioOption   = !audioAtStart;    // only if audio has progressed
 
-      // If we need to prompt, show the modal…
-      if (modal && (showStoredModal || showProgressedOnly)) {
+        // If neither option makes sense, skip modal
+        if (!showResumeRestart && !showAudioOption) {
+          return switchView(next);
+        }
+
+        // Otherwise, prep & show modal with only the applicable buttons
         pendingView = next;
         document.getElementById('resume-text').textContent =
-          showStoredModal
-            ? `Resume ${next} where you left off?`
-            : `Resume ${next} from where audio ended?`;
+          `What would you like to do with the ${next} view?`;
 
-        // toggle which buttons are visible
-        resumeBtn   .classList.toggle('hidden', !showStoredModal);
-        restartBtn  .classList.toggle('hidden', !showStoredModal);
-        resumeAudio .classList.toggle('hidden', !showProgressedOnly);
-        if (cancelBtn) cancelBtn.classList.remove('hidden');
+        // toggle visibility
+        resumeBtn .classList.toggle('hidden', !showResumeRestart);
+        restartBtn.classList.toggle('hidden', !showResumeRestart);
+        audioBtn  .classList.toggle('hidden', !showAudioOption);
+        cancelBtn?.classList.remove('hidden');
+
         modal.classList.remove('hidden');
-        return;  // stop here, don't switch yet
+        return; // stop here—don’t switch view yet
       }
 
-      // otherwise, go straight to the chosen view
+      // Full view: go straight in
       switchView(next);
     });
   });
 
-  // If modal exists, wire up its buttons
-  if (modal) {
-    modal.addEventListener('click', e => {
-      // clicking backdrop = cancel
-      if (e.target === modal) {
-        modal.classList.add('hidden');
-        pendingView = null;
-      }
-    });
-    window.addEventListener('keydown', e => {
-      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-        modal.classList.add('hidden');
-        pendingView = null;
-      }
-    });
+  // Resume where you left off
+  resumeBtn?.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    if (pendingView) switchView(pendingView);
+    pendingView = null;
+  });
 
-    resumeBtn?.addEventListener('click', () => {
-      modal.classList.add('hidden');
-      if (pendingView) switchView(pendingView);
-      pendingView = null;
-    });
+  // Restart from the beginning
+  restartBtn?.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    localStorage.setItem(`dua-${pendingView}`, 0);
+    switchView(pendingView);
+    pendingView = null;
+  });
 
-    restartBtn?.addEventListener('click', () => {
-      modal.classList.add('hidden');
-      localStorage.removeItem('dua-section');
-      localStorage.removeItem('dua-verse');
-      switchView(pendingView || 'full');
-      pendingView = null;
-    });
+  // Go to Audio position
+  audioBtn?.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    if (!pendingView) return;
 
-    resumeAudio?.addEventListener('click', () => {
-      modal.classList.add('hidden');
-      if (!pendingView) return;
+    const t   = audioPlayer.currentTime;
+    const key = `dua-${pendingView}`;
 
-      const t   = audioPlayer.currentTime;
-      const key = `dua-${pendingView}`;
-
-      if (pendingView === 'section') {
-        duaData.sections.forEach((sec, idx) => {
-          if (sec.verses.some(v =>
-            parseTimestamp(v.timestamp.start) <= t &&
-            parseTimestamp(v.timestamp.end)   > t
-          )) {
-            localStorage.setItem(key, idx);
-          }
-        });
-      } else if (pendingView === 'verse') {
-        const flat = duaData.sections.flatMap(s => s.verses);
-        const idx  = flat.findIndex(v =>
+    if (pendingView === 'section') {
+      duaData.sections.forEach((sec, idx) => {
+        if (sec.verses.some(v =>
           parseTimestamp(v.timestamp.start) <= t &&
           parseTimestamp(v.timestamp.end)   > t
-        );
-        if (idx !== -1) localStorage.setItem(key, idx);
-      }
+        )) {
+          localStorage.setItem(key, idx);
+        }
+      });
+    } else {
+      const flat = duaData.sections.flatMap(s => s.verses);
+      const idx  = flat.findIndex(v =>
+        parseTimestamp(v.timestamp.start) <= t &&
+        parseTimestamp(v.timestamp.end)   > t
+      );
+      if (idx !== -1) localStorage.setItem(key, idx);
+    }
 
-      switchView(pendingView);
-      pendingView = null;
-    });
+    switchView(pendingView);
+    pendingView = null;
+  });
 
-    // optional cancel button
-    cancelBtn?.addEventListener('click', () => {
+  // Cancel / backdrop / Escape
+  cancelBtn?.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    pendingView = null;
+  });
+  modal?.addEventListener('click', e => {
+    if (e.target === modal) {
       modal.classList.add('hidden');
       pendingView = null;
-    });
-  }
+    }
+  });
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+      modal.classList.add('hidden');
+      pendingView = null;
+    }
+  });
 }
 
 export function initToggleControls() {
