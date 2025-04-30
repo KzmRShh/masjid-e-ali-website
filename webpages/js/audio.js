@@ -3,21 +3,24 @@ export function initAudioControls(src) {
     audio.src = src;
 
     const playPause = document.getElementById('play-pause');
-    const rewind = document.getElementById('rewind');
-    const forward = document.getElementById('forward');
-    const muteBtn = document.getElementById('mute-btn');
-    const seek = document.getElementById('seek-bar');
-    const volume = document.getElementById('volume-slider');
-    const timeDisp = document.getElementById('time-display');
+    const rewind    = document.getElementById('rewind');
+    const forward   = document.getElementById('forward');
+    const muteBtn   = document.getElementById('mute-btn');
+    const seek      = document.getElementById('seek-bar');
+    const volume    = document.getElementById('volume-slider');
+    const timeDisp  = document.getElementById('time-display');
     const toggleBtn = document.getElementById('audio-toggle');
-    const speedSelector = document.getElementById('speed-selector');
-    const verses = Array.from(document.querySelectorAll('.verse'));
+    const verses    = Array.from(document.querySelectorAll('.verse'));
 
-    // Sync play/pause icon via audio events
+    // Grab the verse-display element.
+    const verseDisplay = document.getElementById('current-verse-display');
+
+    // Sync play/pause icon via audio events.
     audio.addEventListener('play',  () => playPause.textContent = '❚❚');
     audio.addEventListener('pause', () => playPause.textContent = '►');
 
-    // Playback speed control
+    // Playback speed control.
+    const speedSelector = document.getElementById('speed-selector');
     speedSelector.addEventListener('change', () => {
         audio.playbackRate = parseFloat(speedSelector.value);
     });
@@ -25,7 +28,7 @@ export function initAudioControls(src) {
 
     const format = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
 
-    // Simplified play/pause handler
+    // Play/pause toggle.
     playPause.addEventListener('click', () => {
         if (audio.paused) audio.play();
         else              audio.pause();
@@ -43,16 +46,29 @@ export function initAudioControls(src) {
         timeDisp.textContent = `0:00 / ${format(audio.duration)}`;
     });
 
+    // Update seek bar, time display, and verse number.
     audio.addEventListener('timeupdate', () => {
-        seek.value = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
-        timeDisp.textContent = `${format(audio.currentTime)} / ${format(audio.duration)}`;
+        const t = audio.currentTime;
+        seek.value = audio.duration ? (t / audio.duration) * 100 : 0;
+        timeDisp.textContent = `${format(t)} / ${format(audio.duration)}`;
+
+        // Compute current verse.
+        const current = verseMap.find(v => t >= v.start && t < v.end);
+        if (current) {
+            const num = current.el.querySelector('.verse-number').textContent;
+            verseDisplay.textContent = `V ${num}`;
+        } else {
+            verseDisplay.textContent = 'V –';
+        }
     });
 
-    seek.addEventListener('input', () => audio.currentTime = (seek.value/100)*audio.duration);
+    seek.addEventListener('input', () => {
+        audio.currentTime = (seek.value/100)*audio.duration;
+    });
 
     volume.addEventListener('input', () => {
         audio.volume = volume.value;
-        audio.muted = volume.value == 0;
+        audio.muted  = volume.value == 0;
         muteBtn.textContent = audio.muted ? '🔇' : '🔊';
     });
 
@@ -69,7 +85,7 @@ export function initAudioControls(src) {
         end:   parseFloat(el.dataset.end)
     }));
 
-    // Seek from individual seek buttons
+    // Seek from individual verse buttons.
     verseMap.forEach(v => {
         const btn = v.el.querySelector('.seek-btn');
         if (!btn) return;
@@ -80,7 +96,7 @@ export function initAudioControls(src) {
         });
     });
 
-    // Highlight current verse
+    // Highlight current verse.
     audio.addEventListener('timeupdate', () => {
         const t = audio.currentTime;
         verseMap.forEach(v => {
@@ -88,7 +104,7 @@ export function initAudioControls(src) {
         });
     });
 
-    // Seek on verse container click as a fallback
+    // Click-to-seek on verse container.
     verseMap.forEach(v => {
         v.el.addEventListener('click', () => {
             audio.currentTime = v.start;
