@@ -1,4 +1,4 @@
-import { switchView, duaData, currentSection, currentVerse, parseTimestamp } from './renderer.js';
+import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
