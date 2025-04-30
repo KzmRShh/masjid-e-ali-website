@@ -1,5 +1,3 @@
-// controls.js
-
 import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
@@ -11,7 +9,7 @@ export function initViewControls() {
   const resumeBtn   = document.getElementById('btn-resume');
   const restartBtn  = document.getElementById('btn-restart');
   const audioBtn    = document.getElementById('btn-resume-audio');
-  const cancelBtn   = document.getElementById('btn-cancel');
+  const closeBtn    = document.getElementById('btn-close-modal');
 
   // Handle view button clicks
   viewBtns.forEach(btn => {
@@ -47,10 +45,12 @@ export function initViewControls() {
         document.getElementById('resume-text').textContent =
           `What would you like to do with the ${next} view?`;
 
+        // Toggle buttons visibility in modal
         resumeBtn .classList.toggle('hidden', !showResumeRestart);
         restartBtn.classList.toggle('hidden', !showResumeRestart);
         audioBtn  .classList.toggle('hidden', !showAudioOption);
-        cancelBtn .classList.remove('hidden');
+        // show close icon
+        closeBtn .classList.remove('hidden');
         modal     .classList.remove('hidden');
 
         // Focus first available button in modal
@@ -63,73 +63,50 @@ export function initViewControls() {
 
   // Resume Progress
   resumeBtn?.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    if (pendingView) {
-      switchView(pendingView);
-      viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-    }
-    pendingView = null;
+    hideModalAndSwitch();
   });
 
   // Restart Progress
   restartBtn?.addEventListener('click', () => {
-    modal.classList.add('hidden');
     localStorage.removeItem(`dua-${pendingView}`);
-    switchView(pendingView);
-    viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-    pendingView = null;
+    hideModalAndSwitch();
   });
 
   // Resume from Audio
   audioBtn?.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    if (!pendingView) return;
-
-    const t   = audioPlayer.currentTime;
-    const key = `dua-${pendingView}`;
-
-    if (pendingView === 'section') {
-      duaData.sections.forEach((sec, idx) => {
-        if (sec.verses.some(v =>
+    if (pendingView) {
+      const t   = audioPlayer.currentTime;
+      const key = `dua-${pendingView}`;
+      if (pendingView === 'section') {
+        duaData.sections.forEach((sec, idx) => {
+          if (sec.verses.some(v =>
+            parseTimestamp(v.timestamp.start) <= t &&
+            parseTimestamp(v.timestamp.end)   > t
+          )) {
+            localStorage.setItem(key, idx);
+          }
+        });
+      } else {
+        const flat = duaData.sections.flatMap(s => s.verses);
+        const idx  = flat.findIndex(v =>
           parseTimestamp(v.timestamp.start) <= t &&
           parseTimestamp(v.timestamp.end)   > t
-        )) {
-          localStorage.setItem(key, idx);
-        }
-      });
-    } else {
-      const flat = duaData.sections.flatMap(s => s.verses);
-      const idx  = flat.findIndex(v =>
-        parseTimestamp(v.timestamp.start) <= t &&
-        parseTimestamp(v.timestamp.end)   > t
-      );
-      if (idx !== -1) localStorage.setItem(key, idx);
+        );
+        if (idx !== -1) localStorage.setItem(key, idx);
+      }
     }
-
-    switchView(pendingView);
-    viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-    pendingView = null;
+    hideModalAndSwitch();
   });
 
-  // Cancel → switch to view anyway
-  cancelBtn?.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    if (pendingView) {
-      switchView(pendingView);
-      viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-    }
-    pendingView = null;
+  // Close button in top-right corner
+  closeBtn?.addEventListener('click', () => {
+    hideModalAndSwitch();
   });
 
-  // Click outside modal or Escape → also switch
+  // Click outside modal or Escape → close and switch
   modal?.addEventListener('click', e => {
     if (e.target === modal) {
-      modal.classList.add('hidden');
-      if (pendingView) {
-        switchView(pendingView);
-        viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-      }
-      pendingView = null;
+      hideModalAndSwitch();
     }
   });
 
@@ -143,14 +120,18 @@ export function initViewControls() {
         : (idx + 1) % focusables.length;
       focusables[nextIdx].focus();
     } else if (e.key === 'Escape') {
-      modal.classList.add('hidden');
-      if (pendingView) {
-        switchView(pendingView);
-        viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
-      }
-      pendingView = null;
+      hideModalAndSwitch();
     }
   });
+
+  function hideModalAndSwitch() {
+    modal.classList.add('hidden');
+    if (pendingView) {
+      switchView(pendingView);
+      viewBtns.forEach(b => b.setAttribute('aria-pressed', b.dataset.view === pendingView));
+    }
+    pendingView = null;
+  }
 }
 
 export function initToggleControls() {
