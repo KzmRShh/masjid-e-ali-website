@@ -2,12 +2,14 @@ import { switchView, duaData, parseTimestamp } from './renderer.js';
 
 let pendingView = null;
 
-// Compute the end time of the first section or verseunction getFirstSectionEnd() {
+// Compute the end time of the first section
+function getFirstSectionEnd() {
   if (!duaData?.sections?.length) return 0;
   return duaData.sections[0].verses
     .reduce((max, v) => Math.max(max, parseTimestamp(v.timestamp.end)), 0);
 }
 
+// Compute the end time of the first verse
 function getFirstVerseEnd() {
   if (!duaData?.sections?.length) return 0;
   const firstVerse = duaData.sections[0].verses[0];
