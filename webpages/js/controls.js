@@ -22,20 +22,17 @@ export function initViewControls() {
   const resumeBtn    = document.getElementById('btn-resume');
   const restartBtn   = document.getElementById('btn-restart');
   const resumeAudio  = document.getElementById('btn-resume-audio');
-  const cancelBtn    = document.getElementById('btn-cancel');
+  const cancelBtn    = document.getElementById('btn-cancel'); // may be null
 
-  // If any modal element is missing, bail early
-  if (!modal || !resumeBtn || !restartBtn || !resumeAudio || !cancelBtn) {
-    console.warn('Missing resume-modal elements; skipping view controls.');
-    return;
-  }
-
+  // Always wire up the view buttons
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const next = btn.dataset.view;        // "full" | "section" | "verse"
       const key  = `dua-${next}`;           // localStorage key
 
-      const stored     = parseInt(localStorage.getItem(key) || '0', 10);
+      // Did the user already manually switch?
+      const stored = parseInt(localStorage.getItem(key) || '0', 10);
+      // Has audio progressed beyond the first section/verse?
       const progressed = next === 'section'
         ? audioPlayer.currentTime > getFirstSectionEnd()
         : next === 'verse'
@@ -45,92 +42,93 @@ export function initViewControls() {
       const showStoredModal    = stored > 0;
       const showProgressedOnly = !showStoredModal && progressed;
 
-      if (showStoredModal || showProgressedOnly) {
-        // show the modal, but do NOT switch views yet
+      // If we need to prompt, show the modal…
+      if (modal && (showStoredModal || showProgressedOnly)) {
         pendingView = next;
         document.getElementById('resume-text').textContent =
           showStoredModal
             ? `Resume ${next} where you left off?`
             : `Resume ${next} from where audio ended?`;
 
+        // toggle which buttons are visible
         resumeBtn   .classList.toggle('hidden', !showStoredModal);
         restartBtn  .classList.toggle('hidden', !showStoredModal);
         resumeAudio .classList.toggle('hidden', !showProgressedOnly);
-        cancelBtn.classList.remove('hidden');
+        if (cancelBtn) cancelBtn.classList.remove('hidden');
         modal.classList.remove('hidden');
-        return;  // <- prevent falling through to switchView
+        return;  // stop here, don't switch yet
       }
 
-      // no modal needed → go straight to the new view
+      // otherwise, go straight to the chosen view
       switchView(next);
     });
   });
 
-  // Resume where you left off
-  resumeBtn.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    if (pendingView) switchView(pendingView);
-    pendingView = null;
-  });
+  // If modal exists, wire up its buttons
+  if (modal) {
+    modal.addEventListener('click', e => {
+      // clicking backdrop = cancel
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+        pendingView = null;
+      }
+    });
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        modal.classList.add('hidden');
+        pendingView = null;
+      }
+    });
 
-  // Restart from the beginning
-  restartBtn.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    localStorage.removeItem('dua-section');
-    localStorage.removeItem('dua-verse');
-    switchView(pendingView || 'full');
-    pendingView = null;
-  });
+    resumeBtn?.addEventListener('click', () => {
+      modal.classList.add('hidden');
+      if (pendingView) switchView(pendingView);
+      pendingView = null;
+    });
 
-  // Resume from where audio ended
-  resumeAudio.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    if (!pendingView) return;
+    restartBtn?.addEventListener('click', () => {
+      modal.classList.add('hidden');
+      localStorage.removeItem('dua-section');
+      localStorage.removeItem('dua-verse');
+      switchView(pendingView || 'full');
+      pendingView = null;
+    });
 
-    const t   = audioPlayer.currentTime;
-    const key = `dua-${pendingView}`;
+    resumeAudio?.addEventListener('click', () => {
+      modal.classList.add('hidden');
+      if (!pendingView) return;
 
-    if (pendingView === 'section') {
-      duaData.sections.forEach((sec, idx) => {
-        if (sec.verses.some(v =>
+      const t   = audioPlayer.currentTime;
+      const key = `dua-${pendingView}`;
+
+      if (pendingView === 'section') {
+        duaData.sections.forEach((sec, idx) => {
+          if (sec.verses.some(v =>
             parseTimestamp(v.timestamp.start) <= t &&
             parseTimestamp(v.timestamp.end)   > t
-        )) {
-          localStorage.setItem(key, idx);
-        }
-      });
-    } else if (pendingView === 'verse') {
-      const flat = duaData.sections.flatMap(s => s.verses);
-      const idx  = flat.findIndex(v =>
-        parseTimestamp(v.timestamp.start) <= t &&
-        parseTimestamp(v.timestamp.end)   > t
-      );
-      if (idx !== -1) localStorage.setItem(key, idx);
-    }
+          )) {
+            localStorage.setItem(key, idx);
+          }
+        });
+      } else if (pendingView === 'verse') {
+        const flat = duaData.sections.flatMap(s => s.verses);
+        const idx  = flat.findIndex(v =>
+          parseTimestamp(v.timestamp.start) <= t &&
+          parseTimestamp(v.timestamp.end)   > t
+        );
+        if (idx !== -1) localStorage.setItem(key, idx);
+      }
 
-    switchView(pendingView);
-    pendingView = null;
-  });
+      switchView(pendingView);
+      pendingView = null;
+    });
 
-  // Cancel/respect “No”
-  cancelBtn.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    pendingView = null;
-  });
-
-  // Also dismiss modal via backdrop click or Escape key
-  modal.addEventListener('click', e => {
-    if (e.target === modal) {
+    // optional cancel button
+    cancelBtn?.addEventListener('click', () => {
       modal.classList.add('hidden');
       pendingView = null;
-    }
-  });
-  window.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-      modal.classList.add('hidden');
-      pendingView = null;
-    }
-  });
+    });
+  }
 }
 
 export function initToggleControls() {
