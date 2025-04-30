@@ -13,12 +13,14 @@ const textToggles = {
 
 export async function fetchDua(path) {
   try {
+    console.log('⏳ loading JSON from:', path);
     const res = await fetch(path);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     duaData = await res.json();
     flatVerses = duaData.sections.flatMap(s => s.verses);
     renderView();
   } catch (err) {
+    console.error('Dua load error:', err);
     showError(err);
   }
 }
@@ -157,3 +159,18 @@ function viewAction(delta) {
     renderView();
   }
 }
+
+// Graceful error display for failed fetch
+function showError(err) {
+  console.error(err);
+  const container = document.getElementById('verses-container');
+  container.innerHTML = `
+    <div class="error-banner">
+      <p>Failed to load Dua: ${err.message}</p>
+      <button onclick="location.reload()">Retry</button>
+    </div>
+  `;
+}
+
+// Exporting showError in case it's used elsewhere
+export { showError };
