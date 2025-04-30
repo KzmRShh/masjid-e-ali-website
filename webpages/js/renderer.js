@@ -92,13 +92,15 @@ function makeSection(titleText, verses) {
     const btn = Object.assign(document.createElement('button'), {
       className: 'seek-btn',
       title: 'Play from here',
-      textContent: '►',
-      dataset: { start: parser(v.timestamp.start) }
+      textContent: '►'
     });
+    // Correctly set data-start instead of assigning dataset object
+    btn.dataset.start = parser(v.timestamp.start);
     btn.addEventListener('click', e => {
       e.stopPropagation();
-      document.getElementById('audio-player').currentTime = btn.dataset.start;
-      document.getElementById('audio-player').play();
+      const audio = document.getElementById('audio-player');
+      audio.currentTime = btn.dataset.start;
+      audio.play();
     });
 
     div.appendChild(btn);
@@ -172,5 +174,4 @@ function showError(err) {
   `;
 }
 
-// Exporting showError in case it's used elsewhere
 export { showError };
