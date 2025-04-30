@@ -1,246 +1,159 @@
 export let duaData;
-export let currentSection = 0;
-export let currentVerse = 0;
 export let viewType = 'full';
+let currentIndex = 0;
+let flatVerses = [];
+const versesContainer = document.getElementById('verses-container');
+const viewBtns = Array.from(document.querySelectorAll('.view-btn'));
+const textToggles = {
+  arabic:   document.querySelector('button[data-class="arabic"]').classList.contains('active'),
+  english:  document.querySelector('button[data-class="english"]').classList.contains('active'),
+  transliteration: document.querySelector('button[data-class="transliteration"]').classList.contains('active'),
+  urdu:     document.querySelector('button[data-class="urdu"]').classList.contains('active'),
+};
 
-/*
-    Fetches Dua JSON and renders initial view.
-*/
 export async function fetchDua(path) {
-    const container = document.getElementById('verses-container');
-
-    try {
-        const res = await fetch(path);
-        if (!res.ok) {
-            throw new Error(`Network error: ${res.status} ${res.statusText}`);
-        }
-        duaData = await res.json();
-        renderView();
-        return duaData;
-    } catch (err) {
-        console.error('Failed to load Dua:', err);
-        // Hide other controls so user focuses on the error.
-        document.getElementById('view-controls').style.display = 'none';
-        document.getElementById('controls').style.display = 'none';
-        document.getElementById('audio-bar').style.display = 'none';
-
-        // Show an error banner with a retry button.
-        container.innerHTML = `
-          <div class="error-banner">
-            <p>⚠️ Sorry, we couldn’t load the content.<br>${err.message}</p>
-            <button id="retry-btn">Retry</button>
-          </div>
-        `;
-
-        document.getElementById('retry-btn').addEventListener('click', async () => {
-            // Clear the banner, restore controls, and retry.
-            container.innerHTML = '';
-            document.getElementById('view-controls').style.display = '';
-            document.getElementById('controls').style.display = '';
-            document.getElementById('audio-bar').style.display = '';
-            await fetchDua(path);
-        });
-    }
-}
-
-/*
-    Switches to a given view type and re-renders.
-*/
-export function switchView(type) {
-    if (type === 'section') {
-        currentSection = parseInt(localStorage.getItem('dua-currentSection') || '0', 10);
-    } else if (type === 'verse') {
-        currentVerse   = parseInt(localStorage.getItem('dua-currentVerse')   || '0', 10);
-    }
-    
-    const activeBtn = document.querySelector('.view-btn.active');
-    if (activeBtn) activeBtn.classList.remove('active');
-    const nextBtn = document.querySelector(`.view-btn[data-view="${type}"]`);
-    if (nextBtn) nextBtn.classList.add('active');
-    viewType = type;
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    duaData = await res.json();
+    flatVerses = duaData.sections.flatMap(s => s.verses);
     renderView();
+  } catch (err) {
+    showError(err);
+  }
 }
 
-/*
-    Renders current viewType into the container.
-*/
-export function renderView() {
-    const container = document.getElementById('verses-container');
-    container.innerHTML = '';
-    if (viewType === 'full') renderFull();
-    else if (viewType === 'section') renderSection();
-    else if (viewType === 'verse') renderVerse();
-    updateDividers();
+export function switchView(type) {
+  viewBtns.forEach(b => b.classList.toggle('active', b.dataset.view === type));
+  viewType = type;
+  currentIndex = Number(localStorage.getItem(`dua-${type}`)) || 0;
+  renderView();
 }
 
-function renderFull() {
+function renderView() {
+  versesContainer.innerHTML = '';
+  const fragment = document.createDocumentFragment();
+
+  if (viewType === 'full') {
     duaData.sections.forEach(sec => {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'section-wrapper';
-        const title = document.createElement('h2');
-        title.textContent = sec.sectionName;
-        wrapper.appendChild(title);
-        sec.verses.forEach(v => wrapper.appendChild(createVerseDiv(v)));
-        document.getElementById('verses-container').appendChild(wrapper);
+      fragment.appendChild(makeSection(sec.sectionName, sec.verses));
     });
-}
+  } else {
+    const items = viewType === 'section'
+      ? [duaData.sections[currentIndex]]
+      : [{ sectionName: findSectionName(flatVerses[currentIndex].id), verses: [flatVerses[currentIndex]] }];
 
-function renderSection() {
-    const sec = duaData.sections[currentSection];
-    const wrapper = document.createElement('div');
-    wrapper.className = 'section-wrapper';
-    const title = document.createElement('h2');
-    title.textContent = sec.sectionName;
-    wrapper.appendChild(title);
-    sec.verses.forEach(v => wrapper.appendChild(createVerseDiv(v)));
-    document.getElementById('verses-container').appendChild(wrapper);
-
-    const nav = document.createElement('div');
-    nav.className = 'nav-arrows';
-    const prev = document.createElement('button');
-    prev.textContent = '←';
-    prev.disabled = currentSection === 0;
-    prev.onclick = () => {
-        currentSection--;
-        localStorage.setItem('dua-currentSection', currentSection);
-        renderView();
-    };
-    const next = document.createElement('button');
-    next.textContent = '→';
-    next.disabled = currentSection === duaData.sections.length - 1;
-    next.onclick = () => {
-        currentSection++;
-        localStorage.setItem('dua-currentSection', currentSection);
-        renderView();
-    };
-    nav.append(prev, next);
-    document.getElementById('verses-container').appendChild(nav);
-}
-
-function renderVerse() {
-    const flat = duaData.sections.flatMap(s => s.verses);
-    const verse = flat[currentVerse];
-    const sectionIndex = duaData.sections.findIndex(s =>
-    s.verses.some(v => v.id === verse.id)
+    items.forEach(sec =>
+      fragment.appendChild(makeSection(sec.sectionName, sec.verses))
     );
-    const wrapper = document.createElement('div');
-    wrapper.className = 'section-wrapper';
-    const title = document.createElement('h2');
-    title.textContent = duaData.sections[sectionIndex].sectionName;
-    wrapper.appendChild(title);
-    wrapper.appendChild(createVerseDiv(verse));
-    document.getElementById('verses-container').appendChild(wrapper);
+    fragment.appendChild(makeNav(items[0].verses, flatVerses.length));
+  }
 
-    const nav = document.createElement('div');
-    nav.className = 'nav-arrows';
-    const prev = document.createElement('button');
-    prev.textContent = '←';
-    prev.disabled = currentVerse === 0;
-    prev.onclick = () => {
-        currentVerse--;
-        localStorage.setItem('dua-currentVerse', currentVerse);
-        renderView();
-    };
-    const next = document.createElement('button');
-    next.textContent = '→';
-    next.disabled = currentVerse === flat.length - 1;
-    next.onclick = () => {
-        currentVerse++;
-        localStorage.setItem('dua-currentVerse', currentVerse);
-        renderView();
-    };
-    nav.append(prev, next);
-    document.getElementById('verses-container').appendChild(nav);
+  versesContainer.appendChild(fragment);
+}
+
+function makeSection(titleText, verses) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'section-wrapper';
+  wrapper.appendChild(Object.assign(document.createElement('h2'), { textContent: titleText }));
+
+  const frag = document.createDocumentFragment();
+  const parser = parseTimestamp;
+  verses.forEach(v => {
+    const div = document.createElement('div');
+    div.className = 'verse';
+    div.dataset.start = parser(v.timestamp.start);
+    div.dataset.end   = parser(v.timestamp.end);
+
+    // verse number
+    const num = Object.assign(document.createElement('span'), {
+      className: 'verse-number',
+      textContent: v.verseNumber
+    });
+    div.appendChild(num);
+
+    // content paragraphs
+    ['arabic','english','transliteration','urdu'].forEach(cls => {
+      const p = document.createElement('p');
+      if (!textToggles[cls] && cls !== 'arabic') p.classList.add('hidden');
+      p.classList.add(cls);
+      p.textContent = (
+        cls==='arabic' ? v.arabic
+      : cls==='english' ? v['english-translation']
+      : cls==='transliteration' ? v.transliteration
+      : v['urdu-translation']
+      );
+      div.appendChild(p);
+    });
+
+    // seek button
+    const btn = Object.assign(document.createElement('button'), {
+      className: 'seek-btn',
+      title: 'Play from here',
+      textContent: '►',
+      dataset: { start: parser(v.timestamp.start) }
+    });
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      document.getElementById('audio-player').currentTime = btn.dataset.start;
+      document.getElementById('audio-player').play();
+    });
+
+    div.appendChild(btn);
+    frag.appendChild(div);
+  });
+
+  wrapper.appendChild(frag);
+  return wrapper;
+}
+
+function makeNav(items, total) {
+  const nav = document.createElement('div');
+  nav.className = 'nav-arrows';
+  const prev = createNavBtn('←', currentIndex > 0, () => updateIndex(-1, total));
+  const next = createNavBtn('→', currentIndex < total - 1, () => updateIndex(1, total));
+  nav.append(prev, next);
+  return nav;
+}
+
+function createNavBtn(symbol, enabled, cb) {
+  return Object.assign(document.createElement('button'), {
+    textContent: symbol,
+    disabled: !enabled,
+    onclick: () => { cb(); renderView(); }
+  });
+}
+
+function updateIndex(delta, total) {
+  currentIndex = Math.max(0, Math.min(currentIndex + delta, total - 1));
+  localStorage.setItem(`dua-${viewType}`, currentIndex);
+}
+
+function findSectionName(verseId) {
+  for (const sec of duaData.sections) {
+    if (sec.verses.some(v => v.id === verseId)) return sec.sectionName;
+  }
 }
 
 export function parseTimestamp(ts) {
-    const [mins, secs] = ts.split(':').map(Number);
-    return mins * 60 + secs;
+  const [m, s] = ts.split(':').map(Number);
+  return m * 60 + s;
 }
 
-function createVerseDiv(v) {
-    const div = document.createElement('div');
-    div.className = 'verse';
+// Arrow and space handlers
+export function handleLeftArrow()  { viewAction(-1); }
+export function handleRightArrow() { viewAction( 1); }
+export function handleSpace()      { const a = document.getElementById('audio-player'); a[a.paused?'play':'pause'](); }
 
-    div.dataset.start = parseTimestamp(v.timestamp.start);
-    div.dataset.end   = parseTimestamp(v.timestamp.end);
-
-    const num = document.createElement('span');
-    num.className = 'verse-number';
-    num.textContent = v.verseNumber;
-    div.appendChild(num);
-
-    ['arabic', 'english', 'transliteration', 'urdu'].forEach(cls => {
-        const btn = document.querySelector(`button[data-class="${cls}"]`);
-        const p = document.createElement('p');
-        p.className = cls + (cls !== 'arabic' && !btn.classList.contains('active') ? ' hidden' : '');
-        p.textContent =
-            cls === 'arabic' ? v.arabic :
-            cls === 'english' ? v['english-translation'] :
-            cls === 'transliteration' ? v.transliteration :
-            v['urdu-translation'];
-        div.appendChild(p);
-    });
-    
-    const seekBtn = document.createElement('button');
-    seekBtn.className = 'seek-btn';
-    seekBtn.title     = 'Play from here';
-    seekBtn.textContent = '►';
-    seekBtn.dataset.start = parseTimestamp(v.timestamp.start);
-
-    div.appendChild(seekBtn);
-    return div;
-}
-
-function updateDividers() {
-    document.querySelectorAll('.verse').forEach(v => {
-        v.querySelectorAll('hr').forEach(hr => hr.remove());
-        const visible = Array.from(v.querySelectorAll('p')).filter(p =>
-            !p.classList.contains('hidden')
-        );
-        visible.slice(1).forEach(p => v.insertBefore(document.createElement('hr'), p));
-    });
-}
-
-export function handleLeftArrow() {
-    const audio = document.getElementById('audio-player');
-    if (viewType === 'full') {
-        // Skip backwards in audio.
-        audio.currentTime = Math.max(0, audio.currentTime - 10);
-    } else if (viewType === 'verse') {
-        // Go to previous verse.
-        if (currentVerse > 0) currentVerse--;
-        localStorage.setItem('dua-currentVerse', currentVerse);
-        renderView();
-    } else if (viewType === 'section') {
-        // Go to previous section.
-        if (currentSection > 0) currentSection--;
-        localStorage.setItem('dua-currentSection', currentSection);
-        renderView();
-    }
-}
-
-export function handleRightArrow() {
-    const audio = document.getElementById('audio-player');
-    if (viewType === 'full') {
-        // Skip forwards in audio.
-        audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
-    } else if (viewType === 'verse') {
-        // Go to next verse.
-        const flat = duaData.sections.flatMap(s => s.verses);
-        if (currentVerse < flat.length - 1) currentVerse++;
-        localStorage.setItem('dua-currentVerse', currentVerse);
-        renderView();
-    } else if (viewType === 'section') {
-        // Go to next section.
-        if (currentSection < duaData.sections.length - 1) currentSection++;
-        localStorage.setItem('dua-currentSection', currentSection);
-        renderView();
-    }
-}
-
-export function handleSpace() {
-    const audio = document.getElementById('audio-player');
-    if (audio.paused) audio.play();
-    else audio.pause();
+function viewAction(delta) {
+  if (viewType === 'full') {
+    const a = document.getElementById('audio-player');
+    a.currentTime = Math.max(0, a.currentTime + delta * 10);
+  } else {
+    updateIndex(delta, viewType==='section'
+      ? duaData.sections.length
+      : flatVerses.length
+    );
+    renderView();
+  }
 }

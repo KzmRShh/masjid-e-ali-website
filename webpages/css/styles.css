@@ -153,6 +153,12 @@ h1 {
     width:100%;
     text-align:center;
 }
+
+.verse p + p {
+    border-top: 1px solid var(--divider-color);
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
+}
   
 .arabic {
     font-family:'Amiri', serif;
@@ -354,6 +360,7 @@ h1 {
     text-align: center;
 }
 
+/* Error Banner */
 .error-banner {
     background-color: #f8d7da;
     color: #721c24;
